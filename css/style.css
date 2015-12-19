@@ -1,0 +1,19 @@
+.placeholder {
+    background-color: #ccc;
+}
+
+.placeholder2 {
+    background-color: #eee;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.center-element{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.separation-100 { display: block;height:100px; }
