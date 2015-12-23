@@ -31,21 +31,8 @@
     <!-- ------------ SECTION 1: TOP IMAGE -->
     <!-- --------------------------------- -->
     <!-- --------------------------------- --> 
-    <div class="container-fluid index-top-bg">
-      <div class="row">
-        <div class="col-lg-12 full-height center-element">
-          <img src="img/happify.png" alt="Happify Icon">
-        </div>  
-      </div><!--row-->    
-      
-      <div class="row">
-        <div class="col-xs-6 no-padding">
-          <img class="full-width" src="img/index-top-msg-left.png">  
-        </div>
-        <div class="col-xs-6 no-padding">
-          <img class="full-width" src="img/index-top-msg-right.png">  
-        </div>
-      </div><!--row-->    
+    <div class="container-fluid full-height center-element placeholder">
+      <img src="img/happify.png" alt="Happify Icon">
     </div><!--container-fluid section 1-->
       
     <!-- ------------------------------------- --> 
@@ -53,24 +40,22 @@
     <!-- ------------ SECTION 2: INTRO MESSAGE -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid">    
+    <div class="container-fluid">
+        
+      <div class="separation-100"></div>    
         
       <div class="row">    
         <div class="col-lg-12 text-center">
-          <h3 class="text-light-gray">We've heard it from<br>
-              many executives</h3>
-        </div><!--col-lg-12-->
-      </div><!--row-->      
-    
-      <div class="row">    
-        <div class="col-sm-offset-1 col-sm-10 text-center">
-          <h6 class="text-light-gray text-lighter">“I hate IT and I love IT. I hate runaway never-ending IT projects, but I love the efficiencies and market growth their solutions bring.”</h6>
+          <h1>We've heard it from<br>
+              many executives</h1>
         </div><!--col-md-3-->
-      </div><!--row-->
         
-      <div class="row">    
         <div class="col-lg-12 text-center">
-          <h2 class="text-uppercase text-bold">Ring a bell?</h2>
+          <p>“I hate IT and I love IT. I hate runaway never-ending IT projects, but I love the efficiencies and market growth their solutions bring.”</p>
+        </div><!--col-md-3-->
+        
+        <div class="col-lg-12 text-center">
+          <h1>Ring a bell?</h1>
         </div><!--col-md-3-->
       </div><!--row--> 
         
@@ -83,21 +68,19 @@
     <!-- ------------ SECTION 3: HAPPIFY MESSAGE -->
     <!-- --------------------------------------- -->
     <!-- --------------------------------------- --> 
-    <div class="container-fluid index-msg">
+    <div class="container-fluid placeholder">
         
       <div class="separation-100"></div>    
         
       <div class="row">    
         <div class="col-lg-12 text-center">
-            <span class="index-happify-txt-size1 text-white">WE CAN</span>
-            <span class="index-happify-txt-size2 text-white">HAPPIFY</span>
-            <span class="index-happify-txt-size1 text-white">YOUR .IT</span>
+          <h1>WE CAN HAPPIFY YOUR .IT</h1>
         </div>
       </div><!--row-->
         
       <div class="row">
-        <div class="col-md-8 col-md-offset-2 text-center">
-          <h3 class="text-white">With targeted support where your team needs it most.</h3>  
+        <div class="col-md-4 col-md-offset-4">
+          <h2>With targeted support where your team needs it most.</h2>  
         </div>  
       </div><!--row-->  
         
@@ -110,18 +93,17 @@
     <!-- ------------ SECTION 4: HAPPIFY MESSAGE -->
     <!-- --------------------------------------- -->
     <!-- --------------------------------------- --> 
-    <div class="container-fluid index-msg-2">
+    <div class="container-fluid">
         
       <div class="separation-100"></div>    
         
       <div class="row">    
-        <div class="col-md-8 col-md-offset-2">
-          <span>    
-          <h4 class="text-white text-lighter">And we all know that every business today is now a digital business, and the demand on every company's IT unit is accelerating beyond their human capacity. Quality suffers, innovation stalls, and people leave. It doesn’t have to be this way.</h4>
-          </span>      
-          <h3 class="bold text-white">It doesn't have to be this way.</h3>
-        </div><!--col-md-4-->
+        <div class="col-md-6">
+          <p>And we all know that every business today is now a digital business, and the demand on every company's IT unit is accelerating beyond their human capacity. Quality suffers, innovation stalls, and people leave. It doesn’t have to be this way.</p>
+          <p class="bold">It doesn't have to be this way.</p>
+        </div><!--col-md-6-->
           
+        <div class="col-md-6"></div>  
       </div><!--row--> 
         
       <div class="separation-100"></div>      

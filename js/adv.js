@@ -6,11 +6,57 @@ function deviceHeight() {
     $(".full-height").css("height", devHeight);
 }
 
+//Function to show the brackets in the navigation when hover 
+function navBrackets() {
+    "use strict";
+    
+    $(".nav-selected").hide();
+    
+    $(".navbar-nav li a").mouseover(function() {
+        $(this).children(".nav-selected").fadeIn();
+    });
+    
+    $(".navbar-nav li a").mouseleave(function() {
+        $(this).children(".nav-selected").fadeOut();
+    });
+    
+    var filename = document.location.href.match(/[^\/]+$/)[0];
+    
+    if (filename === "index.php") {
+        
+    } else {
+        if (filename === "our-capabilities.php") {
+            
+        }else{
+            if (filename === "good-it.php") {
+                
+            }else{
+                
+            }
+        }
+    }
+}
+
+//Function to show navigation background when scroll 
+function navBG() {
+    "use strict";
+    
+    $(window).scroll(function() {
+        if ($(this).scrollTop()) {
+            $(".navbar").addClass("nav-bg");
+        } else {
+            $(".navbar").removeClass("nav-bg");
+        }
+    });
+}
+
 //Functions triggered when page loads
 $(document).ready(function () {
     "use strict";
 
     deviceHeight();
+    navBrackets();
+    navBG();
     
 });
 

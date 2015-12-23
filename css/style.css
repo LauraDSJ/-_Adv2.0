@@ -1,3 +1,106 @@
+/*-----------------------------------------
+-----------------------------GENERAL STYLES
+-----------------------------------------*/
+/*Vertical centers content*/
+.center-element{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/*Resets padding*/
+.no-padding {
+    padding: 0px;
+}
+
+/*Full width of container*/
+.full-width {
+    width:100%;
+}
+
+/*Separation classes*/
+.separation-100 { display: block;height:100px; }
+
+/*--------------------------------------
+-----------------------------FONT STYLES
+--------------------------------------*/
+/*import Roboto font from google fonts*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+/*Set up the basic font to Roboto and basic size to 16px for responsive.*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:#2b2b2b;
+    font-weight:400;
+}
+
+.text-light-gray { color:#727272;}
+.text-white { color:#fff }
+.text-lighter { font-weight:200; }
+.text-bold { font-weight:700; }
+
+
+h1 { }
+h2 { font-size: 4.500em; }/* 72px */
+h3 { font-size: 2.625em; }/* 42px */
+h4 { font-size: 2.000em; } /* 30px */
+h5 { }
+h6 { font-size: 1.688em; }/* 27px */
+
+.index-happify-txt-size1 { font-size: 11.50vw; }
+.index-happify-txt-size2 { font-size: 20vw; }
+
+
+/*-------------------------------------
+-----------------------------NAV STYLES
+-------------------------------------*/
+.navbar-brand {
+    height: auto;
+}
+
+#nav-logo {
+    height:30px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+
+.nav-bg {
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>li>a:visited {
+    color:#fff;
+}
+
+.navbar-nav>li>a {
+    padding-top: 20px;
+    width:180px;
+}
+
+/*---------------------------------------
+-----------------------------INDEX STYLES
+---------------------------------------*/
+.index-top-bg {
+    background-image: url(img/index-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.index-msg {
+    background-color: #C25552;
+}
+
+.index-msg-2 {
+    background-color: #1B86BE;
+}
+
+/*PLACEHOLDERS STYLES*/
 .placeholder {
     background-color: #ccc;
 }
@@ -6,14 +109,3 @@
     background-color: #eee;
 }
 
-.bold {
-    font-weight: bolder;
-}
-
-.center-element{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-.separation-100 { display: block;height:100px; }
