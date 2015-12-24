@@ -1,3 +1,51 @@
+/*--------------------------------------
+-----------------------------FONT STYLES
+--------------------------------------*/
+/*import Roboto font from google fonts*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+@font-face {
+    font-family: 'code_boldregular';
+    src: url('fonts/code_bold-webfont.eot');
+    src: url('fonts/code_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/code_bold-webfont.woff2') format('woff2'),
+         url('fonts/code_bold-webfont.woff') format('woff'),
+         url('fonts/code_bold-webfont.ttf') format('truetype'),
+         url('fonts/code_bold-webfont.svg#code_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*Set up the basic font to Roboto and basic size to 16px for responsive.*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; /*PSD 22px*/
+    color:#727272;
+    font-weight:400;
+}
+
+.text-light-gray { color:#727272;}
+.text-white { color:#fff }
+.text-lighter { font-weight:200; }
+.text-bold { font-weight:700; }
+.text-code-font { font-family: 'code_boldregular'; }
+
+
+h1 { } 
+h2 { }
+h3 { font-size: 2.750em; }/* PSD 60px */
+h4 { font-size: 2.500em; } /* PSD 54px */
+h5 { font-size: 2.063em; } /* PSD 45px */
+h6 { font-size: 1.375em; }/* PSD 30px */
+
+.index-happify-txt-size1 { font-size: 11.50vw; }
+.index-happify-txt-size2 { font-size: 20vw; }
+
+.index-expectations-text-line1 { font-size: 6.55vw; display: block; }
+.index-expectations-text-line2 { font-size: 12.00vw; display: block; line-height: 6.30vw; }
+.index-expectations-text-line3 { font-size: 12.00vw; display: block; line-height:12.60vw; }
+.index-expectations-text-line4 { font-size: 5.00vw; display: block; line-height: 1.00vw; }
+
 /*-----------------------------------------
 -----------------------------GENERAL STYLES
 -----------------------------------------*/
@@ -20,35 +68,7 @@
 
 /*Separation classes*/
 .separation-100 { display: block;height:100px; }
-
-/*--------------------------------------
------------------------------FONT STYLES
---------------------------------------*/
-/*import Roboto font from google fonts*/
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
-/*Set up the basic font to Roboto and basic size to 16px for responsive.*/
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color:#2b2b2b;
-    font-weight:400;
-}
-
-.text-light-gray { color:#727272;}
-.text-white { color:#fff }
-.text-lighter { font-weight:200; }
-.text-bold { font-weight:700; }
-
-
-h1 { }
-h2 { font-size: 4.500em; }/* 72px */
-h3 { font-size: 2.625em; }/* 42px */
-h4 { font-size: 2.000em; } /* 30px */
-h5 { }
-h6 { font-size: 1.688em; }/* 27px */
-
-.index-happify-txt-size1 { font-size: 11.50vw; }
-.index-happify-txt-size2 { font-size: 20vw; }
+.separation-50 { display: block;height:50px; }
 
 
 /*-------------------------------------
@@ -99,6 +119,78 @@ h6 { font-size: 1.688em; }/* 27px */
 .index-msg-2 {
     background-color: #1B86BE;
 }
+
+.outsourcing-offsite-service {
+    background-color: #3a3a3a;
+    color:#fff;
+}
+
+.outsourcing-onsite-service {
+    background-color: #3baeda;
+    color:#fff;
+}
+
+.our-approach-bg {
+    background-color: #008db0;
+}
+
+.our-approach-btn {
+    color:#fff;
+    border: solid 4px #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.model-btn {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: block;
+    color:#fff;
+    text-decoration: none;
+}
+
+#onshore-btn {
+    background-color: #e15b58;
+}
+
+#nearshore-btn {
+    background-color:#18abf8;
+}
+
+#offshore-btn {
+    background-color:#ffcd04;
+}
+
+.index-expectations-msg-bg {
+    background-color: #af3a37;
+}
+
+.index-case-studies-bg {
+    background-color: #4e4e4e;
+}
+
+.index-case-studies-btn,
+.index-case-studies-btn:visited,
+.index-case-studies-btn:active
+{
+    padding-top:5px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:5px;
+    background-color: #aaaaaa;
+    color:#fff;
+    text-decoration:none !important;
+}
+
+.index-case-studies-btn:hover {
+    background-color: #3a3a3a;
+    color:#fff;
+    text-decoration: none;
+}
+
+.index-bottom-msg-bg {
+    background-color: #3b94ab;
 
 /*PLACEHOLDERS STYLES*/
 .placeholder {

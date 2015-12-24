@@ -60,17 +60,21 @@
           <h3 class="text-light-gray">We've heard it from<br>
               many executives</h3>
         </div><!--col-lg-12-->
-      </div><!--row-->      
+      </div><!--row--> 
+        
+      <div class="separation-50"></div>    
     
       <div class="row">    
         <div class="col-sm-offset-1 col-sm-10 text-center">
-          <h6 class="text-light-gray text-lighter">“I hate IT and I love IT. I hate runaway never-ending IT projects, but I love the efficiencies and market growth their solutions bring.”</h6>
+          <h6 class="text-light-gray">“I hate IT and I love IT. I hate runaway never-ending IT projects, but I love the efficiencies and market growth their solutions bring.”</h6>
         </div><!--col-md-3-->
       </div><!--row-->
         
+      <div class="separation-50"></div>      
+        
       <div class="row">    
-        <div class="col-lg-12 text-center">
-          <h2 class="text-uppercase text-bold">Ring a bell?</h2>
+        <div class="col-lg-12">
+          <img src="img/ring-a-bell.png" class="img-responsive center-block" alt="Ring a bell?">
         </div><!--col-md-3-->
       </div><!--row--> 
         
@@ -90,14 +94,14 @@
       <div class="row">    
         <div class="col-lg-12 text-center">
             <span class="index-happify-txt-size1 text-white">WE CAN</span>
-            <span class="index-happify-txt-size2 text-white">HAPPIFY</span>
+            <h1 class="index-happify-txt-size2 text-white">HAPPIFY</h1>
             <span class="index-happify-txt-size1 text-white">YOUR .IT</span>
         </div>
       </div><!--row-->
         
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
-          <h3 class="text-white">With targeted support where your team needs it most.</h3>  
+          <h5 class="text-white">With targeted support where your team needs it most.</h5>  
         </div>  
       </div><!--row-->  
         
@@ -117,9 +121,12 @@
       <div class="row">    
         <div class="col-md-8 col-md-offset-2">
           <span>    
-          <h4 class="text-white text-lighter">And we all know that every business today is now a digital business, and the demand on every company's IT unit is accelerating beyond their human capacity. Quality suffers, innovation stalls, and people leave. It doesn’t have to be this way.</h4>
-          </span>      
-          <h3 class="bold text-white">It doesn't have to be this way.</h3>
+          <h6 class="text-white text-lighter">And we all know that every business today is now a digital business, and the demand on every company's IT unit is accelerating beyond their human capacity. Quality suffers, innovation stalls, and people leave. It doesn’t have to be this way.</h6>
+          </span> 
+        
+          <div class="separation-50"></div>
+            
+          <h4 class="bold text-white">It doesn't have to be this way.</h4>
         </div><!--col-md-4-->
           
       </div><!--row--> 
@@ -139,59 +146,74 @@
         
       <div class="row">    
         <div class="col-lg-12 text-center">
-          <h1 class="text-uppercase">Flexible</h1>
-          <h2 class="text-uppercase">Outsourcing</h2>
+          <h5 class="text-uppercase">Flexible Outsourcing</h2>
         </div>  
-      </div><!--row--> 
+      </div><!--row-->    
         
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <img src="http://placehold.it/60x60">
-          <p>Offsite Model</p>
-            
-          <div class="placeholder">
-            <p>Senior Developer</p>
-            <p>Support Engineer</p>
-            <p>Deployment Engineer</p>  
-          </div>
-            
-          <div class="placeholder">
-            <p>Development Team</p>
-            <p>QA/Testing Team</p>  
-          </div>
-        </div><!--col-md-4-->
+      <div class="row">   
           
         <div class="col-md-4 text-center">
-          <img src="http://placehold.it/60x60">
-          <p>Hybrid Model</p>
             
-          <div class="placeholder">
+          <div class="separation-100"></div>    
+            
+          <img src="img/flex-outsourcing-1.png" alt="Offsite Model Icon" class="img-responsive center-block">
+          <p>Offsite Model</p>
+            
+          <div class="separation-50"></div>      
+            
+          <div class="outsourcing-offsite-service">
             <p>Senior Developer</p>
             <p>Support Engineer</p>
             <p>Deployment Engineer</p>  
           </div>
             
-          <div class="placeholder2">
+          <div class="outsourcing-offsite-service">
             <p>Development Team</p>
             <p>QA/Testing Team</p>  
           </div>
         </div><!--col-md-4-->  
           
         <div class="col-md-4 text-center">
-          <img src="http://placehold.it/60x60">
-          <p>Onsite Model</p>
+          
+          <div class="separation-100"></div> 
             
-          <div class="placeholder2">
+          <img src="img/flex-outsourcing-2.png" alt="Hybrid Model Icon" class="img-responsive center-block">
+          <p>Hybrid Model</p>
+            
+          <div class="separation-50"></div>  
+            
+          <div class="outsourcing-onsite-service">
             <p>Senior Developer</p>
             <p>Support Engineer</p>
             <p>Deployment Engineer</p>  
           </div>
             
-          <div class="placeholder2">
+          <div class="outsourcing-offsite-service">
+            <p>Development Team</p>
+            <p>QA/Testing Team</p>  
+          </div>
+        </div><!--col-md-4-->   
+          
+        <div class="col-md-4 text-center">
+          
+          <div class="separation-100"></div> 
+            
+          <img src="img/flex-outsourcing-3.png" alt="Onsite Model Icon" class="img-responsive center-block">
+          <p>Onsite Model</p>
+            
+          <div class="separation-50"></div>      
+            
+          <div class="outsourcing-onsite-service">
+            <p>Senior Developer</p>
+            <p>Support Engineer</p>
+            <p>Deployment Engineer</p>  
+          </div>
+            
+          <div class="outsourcing-onsite-service">
             <p>Development Team</p>
           </div>
         
-          <div class="placeholder2">      
+          <div class="outsourcing-onsite-service">      
             <p>QA/Testing Team</p>  
           </div>
         </div><!--col-md-4-->    
@@ -206,38 +228,47 @@
     <!-- ------------ SECTION 5: OUR APPROACH -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ --> 
-    <div class="container-fluid">
+    <div class="container-fluid our-approach-bg">
         
       <div class="separation-100"></div>    
         
       <div class="row">    
         <div class="col-lg-12 text-center">
-          <h1 class="text-uppercase">Our</h1>
-          <h2 class="text-uppercase">Approach</h2>
+          <h5 class="text-white text-uppercase">Our Approach</h5>
         </div>  
       </div><!--row--> 
         
+      <div class="separation-100"></div>    
+        
       <div class="row">
-        <div class="col-sm-4 col-sm-offset-2 text-center placeholder2">
-          <img src="http://placehold.it/100x100">
-          <p class="text-uppercase">Needs Analysis</p>
+        <div class="col-sm-4 col-sm-offset-2">
+          <div class="text-center our-approach-btn">    
+            <img src="img/our-approach-icon1-white.png" alt="Needs Analysis Icon">
+            <h6 class="text-uppercase text-white">Needs Analysis</h6>
+          </div>      
         </div><!--col-sm-4-->
           
-        <div class="col-sm-4 text-center placeholder">
-          <img src="http://placehold.it/100x100">
-          <p class="text-uppercase">Unique Perspective</p>
+        <div class="col-sm-4">
+          <div class="text-center our-approach-btn">
+            <img src="img/our-approach-icon2-white.png" alt="Unique Perspective Icon">
+            <h6 class="text-uppercase text-white">Unique Perspective</h6>
+          </div>      
         </div><!--col-sm-4-->   
       </div><!--row-->   
         
       <div class="row">
-        <div class="col-sm-4 col-sm-offset-2 text-center placeholder">
-          <img src="http://placehold.it/100x100">
-          <p class="text-uppercase">Technical Experience</p>
+        <div class="col-sm-4 col-sm-offset-2">
+          <div class=" text-center our-approach-btn">    
+            <img src="img/our-approach-icon3-white.png" alt="Technical Experience Icon">
+            <h6 class="text-uppercase text-white">Technical Experience</h6>
+          </div>      
         </div><!--col-sm-4-->
           
-        <div class="col-sm-4 text-center placeholder">
-          <img src="http://placehold.it/100x100">
-          <p class="text-uppercase">The Right Talent</p>
+        <div class="col-sm-4">
+          <div class=" text-center our-approach-btn">      
+            <img src="img/our-approach-icon4-white.png" alt="The Right Talent Icon">
+            <h6 class="text-uppercase text-white">The Right Talent</h6>
+          </div>
         </div><!--col-sm-4-->   
       </div><!--row-->       
         
@@ -250,34 +281,37 @@
     <!-- ------------ SECTION 6: ENGAGEMENT MODELS -->
     <!-- ----------------------------------------- -->
     <!-- ----------------------------------------- --> 
-    <div class="container-fluid placeholder2">
+    <div class="container-fluid">
         
       <div class="separation-100"></div>    
         
       <div class="row">    
         <div class="col-lg-12 text-center">
-          <h1 class="text-uppercase">Engagement</h1>
-          <h2 class="text-uppercase">Models</h2>
+          <h5 class="text-uppercase">Engagement Models</h5>
         </div>  
       </div><!--row--> 
+        
+      <div class="separation-50"></div>    
         
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1">
           <div class="row">
             <div class="col-xs-4 text-center">
-              <a href="#a" class="text-uppercase">Onshore</a>  
+              <a href="#a" class="text-uppercase model-btn" id="onshore-btn"><h6>Onshore</h6></a>  
             </div><!--col-xs-4-->
               
             <div class="col-xs-4 text-center">
-              <a href="#a" class="text-uppercase">Nearshore</a>  
+              <a href="#a" class="text-uppercase model-btn" id="nearshore-btn"><h6>Nearshore</h6></a>  
             </div><!--col-xs-4-->
               
             <div class="col-xs-4 text-center">
-              <a href="#a" class="text-uppercase">Offshore</a>  
+              <a href="#a" class="text-uppercase model-btn" id="offshore-btn"><h6>Offshore</h6></a>  
             </div><!--col-xs-4-->
           </div>
         </div><!--col-xs-10 offset 1-->   
       </div><!--row--> 
+        
+      <div class="separation-50"></div>       
         
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -294,7 +328,7 @@
     <!-- ------------ SECTION 7: HIGHLIGHTS -->
     <!-- ---------------------------------- -->
     <!-- ---------------------------------- --> 
-    <div class="container-fluid">
+    <!--<div class="container-fluid">
         
       <div class="separation-100"></div>    
         
@@ -304,31 +338,31 @@
         </div>  
       </div><!--row--> 
         
-      <div class="row">
+      <!--<div class="row">
         <div class="col-xs-10 col-xs-offset-1">
           <div class="row">
             <div class="col-xs-4 text-center">
               <a href="#a" class="text-uppercase">Mexico</a>  
             </div><!--col-xs-4-->
               
-            <div class="col-xs-4 text-center">
+            <!--<div class="col-xs-4 text-center">
               <a href="#a" class="text-uppercase">USA</a>  
             </div><!--col-xs-4-->
               
-            <div class="col-xs-4 text-center">
+            <!--<div class="col-xs-4 text-center">
               <a href="#a" class="text-uppercase">Morocco</a>  
             </div><!--col-xs-4-->
-          </div>
+          <!--</div>
         </div><!--col-xs-10 offset 1-->   
-      </div><!--row--> 
+      <!--</div><!--row--> 
         
-      <div class="row">
+      <!--<div class="row">
         <div class="col-lg-12 text-center">
           <img src="http://placehold.it/700x500"> 
         </div>
       </div><!--row-->
         
-      <div class="separation-100"></div>      
+      <!--<div class="separation-100"></div>      
         
     </div><!--container-fluid section 7-->
       
@@ -337,13 +371,16 @@
     <!-- ------------ SECTION 8: HIGHLIGHTS -->
     <!-- ---------------------------------- -->
     <!-- ---------------------------------- --> 
-    <div class="container-fluid placeholder2">
+    <div class="container-fluid index-expectations-msg-bg">
         
       <div class="separation-100"></div>    
         
       <div class="row">    
-        <div class="col-sm-8 col-sm-offset-2 text-center">
-          <h1 class="text-uppercase">The only thing moving faster than technology is your users’ expectations.</h1>
+        <div class="col-sm-10 col-sm-offset-1 text-center">
+          <span class="text-uppercase text-white index-expectations-text-line1">The only thing moving</span>
+          <span class="text-uppercase text-white index-expectations-text-line2">faster than</span>
+          <span class="text-uppercase text-white index-expectations-text-line3">technology</span>
+          <span class="text-uppercase text-white index-expectations-text-line4">is your users’ expectations.</span>
         </div>  
       </div><!--row--> 
         
@@ -356,36 +393,60 @@
     <!-- ------------ SECTION 9: CASE STUDIES -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ --> 
-    <div class="container-fluid">
+    <div class="container-fluid index-case-studies-bg">
         
       <div class="separation-100"></div>    
         
       <div class="row">    
         <div class="col-lg-12 text-center">
-          <h1 class="text-uppercase">Case</h1>
-          <h2 class="text-uppercase">Studies</h2>
+          <h5 class="text-uppercase text-white">Case Studies</h5>
         </div>  
       </div><!--row--> 
         
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1">
           <div class="row">
-            <div class="col-lg-12 text-right placeholder">
-              <h3 class="text-uppercase">Automotive Marketing</h3>
-              <div class="separation-100"></div> 
-              <div class="separation-100"></div> 
-            </div><!--col-lg-12-->
+            <div class="col-sm-6 col-sm-offset-6 text-center text-white">
+              <h6 class="text-uppercase">Automotive<br>Marketing</h6>
+              <p>Peak Performance Marketing Solutions is a premier automotive provider of data-driven marketing solutions across sales and service to 1000s of automotive dealers nationwide. Their products are designed to maximize their client’s customer engagement.</p>
+              <div class="row">
+                <div class="col-sm-6">
+                  <a href="#a" class="index-case-studies-btn">Project</a>  
+                </div> 
+                <div class="col-sm-6">
+                  <a href="#a" class="index-case-studies-btn">Result</a>  
+                </div> 
+              </div>    
+            </div><!--col-sm-6 col-sm-offset-6-->
+          </div><!--row-->
+            
+          <div class="row">
+            <div class="col-sm-6 text-center text-white">
+              <h6 class="text-uppercase">Automotive Insurance Carrier</h6>
+              <p>We served a non-standard automotive insurance carrier who distributes exclusively through a network of more than 900 Brokers across nearly 2,000 locations in California. And they take pride in their super user-friendly technology as a cornerstone of their business.</p>
+              <div class="row">
+                <div class="col-sm-6">
+                  <a href="#a" class="index-case-studies-btn">Project</a>  
+                </div> 
+                <div class="col-sm-6">
+                  <a href="#a" class="index-case-studies-btn">Result</a>  
+                </div> 
+              </div>      
+            </div><!--col-sm-6-->
+          </div><!--row-->
               
-            <div class="col-lg-12 text-right placeholder2">
-              <h3 class="text-uppercase">Automotive Insurance Carrier</h3>
-              <div class="separation-100"></div> 
-              <div class="separation-100"></div> 
-            </div><!--col-lg-12-->
-              
-            <div class="col-lg-12 text-right placeholder">
-              <h3 class="text-uppercase">Commercial Insurance Financing</h3>
-              <div class="separation-100"></div> 
-              <div class="separation-100"></div> 
+          <div class="row">    
+            <div class="col-sm-6 col-sm-offset-6 text-center text-white">
+              <h6 class="text-uppercase">Commercial Insurance Financing</h6>
+              <p>Top Premium Finance provides agent/brokers with a simple, reasonable means to fund their commercial, personal, property & casualty insurance products.</p> 
+              <div class="row">
+                <div class="col-sm-6">
+                  <a href="#a" class="index-case-studies-btn">Project</a>  
+                </div> 
+                <div class="col-sm-6">
+                  <a href="#a" class="index-case-studies-btn">Result</a>  
+                </div> 
+              </div>     
             </div><!--col-lg-12-->
           </div>
         </div><!--col-xs-10 offset 1-->   
@@ -406,8 +467,7 @@
         
       <div class="row">    
         <div class="col-lg-12 text-center">
-          <h1 class="text-uppercase">Company</h1>
-          <h2 class="text-uppercase">Timeline</h2>
+          <h5 class="text-uppercase">Company Timeline</h5>
         </div>  
       </div><!--row--> 
         
@@ -426,19 +486,23 @@
     <!-- ------------ SECTION 11: BOTTOM HAPPIFY MESSAGE -->
     <!-- ----------------------------------------------- -->
     <!-- ----------------------------------------------- --> 
-    <div class="container-fluid">
+    <div class="container-fluid index-bottom-msg-bg">
         
       <div class="separation-100"></div>    
-        
-      <div class="row">    
-        <div class="col-md-6">
-          <h1 class="text-uppercase">we love</h1>
-          <h2 class="text-uppercase">what we do</h2>    
-          <p>and every one of us is proud of the results we’ve produced for our clients and their customers. We know that in the end happy digitial users are key to engagement and loyalty.</p>
-        </div><!--col-md-6-->
-          
-        <div class="col-md-6"></div>  
-      </div><!--row--> 
+      
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+          <div class="row">    
+            <div class="col-md-6 text-white">
+              <h5 class="text-uppercase text-code-font">we love</h5>
+              <h6 class="text-uppercase text-code-font">what we do</h6>    
+              <p>and every one of us is proud of the results we’ve produced for our clients and their customers. We know that in the end happy digitial users are key to engagement and loyalty.</p>
+            </div><!--col-md-6-->
+
+            <div class="col-md-6"></div>  
+          </div><!--row-->
+        </div><!--col-xs-10-->
+      </div><!--row-->
         
       <div class="separation-100"></div>      
         
