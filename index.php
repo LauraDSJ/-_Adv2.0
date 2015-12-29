@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/content-style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,7 +35,11 @@
     <div class="container-fluid index-top-bg">
       <div class="row">
         <div class="col-lg-12 full-height center-element">
-          <img src="img/happify.png" alt="Happify Icon">
+          <!-- <img src="img/happify.png" alt="Happify Icon"> -->
+          <div id="adv-logo-a">
+            <div id="logo_iner"></div>
+            <div id="logo_outer"></div>
+          </div>
         </div>  
       </div><!--row-->    
       
