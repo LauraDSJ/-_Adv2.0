@@ -28,7 +28,7 @@ function navBrackets() {
         }
     }
     
-    $(".navbar-nav li a").mouseover(function() {
+    $(".navbar-nav li a").mouseover(function () {
         $(this).children(".nav-selected").fadeIn();
     });
 

@@ -426,79 +426,18 @@
         
     </div><!--container-fluid section 11-->  
       
-    <!-- ------------------------------------- --> 
-    <!-- ------------------------------------- --> 
-    <!-- ------------ SECTION 12: SOCIAL MEDIA -->
-    <!-- ------------------------------------- -->
-    <!-- ------------------------------------- --> 
-    <div class="container-fluid">   
-        
-      <div class="row">    
-        <div class="col-md-6">
-        </div><!--col-md-6-->
-          
-        <div class="col-md-6 text-right">
-          <a href="#a">fb</a> 
-          <a href="#a">tw</a>
-          <a href="#a">g+</a>
-          <a href="#a">yt</a>
-          <a href="#a">in</a> 
-        </div>  
-      </div><!--row-->      
-        
-    </div><!--container-fluid section 12--> 
+    <!-- ------------------------------------ --> 
+    <!-- ------------------------------------ --> 
+    <!-- ------------ SOCIAL MEDIA AND FOOTER -->
+    <!-- ------------------------------------ -->
+    <!-- ------------------------------------ -->
+    <?php include "includes/footer.php"; ?>  
       
-    <!-- ------------------------------- --> 
-    <!-- ------------------------------- --> 
-    <!-- ------------ SECTION 13: FOOTER -->
-    <!-- ------------------------------- -->
-    <!-- ------------------------------- --> 
-    <div class="container-fluid footer placeholder2">   
-        
-      <div class="row">    
-        <div class="col-sm-8 text-center">
-          <img src="http://placehold.it/300x100"> 
-        </div>
-          
-        <div class="col-sm-2 text-center">
-          <img src="http://placehold.it/100x100"> 
-        </div>
-          
-        <div class="col-sm-2 text-center">
-          <img src="http://placehold.it/100x100"> 
-        </div>  
-      </div><!--row-->
-        
-      <div class="row">
-        <div class="col-xs-10 col-xs-offset-1">
-          <ul>
-            <li><a href="#a" class="text-uppercase">important link</a></li> 
-            <li><a href="#a" class="text-uppercase">important link</a></li> 
-            <li><a href="#a" class="text-uppercase">important link</a></li> 
-            <li><a href="#a" class="text-uppercase">important link</a></li> 
-            <li><a href="#a" class="text-uppercase">contact</a></li> 
-          </ul>
-        </div>  
-      </div><!--row-->
-        
-      <div class="row">
-        <div class="col-lg-12 text-right">
-          <img src="http://placehold.it/70x70"> 
-        </div>  
-      </div><!--row-->
-        
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <p>Advancio Inc. All rights reserved 2015</p>
-        </div><!--col-lg-12-->
-      </div> <!--row-->   
-    </div><!--container-fluid section 13--> 
-      
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/adv.js"></script>  
+    <!-- ----------------------- --> 
+    <!-- ----------------------- --> 
+    <!-- ------------ JS SCRIPTS -->
+    <!-- ----------------------- -->
+    <!-- ----------------------- -->
+    <?php include "includes/scripts.php"; ?>  
   </body>
 </html>

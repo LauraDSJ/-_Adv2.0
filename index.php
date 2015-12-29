@@ -53,7 +53,7 @@
     <!-- ------------ SECTION 2: INTRO MESSAGE -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid">    
+    <div class="container-fluid white-texture-bg">    
         
       <div class="row">    
         <div class="col-lg-12 text-center">
@@ -140,7 +140,7 @@
     <!-- ------------ SECTION 5: FLEXIBLE OUTSOURCING -->
     <!-- -------------------------------------------- -->
     <!-- -------------------------------------------- --> 
-    <div class="container-fluid">
+    <div class="container-fluid white-texture-bg">
         
       <div class="separation-100"></div>    
         
@@ -162,14 +162,28 @@
           <div class="separation-50"></div>      
             
           <div class="outsourcing-offsite-service">
+              
+            <div class="separation-30"></div>  
+              
             <p>Senior Developer</p>
             <p>Support Engineer</p>
             <p>Deployment Engineer</p>  
+              
+            <div class="separation-30"></div>    
+              
           </div>
             
+            <div class="separation-20"></div>  
+            
           <div class="outsourcing-offsite-service">
+              
+            <div class="separation-30"></div>    
+              
             <p>Development Team</p>
-            <p>QA/Testing Team</p>  
+            <p>QA/Testing Team</p> 
+              
+            <div class="separation-30"></div>    
+              
           </div>
         </div><!--col-md-4-->  
           
@@ -183,14 +197,28 @@
           <div class="separation-50"></div>  
             
           <div class="outsourcing-onsite-service">
+              
+            <div class="separation-30"></div>    
+              
             <p>Senior Developer</p>
             <p>Support Engineer</p>
             <p>Deployment Engineer</p>  
+              
+            <div class="separation-30"></div>    
+              
           </div>
             
+          <div class="separation-20"></div>      
+            
           <div class="outsourcing-offsite-service">
+              
+            <div class="separation-30"></div>    
+              
             <p>Development Team</p>
             <p>QA/Testing Team</p>  
+              
+            <div class="separation-30"></div>    
+              
           </div>
         </div><!--col-md-4-->   
           
@@ -201,20 +229,43 @@
           <img src="img/flex-outsourcing-3.png" alt="Onsite Model Icon" class="img-responsive center-block">
           <p>Onsite Model</p>
             
-          <div class="separation-50"></div>      
+          <div class="separation-40"></div> 
+          <div class="separation-5"></div>    
             
           <div class="outsourcing-onsite-service">
+              
+            <div class="separation-30"></div>    
+              
             <p>Senior Developer</p>
             <p>Support Engineer</p>
             <p>Deployment Engineer</p>  
+              
+            <div class="separation-30"></div>     
+              
           </div>
             
+          <div class="separation-20"></div>       
+            
           <div class="outsourcing-onsite-service">
+              
+            <div class="separation-10"></div>     
+              
             <p>Development Team</p>
+              
+            <div class="separation-10"></div>     
+              
           </div>
+            
+          <div class="separation-20"></div>       
         
-          <div class="outsourcing-onsite-service">      
+          <div class="outsourcing-onsite-service"> 
+              
+            <div class="separation-10"></div>     
+              
             <p>QA/Testing Team</p>  
+              
+            <div class="separation-10"></div>     
+              
           </div>
         </div><!--col-md-4-->    
       </div><!--row-->    
@@ -273,6 +324,15 @@
       </div><!--row-->       
         
       <div class="separation-100"></div>      
+       
+      <div class="row">
+        <div class="col-xs-6 no-padding">
+          <img class="full-width" src="img/index-top-msg-left.png">  
+        </div>
+        <div class="col-xs-6 no-padding">
+          <img class="full-width" src="img/index-top-msg-right.png">  
+        </div>
+      </div><!--row-->     
         
     </div><!--container-fluid section 5-->  
       
@@ -281,9 +341,7 @@
     <!-- ------------ SECTION 6: ENGAGEMENT MODELS -->
     <!-- ----------------------------------------- -->
     <!-- ----------------------------------------- --> 
-    <div class="container-fluid">
-        
-      <div class="separation-100"></div>    
+    <div class="container-fluid white-texture-bg">  
         
       <div class="row">    
         <div class="col-lg-12 text-center">
@@ -292,24 +350,44 @@
       </div><!--row--> 
         
       <div class="separation-50"></div>    
-        
-      <div class="row">
+      
+      <!--Buttons for desktop / laptop -->    
+      <div class="row visible-lg visible-md">
         <div class="col-xs-10 col-xs-offset-1">
           <div class="row">
-            <div class="col-xs-4 text-center">
+            <div class="col-xs-4 text-center no-padding">
               <a href="#a" class="text-uppercase model-btn" id="onshore-btn"><h6>Onshore</h6></a>  
             </div><!--col-xs-4-->
               
-            <div class="col-xs-4 text-center">
+            <div class="col-xs-4 text-center no-padding">
               <a href="#a" class="text-uppercase model-btn" id="nearshore-btn"><h6>Nearshore</h6></a>  
             </div><!--col-xs-4-->
               
-            <div class="col-xs-4 text-center">
+            <div class="col-xs-4 text-center no-padding">
               <a href="#a" class="text-uppercase model-btn" id="offshore-btn"><h6>Offshore</h6></a>  
             </div><!--col-xs-4-->
           </div>
         </div><!--col-xs-10 offset 1-->   
       </div><!--row--> 
+      
+      <!--Buttons for tablet / smartphone -->      
+      <div class="row visible-sm visible-xs">
+        <div class="col-xs-10 col-xs-offset-1">
+          <div class="row">
+            <div class="col-xs-4 text-center no-padding">
+              <a href="#a" class="text-uppercase model-btn" id="onshore-btn"><p>Onshore</p></a>  
+            </div><!--col-xs-4-->
+              
+            <div class="col-xs-4 text-center no-padding">
+              <a href="#a" class="text-uppercase model-btn" id="nearshore-btn"><p>Nearshore</p></a>  
+            </div><!--col-xs-4-->
+              
+            <div class="col-xs-4 text-center no-padding">
+              <a href="#a" class="text-uppercase model-btn" id="offshore-btn"><p>Offshore</p></a>  
+            </div><!--col-xs-4-->
+          </div>
+        </div><!--col-xs-10 offset 1-->   
+      </div><!--row-->     
         
       <div class="separation-50"></div>       
         
@@ -393,66 +471,82 @@
     <!-- ------------ SECTION 9: CASE STUDIES -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ --> 
-    <div class="container-fluid index-case-studies-bg">
+    <div class="container-fluid index-case-studies-bg">  
         
-      <div class="separation-100"></div>    
-        
-      <div class="row">    
-        <div class="col-lg-12 text-center">
-          <h5 class="text-uppercase text-white">Case Studies</h5>
-        </div>  
-      </div><!--row--> 
-        
-      <div class="row">
-        <div class="col-xs-10 col-xs-offset-1">
-          <div class="row">
-            <div class="col-sm-6 col-sm-offset-6 text-center text-white">
-              <h6 class="text-uppercase">Automotive<br>Marketing</h6>
-              <p>Peak Performance Marketing Solutions is a premier automotive provider of data-driven marketing solutions across sales and service to 1000s of automotive dealers nationwide. Their products are designed to maximize their client’s customer engagement.</p>
-              <div class="row">
-                <div class="col-sm-6">
-                  <a href="#a" class="index-case-studies-btn">Project</a>  
-                </div> 
-                <div class="col-sm-6">
-                  <a href="#a" class="index-case-studies-btn">Result</a>  
-                </div> 
-              </div>    
-            </div><!--col-sm-6 col-sm-offset-6-->
-          </div><!--row-->
+      <div class="row index-case-studies-1">
+        <div class="col-lg-12">
             
-          <div class="row">
-            <div class="col-sm-6 text-center text-white">
-              <h6 class="text-uppercase">Automotive Insurance Carrier</h6>
-              <p>We served a non-standard automotive insurance carrier who distributes exclusively through a network of more than 900 Brokers across nearly 2,000 locations in California. And they take pride in their super user-friendly technology as a cornerstone of their business.</p>
-              <div class="row">
-                <div class="col-sm-6">
-                  <a href="#a" class="index-case-studies-btn">Project</a>  
-                </div> 
-                <div class="col-sm-6">
-                  <a href="#a" class="index-case-studies-btn">Result</a>  
-                </div> 
-              </div>      
-            </div><!--col-sm-6-->
-          </div><!--row-->
+            <div class="separation-100"></div>       
+            
+            <div class="row">    
+              <div class="col-lg-12 text-center">
+                <h5 class="text-uppercase text-white">Case Studies</h5>
+              </div>  
+            </div><!--row--> 
+            
+            <div class="separation-100"></div> 
+            
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-6 text-center text-white">
+                <h6 class="text-uppercase">Automotive<br>Marketing</h6>
+                <p>Peak Performance Marketing Solutions is a premier automotive provider of data-driven marketing solutions across sales and service to 1000s of automotive dealers nationwide. Their products are designed to maximize their client’s customer engagement.</p>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <a href="#a" class="index-case-studies-btn">Project</a>  
+                  </div> 
+                  <div class="col-sm-6">
+                    <a href="#a" class="index-case-studies-btn">Result</a>  
+                  </div> 
+                </div><!--row-->    
+              </div><!--col-sm-6 col-sm-offset-6-->
+            </div><!--row-->
+            
+            <div class="separation-100"></div> 
+            
+          </div><!--col-lg-12-->
+        </div><!--row case studies 1-->  
+            
+        <div class="row index-case-studies-2">
+            
+          <div class="separation-100"></div>     
+            
+          <div class="col-sm-6 text-center text-white">
+            <h6 class="text-uppercase">Automotive Insurance Carrier</h6>
+            <p>We served a non-standard automotive insurance carrier who distributes exclusively through a network of more than 900 Brokers across nearly 2,000 locations in California. And they take pride in their super user-friendly technology as a cornerstone of their business.</p>
+            <div class="row">
+              <div class="col-sm-6">
+                <a href="#a" class="index-case-studies-btn">Project</a>  
+              </div> 
+              <div class="col-sm-6">
+                <a href="#a" class="index-case-studies-btn">Result</a>  
+              </div> 
+            </div>      
+          </div><!--col-sm-6-->
+            
+          <div class="separation-100"></div>     
+            
+        </div><!--row-->
               
-          <div class="row">    
-            <div class="col-sm-6 col-sm-offset-6 text-center text-white">
-              <h6 class="text-uppercase">Commercial Insurance Financing</h6>
-              <p>Top Premium Finance provides agent/brokers with a simple, reasonable means to fund their commercial, personal, property & casualty insurance products.</p> 
-              <div class="row">
-                <div class="col-sm-6">
-                  <a href="#a" class="index-case-studies-btn">Project</a>  
-                </div> 
-                <div class="col-sm-6">
-                  <a href="#a" class="index-case-studies-btn">Result</a>  
-                </div> 
-              </div>     
-            </div><!--col-lg-12-->
-          </div>
-        </div><!--col-xs-10 offset 1-->   
-      </div><!--row--> 
-        
-      <div class="separation-100"></div>      
+        <div class="row index-case-studies-3">
+            
+          <div class="separation-100"></div>    
+            
+          <div class="col-sm-6 col-sm-offset-6 text-center text-white">
+            <h6 class="text-uppercase">Commercial Insurance Financing</h6>
+            <p>Top Premium Finance provides agent/brokers with a simple, reasonable means to fund their commercial, personal, property & casualty insurance products.</p> 
+            <div class="row">
+              <div class="col-sm-6">
+                <a href="#a" class="index-case-studies-btn">Project</a>  
+              </div> 
+              <div class="col-sm-6">
+                <a href="#a" class="index-case-studies-btn">Result</a>  
+              </div> 
+            </div>     
+          </div><!--col-lg-12-->
+            
+          <div class="separation-100"></div>     
+            
+        </div>    
         
     </div><!--container-fluid section 9-->    
       
@@ -461,7 +555,7 @@
     <!-- ------------ SECTION 10: HIGHLIGHTS -->
     <!-- ---------------------------------- -->
     <!-- ---------------------------------- --> 
-    <div class="container-fluid placeholder2">
+    <div class="container-fluid white-texture-bg">
         
       <div class="separation-100"></div>    
         
@@ -506,81 +600,20 @@
         
       <div class="separation-100"></div>      
         
-    </div><!--container-fluid section 11-->  
+    </div><!--container-fluid section 11--> 
       
-    <!-- ------------------------------------- --> 
-    <!-- ------------------------------------- --> 
-    <!-- ------------ SECTION 12: SOCIAL MEDIA -->
-    <!-- ------------------------------------- -->
-    <!-- ------------------------------------- --> 
-    <div class="container-fluid">   
-        
-      <div class="row">    
-        <div class="col-md-6">
-        </div><!--col-md-6-->
-          
-        <div class="col-md-6 text-right">
-          <a href="#a">fb</a> 
-          <a href="#a">tw</a>
-          <a href="#a">g+</a>
-          <a href="#a">yt</a>
-          <a href="#a">in</a> 
-        </div>  
-      </div><!--row-->      
-        
-    </div><!--container-fluid section 12--> 
+    <!-- ------------------------------------ --> 
+    <!-- ------------------------------------ --> 
+    <!-- ------------ SOCIAL MEDIA AND FOOTER -->
+    <!-- ------------------------------------ -->
+    <!-- ------------------------------------ -->
+    <?php include "includes/footer.php"; ?>  
       
-    <!-- ------------------------------- --> 
-    <!-- ------------------------------- --> 
-    <!-- ------------ SECTION 13: FOOTER -->
-    <!-- ------------------------------- -->
-    <!-- ------------------------------- --> 
-    <div class="container-fluid footer placeholder2">   
-        
-      <div class="row">    
-        <div class="col-sm-8 text-center">
-          <img src="http://placehold.it/300x100"> 
-        </div>
-          
-        <div class="col-sm-2 text-center">
-          <img src="http://placehold.it/100x100"> 
-        </div>
-          
-        <div class="col-sm-2 text-center">
-          <img src="http://placehold.it/100x100"> 
-        </div>  
-      </div><!--row-->
-        
-      <div class="row">
-        <div class="col-xs-10 col-xs-offset-1">
-          <ul>
-            <li><a href="#a" class="text-uppercase">important link</a></li> 
-            <li><a href="#a" class="text-uppercase">important link</a></li> 
-            <li><a href="#a" class="text-uppercase">important link</a></li> 
-            <li><a href="#a" class="text-uppercase">important link</a></li> 
-            <li><a href="#a" class="text-uppercase">contact</a></li> 
-          </ul>
-        </div>  
-      </div><!--row-->
-        
-      <div class="row">
-        <div class="col-lg-12 text-right">
-          <img src="http://placehold.it/70x70"> 
-        </div>  
-      </div><!--row-->
-        
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <p>Advancio Inc. All rights reserved 2015</p>
-        </div><!--col-lg-12-->
-      </div> <!--row-->   
-    </div><!--container-fluid section 13--> 
-      
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/adv.js"></script>  
+    <!-- ----------------------- --> 
+    <!-- ----------------------- --> 
+    <!-- ------------ JS SCRIPTS -->
+    <!-- ----------------------- -->
+    <!-- ----------------------- -->
+    <?php include "includes/scripts.php"; ?>  
   </body>
 </html>

@@ -46,6 +46,10 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 .index-expectations-text-line3 { font-size: 12.00vw; display: block; line-height:12.60vw; }
 .index-expectations-text-line4 { font-size: 5.00vw; display: block; line-height: 1.00vw; }
 
+#capabilities-survey-text-1 { font-size: 4.00vw; display: block; }
+#capabilities-survey-text-2 { font-size: 9.60vw; line-height: 7vw; display: block; }
+#capabilities-survey-text-3 { font-size: 3.25vw; display: block; }
+
 /*-----------------------------------------
 -----------------------------GENERAL STYLES
 -----------------------------------------*/
@@ -67,9 +71,13 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 /*Separation classes*/
-.separation-100 { display: block;height:100px; }
-.separation-50 { display: block;height:50px; }
-
+.separation-100 { display: block;height:100px; clear:both; }
+.separation-50 { display: block;height:50px; clear:both; }
+.separation-40 { display: block;height:40px; clear:both; }
+.separation-30 { display: block;height:30px; clear:both; }
+.separation-20 { display: block;height:20px; clear:both; }
+.separation-10 { display: block;height:10px; clear:both; }
+.separation-5 { display: block;height:5px; clear:both; }
 
 /*-------------------------------------
 -----------------------------NAV STYLES
@@ -103,6 +111,72 @@ h6 { font-size: 1.375em; }/* PSD 30px */
     width:180px;
 }
 
+/*----------------------------------------
+-----------------------------FOOTER STYLES
+----------------------------------------*/
+.social-media-section-1 {
+    background-color: #1f1f1f;
+}
+
+.social-media-section-2 {
+    background-color: rgba(253, 223, 3, 0.7);
+}
+
+.social-media-icon {
+    display: inline-block;
+    background-size:cover;
+    background-position: center center;
+    width:30px;
+    height:30px;
+}
+
+#facebook,#facebook:active,#facebook:visited { background-image: url(../img/facebook.png); }
+#facebook:hover { background-image: url(../img/facebook-white.png); }
+#twitter,#twitter:active,#twitter:visited { background-image: url(../img/twitter.png); }
+#twitter:hover { background-image: url(../img/twitter-white.png); }
+#google,#google:active,#google:visited { background-image: url(../img/google-plus.png); }
+#google:hover { background-image: url(../img/google-plus-white.png); }
+#youtube,#youtube:active,#youtube:visited { background-image: url(../img/youtube.png); }
+#youtube:hover { background-image: url(../img/youtube-white.png); }
+#linkdin,#linkdin:active,#linkdin:visited { background-image: url(../img/linkedin.png); }
+#linkdin:hover { background-image: url(../img/linkedin.png); }
+
+.footer {
+    background-color: #2b2b2b;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links a,
+.footer-links a:active,
+.footer-links a:visited {
+    color:#fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.rights-reserved {
+    background-color: #f5f5f5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rights-reserved a,
+.rights-reserved a:active,
+.rights-reserved a:visited {
+    color:#727272;
+    text-decoration: none;
+}
+
+.rights-reserved a:hover {
+    text-decoration: underline;
+}
+
 /*---------------------------------------
 -----------------------------INDEX STYLES
 ---------------------------------------*/
@@ -113,11 +187,23 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .index-msg {
+    background-image: url(img/index-happify-it-bg.jpg);
+    background-size:cover;
+    background-position: center center;
     background-color: #C25552;
 }
 
 .index-msg-2 {
+    background-image: url(img/index-msg-2-bg.jpg);
+    background-size:cover;
+    background-position: center center;
     background-color: #1B86BE;
+}
+
+.white-texture-bg {
+    background-image: url(img/white-texture-bg.jpg);
+    background-size:cover;
+    background-position: top center;
 }
 
 .outsourcing-offsite-service {
@@ -131,6 +217,9 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .our-approach-bg {
+    background-image: url(img/index-approach-bg-no-strips.jpg);
+    background-size:cover;
+    background-position: center center;
     background-color: #008db0;
 }
 
@@ -142,7 +231,9 @@ h6 { font-size: 1.375em; }/* PSD 30px */
     margin-top: 10px;
 }
 
-.model-btn {
+.model-btn,
+.model-btn:active,
+.model-btn:visited {
     padding-top: 40px;
     padding-bottom: 40px;
     display: block;
@@ -150,24 +241,59 @@ h6 { font-size: 1.375em; }/* PSD 30px */
     text-decoration: none;
 }
 
+.model-btn:hover {
+    color:#fff;
+    text-decoration: underline;
+}
+
 #onshore-btn {
+    background-image: url(img/index-onshore-bg.jpg);
+    background-size:cover;
+    background-position: center center;
     background-color: #e15b58;
 }
 
 #nearshore-btn {
+    background-image: url(img/index-nearshore-bg.jpg);
+    background-size:cover;
+    background-position: center center;
     background-color:#18abf8;
 }
 
 #offshore-btn {
+    background-image: url(img/index-offshore-bg.jpg);
+    background-size:cover;
+    background-position: center center;
     background-color:#ffcd04;
 }
 
 .index-expectations-msg-bg {
+    background-image: url(img/index-expectations-bg.jpg);
+    background-size:cover;
+    background-position: center center;
     background-color: #af3a37;
 }
 
 .index-case-studies-bg {
     background-color: #4e4e4e;
+}
+
+.index-case-studies-1 {
+    background-image: url(img/index-case-studies-1-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.index-case-studies-2 {
+    background-image: url(img/index-case-studies-2-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.index-case-studies-3 {
+    background-image: url(img/index-case-studies-3-bg.jpg);
+    background-size:cover;
+    background-position: center center;
 }
 
 .index-case-studies-btn,
@@ -190,9 +316,72 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .index-bottom-msg-bg {
+    background-image: url(img/index-bottom-msg-bg.jpg);
+    background-size:cover;
+    background-position: center center;
     background-color: #3b94ab;
+}
 
-/*PLACEHOLDERS STYLES*/
+/*--------------------------------------------------
+-----------------------------OUR CAPABILITIES STYLES
+--------------------------------------------------*/
+.capabilities-top-bg {
+    background-image: url(../img/capabilities-top-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.capabilities-our-services-bg {
+    background-image: url(../img/capabilities-our-services-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.service-icon {
+    width: 91px;
+	height: 91px;
+	-webkit-border-radius: 46px 45px 45px 46px/45px 45px 46px 46px;
+	-moz-border-radius: 46px 45px 45px 46px/45px 45px 46px 46px;
+	border-radius: 46px 45px 45px 46px/45px 45px 46px 46px;
+	background-color: transparent;
+    border: solid 3px #fff;
+    display: block;
+}
+
+.service-icon:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.capabilities-msg-2 {
+    background-image: url(../img/capabilities-msg-2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.capabilities-languages {
+    background-color: #de8c8a;
+}
+
+.capabilities-survey-numbers-bg {
+    background-color: #80b6cb;
+}
+
+.percentage {
+    width: 91px;
+	height: 91px;
+	-webkit-border-radius: 46px 45px 45px 46px/45px 45px 46px 46px;
+	-moz-border-radius: 46px 45px 45px 46px/45px 45px 46px 46px;
+	border-radius: 46px 45px 45px 46px/45px 45px 46px 46px;
+	background-color: transparent;
+    border: solid 3px #fff;
+    display: block;
+}
+
+.capabilities-our-process-bg {
+    background-color: #737373;
+}
+
+/*PLACEHOLDERS STYLES - delete this at the end of the styling*/
 .placeholder {
     background-color: #ccc;
 }
