@@ -34,8 +34,8 @@ body {
 h1 { } 
 h2 { }
 h3 { font-size: 2.750em; }/* PSD 60px */
-h4 { font-size: 2.500em; } /* PSD 54px */
-h5 { font-size: 2.063em; } /* PSD 45px */
+h4 { font-size: 2.500em; }/* PSD 54px */
+h5 { font-size: 2.063em; }/* PSD 45px */
 h6 { font-size: 1.375em; }/* PSD 30px */
 
 .index-happify-txt-size1 { font-size: 11.50vw; }
@@ -49,6 +49,8 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 #capabilities-survey-text-1 { font-size: 4.00vw; display: block; }
 #capabilities-survey-text-2 { font-size: 9.60vw; line-height: 7vw; display: block; }
 #capabilities-survey-text-3 { font-size: 3.25vw; display: block; }
+
+#capabilities-languages-text-1 { font-size: 6.00vw; display: block; }
 
 /*-----------------------------------------
 -----------------------------GENERAL STYLES
@@ -78,6 +80,22 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 .separation-20 { display: block;height:20px; clear:both; }
 .separation-10 { display: block;height:10px; clear:both; }
 .separation-5 { display: block;height:5px; clear:both; }
+
+.rectangle-btn,
+.rectangle-btn:visited,
+.rectangle-btn:active {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; /*PSD 22px*/
+    color:#fff;
+    border: 3px solid #fff;
+    padding: 10px;
+}
+
+.rectangle-btn:hover {
+    color:#202020;
+    background-color: #fff;
+    text-decoration: none;
+}
 
 /*-------------------------------------
 -----------------------------NAV STYLES
@@ -359,10 +377,16 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .capabilities-languages {
+    background-image: url(../img/capabilities-languages.jpg);
+    background-size:cover;
+    background-position: center center;
     background-color: #de8c8a;
 }
 
 .capabilities-survey-numbers-bg {
+    background-image: url(../img/capabilities-survey-numbers-bg.jpg);
+    background-size:cover;
+    background-position: center center;
     background-color: #80b6cb;
 }
 
@@ -379,8 +403,296 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 
 .capabilities-our-process-bg {
     background-color: #737373;
+    background-image: url(../img/capabilities-our-process-bg.jpg);
+    background-size:cover;
+    background-position: center center;
 }
 
+.capabilities-team-values-bg {
+    background-color: #202020;
+    background-image: url(../img/capabilities-team-values-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.capabilities-slogan-bg {
+    background-color: #a8b1bd;
+}
+
+.capabilities-our-values-bg {
+    background-image: url(../img/capabilities-our-values-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.capabilities-our-values-2-bg {
+    background-image: url(../img/capabilities-our-values-2-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.capabilities-our-values-msg-bg {
+    background-color: #f0f0f0;
+}
+
+.capabilities-client-retention-bg {
+    background-color: #9d1f1b;
+    background-image: url(../img/capabilities-client-retention-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.founder {
+    position: relative;
+    display: block;
+}
+
+.leader-tag {
+    background-color: rgba(33, 33, 33, 0.7);
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+}
+
+.founder-description {
+    display: block;
+    background-color: #212121;
+    padding: 25px;
+}
+
+.capabilities-top-talent-bg {
+    background-color: #4dc0ec;
+    background-image: url(../img/capabilities-top-talent-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.team-member {
+    background-color:#0CBCC3;
+    display: block;
+}
+
+#Adrian {
+    background-image: url(../img/profiles/black-white/Adrian.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Adrian:hover,
+#Adrian.selectedProfile {
+    background-image: url(../img/profiles/color/Adrian.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Alfredo {
+    background-image: url(../img/profiles/black-white/Alfredo2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Alfredo:hover,
+#Alfredo.selectedProfile {
+    background-image: url(../img/profiles/color/Alfredo2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Anakaren {
+    background-image: url(../img/profiles/black-white/AnaKaren2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Anakaren:hover,
+#Anakaren.selectedProfile {
+    background-image: url(../img/profiles/color/AnaKaren2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Carlos {
+    background-image: url(../img/profiles/black-white/Carlos2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Carlos:hover,
+#Carlos.selectedProfile {
+    background-image: url(../img/profiles/color/Carlos2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Erick {
+    background-image: url(../img/profiles/black-white/Erick2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Erick:hover,
+#Erick.selectedProfile {
+    background-image: url(../img/profiles/color/Erick2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Hector {
+    background-image: url(../img/profiles/black-white/Hector.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Hector:hover,
+#Hector.selectedProfile {
+    background-image: url(../img/profiles/color/Hector.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Jorge {
+    background-image: url(../img/profiles/black-white/Jorge.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Jorge:hover,
+#Jorge.selectedProfile {
+    background-image: url(../img/profiles/color/Jorge.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Laura {
+    background-image: url(../img/profiles/black-white/Laura.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Laura:hover,
+#Laura.selectedProfile {
+    background-image: url(../img/profiles/color/Laura.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Mario {
+    background-image: url(../img/profiles/black-white/Mario.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Mario:hover,
+#Mario.selectedProfile {
+    background-image: url(../img/profiles/color/Mario.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Misael {
+    background-image: url(../img/profiles/black-white/Misael.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Misael:hover,
+#Misael.selectedProfile {
+    background-image: url(../img/profiles/color/Misael.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Orlando {
+    background-image: url(../img/profiles/black-white/Orlando2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Orlando:hover,
+#Orlando.selectedProfile {
+    background-image: url(../img/profiles/color/Orlando2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Pepe {
+    background-image: url(../img/profiles/black-white/Pepe2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+#Pepe:hover,
+#Pepe.selectedProfile {
+    background-image: url(../img/profiles/color/Pepe2.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+/*------------------------------------------
+-----------------------------GOOD. IT STYLES
+------------------------------------------*/
+.good-it-top-bg {
+    background-color: #b1a6a2;
+    background-image: url(../img/good-it-top-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.good-it-intro-msg-bg {
+    background-color: #fff;
+}
+
+.good-it-wcc-community-bg {
+    background-color: #e18482;
+    background-image: url(../img/good-it-wcc-community-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.good-it-wcc-hack-bg {
+    background-image: url(../img/good-it-wcc-hack-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.red-texture-bg {
+    background-image: url(../img/red-texture-bg.jpg);
+    background-size:cover;
+    background-position: top center;
+}
+
+.good-it-wcc-hack-msg-bg {
+    background-color: #fff2f1;
+}
+
+.good-it-wcc-youth-bg {
+    background-color: #5595ad;
+    background-image: url(../img/good-it-wcc-youth-bg.jpg);
+    background-size:cover;
+    background-position: top center;
+}
+
+.good-it-advancio-answers-bg {
+    background-color: #f8f3ca;
+    background-image: url(../img/good-it-advancio-answers-bg.jpg);
+    background-size:cover;
+    background-position: top center;
+}
+
+.good-it-advancio-academy-bg {
+    background-color: #da6562;
+    background-image: url(../img/good-it-advancio-academy-bg.jpg);
+    background-size:cover;
+    background-position: top center;
+}
+
+.gray-texture-bg {
+    background-color: #f5f5f5;
+    background-image: url(../img/gray-texture-bg.jpg);
+    background-size:cover;
+    background-position: top center;
+}
 /*PLACEHOLDERS STYLES - delete this at the end of the styling*/
 .placeholder {
     background-color: #ccc;

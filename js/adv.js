@@ -50,6 +50,12 @@ function navBG() {
     });
 }
 
+//Creates a square
+function square() {
+  var width = $(".square").width();
+  $('.square').css('height', width);
+}
+
 //Functions triggered when page loads
 $(document).ready(function () {
     "use strict";
@@ -57,6 +63,7 @@ $(document).ready(function () {
     deviceHeight();
     navBrackets();
     navBG();
+    square();
     
 });
 
