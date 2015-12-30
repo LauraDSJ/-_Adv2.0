@@ -137,7 +137,7 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .social-media-section-2 {
-    background-color: rgba(253, 223, 3, 0.7);
+  /**  background-color: rgba(253, 223, 3, 0.7);**/
 }
 
 .social-media-icon {

@@ -3,14 +3,21 @@
     <!-- ------------ SECTION 12: SOCIAL MEDIA -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid">   
+    <div class="container-fluid" style="position: relative; z-index: 999999;top: -65px;">   
         
       <div class="row">    
         <div class="col-md-6 social-media-section-1">
+        <div class="row posi-rel">
+           <div class="section-skew-t-l-3"></div>
+            <div class="section-skew-b-l-3"></div>
+          </div>  
         </div><!--col-md-6-->
           
         <div class="col-md-6 social-media-section-2">
-            
+            <div class="row posi-rel">
+           <div class="section-skew-t-r-3"></div>
+            <div class="section-skew-b-r-3"></div>
+          </div>  
           <div class="separation-50"></div>    
             
           <div class="row">
@@ -43,7 +50,7 @@
     <!-- ------------ SECTION 13: FOOTER -->
     <!-- ------------------------------- -->
     <!-- ------------------------------- --> 
-    <div class="container-fluid footer">   
+    <div class="container-fluid footer" style="position: relative;  top: -135px;">   
        
       <div class="separation-50"></div>    
         
