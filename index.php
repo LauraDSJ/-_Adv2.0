@@ -11,7 +11,10 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/content-style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/animation.css">
+  
 
+  <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -39,7 +42,7 @@
 
             ANIMATED HAPPIFY
           -->
-          <div id="adv-logo-a">
+          <div id="adv-logo-a" class="revealOnScroll" data-animation="pulse">
             <div id="logo_iner"></div>
             <div id="logo_outer"></div>
           </div>
@@ -66,7 +69,7 @@
 
       <div class="row">    
         <div class="col-lg-12 text-center">
-          <h3 class="text-light-gray">We've heard it from<br>
+          <h3 class="text-light-gray revealOnScroll"  data-animation="fadeInUp">We've heard it from<br>
             many executives</h3>
           </div><!--col-lg-12-->
         </div><!--row--> 
@@ -75,7 +78,7 @@
 
         <div class="row">    
           <div class="col-sm-offset-1 col-sm-10 text-center">
-            <h6 class="text-light-gray">“I hate IT and I love IT. I hate runaway never-ending IT projects, but I love the efficiencies and market growth their solutions bring.”</h6>
+            <h6 class="text-light-gray revealOnScroll"  data-animation="fadeInUp">“I hate IT and I love IT. I hate runaway never-ending IT projects, but I love the efficiencies and market growth their solutions bring.”</h6>
           </div><!--col-md-3-->
         </div><!--row-->
         
@@ -83,11 +86,14 @@
         
         <div class="row">    
           <div class="col-lg-12">
-            <img src="img/ring-a-bell.png" class="img-responsive center-block" alt="Ring a bell?">
+            <img src="img/ring-a-bell.png" class="img-responsive center-block revealOnScroll"  data-animation="lightSpeedIn" alt="Ring a bell?">
           </div><!--col-md-3-->
         </div><!--row--> 
-        
-        <div class="separation-100"></div>    
+
+        <div class="separation-50"></div>   
+        <div class="row posi-rel">
+          <div class="section-skew-b"></div>
+        </div>    
         
       </div><!--container-fluid section 2--> 
       
@@ -99,18 +105,18 @@
       <div class="container-fluid index-msg">
 
         <div class="separation-100"></div>    
-        
+        <div class="separation-100"></div>
         <div class="row">    
           <div class="col-lg-12 text-center">
-            <span class="index-happify-txt-size1 text-white">WE CAN</span>
-            <h1 class="index-happify-txt-size2 text-white">HAPPIFY</h1>
-            <span class="index-happify-txt-size1 text-white">YOUR .IT</span>
+            <span class="index-happify-txt-size1 text-white revealOnScroll"  data-animation="rotateInDownLeft">WE CAN</span>
+            <h1 class="index-happify-txt-size2 text-white revealOnScroll"  data-animation="flipInX">HAPPIFY</h1>
+            <span class="index-happify-txt-size1 text-white revealOnScroll"  data-animation="rotateInDownLeft">YOUR .IT</span>
           </div>
         </div><!--row-->
         
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center">
-            <h5 class="text-white">With targeted support where your team needs it most.</h5>  
+            <h5 class="text-white revealOnScroll"  data-animation="lightSpeedIn">With targeted support where your team needs it most.</h5>  
           </div>  
         </div><!--row-->  
         
@@ -130,18 +136,19 @@
         <div class="row">    
           <div class="col-md-8 col-md-offset-2">
             <span>    
-              <h6 class="text-white text-lighter">And we all know that every business today is now a digital business, and the demand on every company's IT unit is accelerating beyond their human capacity. Quality suffers, innovation stalls, and people leave. It doesn’t have to be this way.</h6>
+              <h6 class="text-white text-lighter left-bordererd " >And we all know that every business today is now a digital business, and the demand on every company's IT unit is accelerating beyond their human capacity. Quality suffers, innovation stalls, and people leave. It doesn’t have to be this way.</h6>
             </span> 
 
             <div class="separation-50"></div>
             
-            <h4 class="bold text-white">It doesn't have to be this way.</h4>
+            <h4 class="bold text-white revealOnScroll"  data-animation="lightSpeedIn">It doesn't have to be this way.</h4>
           </div><!--col-md-4-->
           
         </div><!--row--> 
         
         <div class="separation-100"></div>      
-        
+        <div class="separation-100"></div> 
+        <div class="separation-100"></div> 
       </div><!--container-fluid section 4-->  
       
       <!-- -------------------------------------------- --> 
@@ -151,7 +158,10 @@
       <!-- -------------------------------------------- --> 
       <div class="container-fluid white-texture-bg">
 
-        <div class="separation-100"></div>    
+        <div class="row posi-rel">
+          <div class="section-skew-t-l"></div>
+        </div>   
+        <div class="separation-50"></div>    
         
         <div class="row">    
           <div class="col-lg-12 text-center">
@@ -161,7 +171,7 @@
 
           <div class="row">   
 
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center revealOnScroll"  data-animation="bounceInLeft">
 
               <div class="separation-100"></div>    
 
@@ -196,7 +206,7 @@
               </div>
             </div><!--col-md-4-->  
 
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center revealOnScroll"  data-animation="bounceInDown">
 
               <div class="separation-100"></div> 
 
@@ -231,7 +241,7 @@
               </div>
             </div><!--col-md-4-->   
 
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center revealOnScroll"  data-animation="bounceInRight">
 
               <div class="separation-100"></div> 
 
@@ -280,6 +290,9 @@
           </div><!--row-->    
 
           <div class="separation-100"></div>      
+          <div class="row posi-rel">
+            <div class="section-skew-b-r"></div>
+          </div>    
 
         </div><!--container-fluid section 5-->
 
@@ -291,7 +304,7 @@
         <div class="container-fluid our-approach-bg">
 
           <div class="separation-100"></div>    
-
+          <div class="separation-100"></div> 
           <div class="row">    
             <div class="col-lg-12 text-center">
               <h5 class="text-white text-uppercase">Our Approach</h5>
@@ -300,33 +313,33 @@
 
           <div class="separation-100"></div>   
 
-         <!-- ANIMATED BOXES CONTENT --> 
+          <!-- ANIMATED BOXES CONTENT --> 
 
           <div class="row" >
 
             <div id="bs-container" class="">
-              <div class="bsquare bsquare1" id="bsquare1">
+              <div class="bsquare bsquare1 revealOnScroll"  data-animation="flipInX" id="bsquare1">
                 <div class="centrise-t">
                   <div class="icon-t" id="icon-t-1"></div>
                   <h6>Needs Analysis</h6>
                   <p class="hiden-f">Before responding to an RFP, a key executive, meets with your IT executives to survey the unique requirements and pain points in your project pipeline.</p>
                 </div>
               </div>
-              <div class="bsquare bsquare1" id="bsquare2">
+              <div class="bsquare bsquare1 revealOnScroll"  data-animation="flipInX" id="bsquare2">
                 <div class="centrise-t">
                   <div class="icon-t" id="icon-t-2"></div>
                   <h6>Unique Perspective</h6>
                   <p class="hiden-f">The typical cultural, communication, and timing challenges of outsourcing are mitigated by the experience of our senior team members and the international fluency of our entire team: French, Spanish, Arabic and Berber.</p>
                 </div>
               </div>
-              <div class="bsquare bsquare1" id="bsquare3">
+              <div class="bsquare bsquare1 revealOnScroll"  data-animation="flipInX" id="bsquare3">
                 <div class="centrise-t">
                   <div class="icon-t" id="icon-t-3"></div>
                   <h6>Technical Experience</h6>
                   <p class="hiden-f">Our founders speak the language of IT executives and software architects. We understand how to package staff into the most appropriate configuration to best support in-house teams.</p>
                 </div>
               </div>
-              <div class="bsquare bsquare1" id="bsquare4">
+              <div class="bsquare bsquare1 revealOnScroll"  data-animation="flipInX" id="bsquare4">
                 <div class="centrise-t">
                   <div class="icon-t" id="icon-t-4"></div>
                   <h6>The Right Talent</h6>
@@ -352,7 +365,7 @@
                 <h6 class="text-uppercase text-white">Unique Perspective</h6>
               </div>      
             </div><!--col-sm-4-->   
-         <!-- </div><!--row-->   
+            <!-- </div><!--row-->   
 <!--
           <div class="row">
             <div class="col-sm-4 col-sm-offset-2">
@@ -368,92 +381,92 @@
                 <h6 class="text-uppercase text-white">The Right Talent</h6>
               </div>
             </div><!--col-sm-4-->   
-          <!--</div><!--row-->    
+            <!--</div><!--row-->    
 
 
-          <div class="separation-100"></div>      
+            <div class="separation-100"></div>      
 
-          <div class="row">
-            <div class="col-xs-6 no-padding">
-              <img class="full-width" src="img/index-top-msg-left.png">  
-            </div>
-            <div class="col-xs-6 no-padding">
-              <img class="full-width" src="img/index-top-msg-right.png">  
-            </div>
-          </div><!--row-->     
+            <div class="row">
+              <div class="col-xs-6 no-padding">
+                <img class="full-width" src="img/index-top-msg-left.png">  
+              </div>
+              <div class="col-xs-6 no-padding">
+                <img class="full-width" src="img/index-top-msg-right.png">  
+              </div>
+            </div><!--row-->     
 
-        </div><!--container-fluid section 5-->  
+          </div><!--container-fluid section 5-->  
 
-        <!-- ----------------------------------------- --> 
-        <!-- ----------------------------------------- --> 
-        <!-- ------------ SECTION 6: ENGAGEMENT MODELS -->
-        <!-- ----------------------------------------- -->
-        <!-- ----------------------------------------- --> 
-        <div class="container-fluid white-texture-bg">  
+          <!-- ----------------------------------------- --> 
+          <!-- ----------------------------------------- --> 
+          <!-- ------------ SECTION 6: ENGAGEMENT MODELS -->
+          <!-- ----------------------------------------- -->
+          <!-- ----------------------------------------- --> 
+          <div class="container-fluid white-texture-bg">  
 
-          <div class="row">    
-            <div class="col-lg-12 text-center">
-              <h5 class="text-uppercase">Engagement Models</h5>
-            </div>  
-          </div><!--row--> 
+            <div class="row">    
+              <div class="col-lg-12 text-center">
+                <h5 class="text-uppercase">Engagement Models</h5>
+              </div>  
+            </div><!--row--> 
 
-          <div class="separation-50"></div>    
-
-
-
-
-          <!--Buttons for desktop / laptop -->    
-          <div class="row visible-lg visible-md">
-            <div class="col-xs-10 col-xs-offset-1">
-              <div class="row">
+            <div class="separation-50"></div>    
 
 
 
-     <div id="box-container">
-                <div id="box1" class="box">
 
-        <div class="box-cont">
-          <div class="box-cont-title-s">
-            <h1>ONSHORE</h1>
+            <!--Buttons for desktop / laptop -->    
+            <div class="row visible-lg visible-md">
+              <div class="col-xs-10 col-xs-offset-1">
+                <div class="row">
 
-          </div><div class="box-cont-text-s">Our onshore consulting services provide our clients access to expertise not available in-house, such as advisory solutions and systems architecture, IT Support, UX Design, and Security Assessment.
-        </div>
-      </div>
-      <div class="box-skew"></div>
-    </div>
-    <div id="box2" class="box">
-      <div class="box-skew-l"></div>
-      <div class="box-cont">
-        <div class="box-cont-title-s">
-          <h1>NEARSHORE</h1>
-        </div>
-        <div class="box-cont-text-s">
-          Our nearshore model works very well for customers who are looking to have strong control over their resources and closely manage their day-to-day progress and efficiency.
-          This model keeps our team within 3 times zones of a client’s location, providing quality talent, fast response times, and similar cultures. Additionally, for our clients based in North America, the NAFTA free trade agreement allows for relaxed travel restrictions, legal protections, and intellectual property protections.
 
-        </div>
-      </div>
-      <div class="box-skew"></div>
 
-    </div>
-    <div id="box3" class="box">
-      <div class="box-skew-l"></div>
-      <div class="box-cont">
-        <div class="box-cont-title-s"><h1>OFFSHORE</h1></div>
-        <div class="box-cont-text-s">
-          Our offshore model complements our nearshore outsourcing offering, allowing us to be available globally and provide clients with continuous production. Our 2 hubs also allow us to serve as both onshore and offshore development centers depending on our client’s needs.
+                 <div id="box-container">
+                  <div id="box1" class="box  revealOnScroll"  data-animation="bounceInLeft">
 
-        </div>
-      </div>
+                    <div class="box-cont">
+                      <div class="box-cont-title-s">
+                        <h1>ONSHORE</h1>
 
-    </div>
-    </div>
+                      </div><div class="box-cont-text-s">Our onshore consulting services provide our clients access to expertise not available in-house, such as advisory solutions and systems architecture, IT Support, UX Design, and Security Assessment.
+                    </div>
+                  </div>
+                  <div class="box-skew"></div>
+                </div>
+                <div id="box2" class="box">
+                  <div class="box-skew-l"></div>
+                  <div class="box-cont">
+                    <div class="box-cont-title-s">
+                      <h1>NEARSHORE</h1>
+                    </div>
+                    <div class="box-cont-text-s">
+                      Our nearshore model works very well for customers who are looking to have strong control over their resources and closely manage their day-to-day progress and efficiency.
+                      This model keeps our team within 3 times zones of a client’s location, providing quality talent, fast response times, and similar cultures. Additionally, for our clients based in North America, the NAFTA free trade agreement allows for relaxed travel restrictions, legal protections, and intellectual property protections.
+
+                    </div>
+                  </div>
+                  <div class="box-skew"></div>
+
+                </div>
+                <div id="box3" class="box revealOnScroll"  data-animation="bounceInRight">
+                  <div class="box-skew-l"></div>
+                  <div class="box-cont">
+                    <div class="box-cont-title-s"><h1>OFFSHORE</h1></div>
+                    <div class="box-cont-text-s">
+                      Our offshore model complements our nearshore outsourcing offering, allowing us to be available globally and provide clients with continuous production. Our 2 hubs also allow us to serve as both onshore and offshore development centers depending on our client’s needs.
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
 
 
 
                 <!-- <div class="col-xs-4 text-center no-padding">
    <!--               <a href="#a" class="text-uppercase model-btn" id="onshore-btn"><h6>Onshore</h6></a>  
-                </div><!--col-xs-4-->
+ </div><!--col-xs-4-->
 <!--
                 <div class="col-xs-4 text-center no-padding">
                   <a href="#a" class="text-uppercase model-btn" id="nearshore-btn"><h6>Nearshore</h6></a>  
@@ -485,31 +498,35 @@
             </div><!--col-xs-10 offset 1-->   
           </div><!--row-->     
 
-          <div class="separation-50"></div>       
+          <div class="separation-100"></div>        
 
           <div class="row">
             <div class="col-lg-12 text-center">
-              
 
-                <div id="adv-map">
-      <div class="map-part" id="map-part1">
-      <div class="region-n"><h1>AMERICA</h1></div>
-      </div>
-      <div class="map-part" id="map-part2">
-        <div class="region-n"><h1>EUROPE</h1></div>
-      </div>
-      <div class="map-part" id="map-part3">
-        <div class="region-n"><h1>ASIA</h1></div>
-      </div>
-      <div id="adv-map-img"></div>
-    </div>
+
+              <div id="adv-map">
+                <div class="map-part" id="map-part1">
+                  <div class="region-n"><h1>AMERICA</h1></div>
+                </div>
+                <div class="map-part" id="map-part2">
+                  <div class="region-n"><h1>EUROPE</h1></div>
+                </div>
+                <div class="map-part" id="map-part3">
+                  <div class="region-n"><h1>ASIA</h1></div>
+                </div>
+                <div id="adv-map-img"></div>
+              </div>
 
 
             </div>
           </div><!--row-->
 
+            <!--container-skew--> 
           <div class="separation-100"></div>      
-
+          <div class="row posi-rel">
+           <div class="section-skew-b-r-2"></div>
+            <div class="section-skew-b-l-2"></div>
+          </div>  
         </div><!--container-fluid section 6-->   
 
         <!-- ---------------------------------- --> 
@@ -562,10 +579,11 @@
     <!-- ---------------------------------- --> 
     <div class="container-fluid index-expectations-msg-bg">
 
-      <div class="separation-100"></div>    
+      <div class="separation-100"></div>   
+      <div class="separation-100"></div>   
 
       <div class="row">    
-        <div class="col-sm-10 col-sm-offset-1 text-center">
+        <div class="col-sm-10 col-sm-offset-1 text-center revealOnScroll"  data-animation="swing">
           <span class="text-uppercase text-white index-expectations-text-line1">The only thing moving</span>
           <span class="text-uppercase text-white index-expectations-text-line2">faster than</span>
           <span class="text-uppercase text-white index-expectations-text-line3">technology</span>
@@ -584,7 +602,7 @@
     <!-- ------------------------------------ --> 
     <div class="container-fluid index-case-studies-bg">  
 
-      <div class="row index-case-studies-1">
+      <div class="row index-case-studies-1 revealOnScroll"  data-animation="bounceInLeft">
         <div class="col-lg-12">
 
           <div class="separation-100"></div>       
@@ -617,7 +635,7 @@
         </div><!--col-lg-12-->
       </div><!--row case studies 1-->  
 
-      <div class="row index-case-studies-2">
+      <div class="row index-case-studies-2 revealOnScroll"  data-animation="bounceInRight">
 
         <div class="separation-100"></div>     
 
@@ -638,7 +656,7 @@
 
       </div><!--row-->
 
-      <div class="row index-case-studies-3">
+      <div class="row index-case-studies-3 revealOnScroll"  data-animation="bounceInLeft">
 
         <div class="separation-100"></div>    
 
@@ -656,7 +674,8 @@
         </div><!--col-lg-12-->
 
         <div class="separation-100"></div>     
-
+        <div class="separation-100"></div>  
+        <div class="separation-100"></div> 
       </div>    
 
     </div><!--container-fluid section 9-->    
@@ -668,8 +687,11 @@
     <!-- ---------------------------------- --> 
     <div class="container-fluid white-texture-bg">
 
-      <div class="separation-100"></div>    
-
+        
+          
+          <div class="row posi-rel">
+            <div class="section-skew-t-r" style="bottom:-1px"></div>
+          </div>
       <div class="row">    
         <div class="col-lg-12 text-center">
           <h5 class="text-uppercase">Company Timeline</h5>
@@ -678,59 +700,59 @@
 
       <div class="row">
         <div class="col-lg-12 text-center">
-          
 
 
-            <div class="timeline">
-  <div class="tl-element" id="tl-element-1">
-  </div>
-  <div class="tl-element" id="tl-element-2">
-  </div>
-  <div class="tl-element" id="tl-element-3">
-  </div>
-  <div class="tl-element" id="tl-element-4">
-  </div>
-  <div class="tl-element" id="tl-element-5">
-  </div>
-  <div class="tl-element" id="tl-element-6">
-  </div>
-  <div class="tl-element" id="tl-element-7">
-  </div>
-  <div class="tl-element" id="tl-element-8">
-  </div>
-  <div class="tl-content" id="tl-content1">
-    <div class="tl-c-img"></div>
-    <p>Advancio seed planted</p>
-  </div>
-  <div class="tl-content" id="tl-content2">
-    <div class="tl-c-img"></div>
-    <p>Offered IT Consulting and Project Management Service</p>
-  </div>
-  <div class="tl-content" id="tl-content3">
-    <div class="tl-c-img"></div>
-    <p>Incorporated and developed White Label SaaS for insurance business operations and IT</p>
-  </div>
-  <div class="tl-content" id="tl-content4">
-    <div class="tl-c-img"></div>
-    <p>Initiated Web Development and Custom Software Development services</p>
-  </div>
-  <div class="tl-content" id="tl-content5">
-    <div class="tl-c-img"></div>
-    <p>Began offering Cloud SaaS products</p>
-  </div>
-  <div class="tl-content" id="tl-content6">
-    <div class="tl-c-img"></div>
-    <p>Opened our 1st Production Hub in Casablanca, Morocco, and initiated nearShore model for Europe, Middle East, and French-speaking countries</p>
-  </div>
-  <div class="tl-content" id="tl-content7">
-    <div class="tl-c-img"></div>
-    <p>Opened our 2nd Production Hub in Ensenada, Mexico</p>
-  </div>
-  <div class="tl-content" id="tl-content8">
-    <div class="tl-c-img"></div>
-    <p>Started the Advancio Academy designed to incubate young IT talent living around our hubs</p>
-  </div>
-</div>
+
+          <div class="timeline">
+            <div class="tl-element" id="tl-element-1">
+            </div>
+            <div class="tl-element" id="tl-element-2">
+            </div>
+            <div class="tl-element" id="tl-element-3">
+            </div>
+            <div class="tl-element" id="tl-element-4">
+            </div>
+            <div class="tl-element" id="tl-element-5">
+            </div>
+            <div class="tl-element" id="tl-element-6">
+            </div>
+            <div class="tl-element" id="tl-element-7">
+            </div>
+            <div class="tl-element" id="tl-element-8">
+            </div>
+            <div class="tl-content" id="tl-content1">
+              <div class="tl-c-img"></div>
+              <p>Advancio seed planted</p>
+            </div>
+            <div class="tl-content" id="tl-content2">
+              <div class="tl-c-img"></div>
+              <p>Offered IT Consulting and Project Management Service</p>
+            </div>
+            <div class="tl-content" id="tl-content3">
+              <div class="tl-c-img"></div>
+              <p>Incorporated and developed White Label SaaS for insurance business operations and IT</p>
+            </div>
+            <div class="tl-content" id="tl-content4">
+              <div class="tl-c-img"></div>
+              <p>Initiated Web Development and Custom Software Development services</p>
+            </div>
+            <div class="tl-content" id="tl-content5">
+              <div class="tl-c-img"></div>
+              <p>Began offering Cloud SaaS products</p>
+            </div>
+            <div class="tl-content" id="tl-content6">
+              <div class="tl-c-img"></div>
+              <p>Opened our 1st Production Hub in Casablanca, Morocco, and initiated nearShore model for Europe, Middle East, and French-speaking countries</p>
+            </div>
+            <div class="tl-content" id="tl-content7">
+              <div class="tl-c-img"></div>
+              <p>Opened our 2nd Production Hub in Ensenada, Mexico</p>
+            </div>
+            <div class="tl-content" id="tl-content8">
+              <div class="tl-c-img"></div>
+              <p>Started the Advancio Academy designed to incubate young IT talent living around our hubs</p>
+            </div>
+          </div>
 
 
 
@@ -738,8 +760,10 @@
         </div>
       </div><!--row-->
 
-      <div class="separation-100"></div>      
-
+          
+<div class="row posi-rel">
+          <div class="section-skew-b-l" ></div>
+        </div>
     </div><!--container-fluid section 10-->
 
     <!-- ----------------------------------------------- --> 
@@ -750,6 +774,8 @@
     <div class="container-fluid index-bottom-msg-bg">
 
       <div class="separation-100"></div>    
+      <div class="separation-100"></div> 
+      <div class="separation-100"></div> 
       
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1">

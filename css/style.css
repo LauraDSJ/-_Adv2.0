@@ -219,9 +219,10 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .white-texture-bg {
-    background-image: url(img/white-texture-bg.jpg);
+    /*background-image: url(img/white-texture-bg.jpg);*/
     background-size:cover;
     background-position: top center;
+    background: #fff;
 }
 
 .outsourcing-offsite-service {

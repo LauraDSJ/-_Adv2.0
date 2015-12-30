@@ -264,3 +264,87 @@ body {background: #999;}
 
 #bs-container {position:relative; margin: 0 auto; width: 800px; height: 500px; }
 #box-container {position:relative; margin: 0 auto; width: 995px; height: 200px;}
+.left-bordererd {border-left: 5px solid white;
+    padding-left: 10px;}
+
+.section-skew-b { 
+
+	border-bottom: 200px solid transparent;
+    border-left: 1620px solid #fff;
+    border-top: 0 solid transparent;
+    float: left;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
+		}
+
+		.section-skew-b-r { 
+
+	border-bottom: 200px solid transparent;
+    border-right: 1620px solid #fff;
+    border-top: 0 solid transparent;
+    float: left;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
+		}
+		.section-skew-b-l { 
+
+	border-bottom: 200px solid transparent;
+    border-left: 1620px solid #fff;
+    border-top: 0 solid transparent;
+    float: left;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
+		}
+			.section-skew-b-r-2 { 
+
+	border-bottom: 200px solid transparent;
+    border-right: 800px solid #fff;
+    border-top: 0 solid transparent;
+    float: right;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 800px
+		}
+		.section-skew-t-l { 
+
+	border-top: 200px solid transparent;
+    border-left: 1620px solid #fff;
+    border-bottom: 0 solid transparent;
+    float: left;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+		}
+		.section-skew-t-r{ 
+
+	border-top: 200px solid transparent;
+    border-right: 1620px solid #fff;
+    border-bottom: 0 solid transparent;
+    float: left;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+		}
+		.section-skew-b-l-2 { 
+
+	border-bottom: 200px solid transparent;
+    border-left: 800px solid #fff;
+    border-top: 0 solid transparent;
+    float: right;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0px
+		}
+		.posi-rel {position: relative;}
