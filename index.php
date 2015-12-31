@@ -66,7 +66,7 @@
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
     <div class="container-fluid white-texture-bg">    
-
+<div class="separation-50"></div>   
       <div class="row">    
         <div class="col-lg-12 text-center">
           <h3 class="text-light-gray revealOnScroll"  data-animation="fadeInUp">We've heard it from<br>
@@ -85,12 +85,14 @@
         <div class="separation-50"></div>      
         
         <div class="row">    
+          <div class="separation-50"></div>    
           <div class="col-lg-12">
-            <img src="img/ring-a-bell.png" class="img-responsive center-block revealOnScroll"  data-animation="lightSpeedIn" alt="Ring a bell?">
+            <img src="img/ring-a-bell.png" class="img-responsive center-block revealOnScroll"  data-animation="swing" alt="Ring a bell?">
           </div><!--col-md-3-->
+            <div class="separation-50"></div>    
         </div><!--row--> 
 
-        <div class="separation-50"></div>   
+        
         <div class="row posi-rel">
           <div class="section-skew-b"></div>
         </div>    
@@ -158,7 +160,7 @@
       <!-- -------------------------------------------- --> 
       <div class="container-fluid white-texture-bg">
 
-        <div class="row posi-rel">
+        <div class="row posi-rel-rev">
           <div class="section-skew-t-l"></div>
         </div>   
         <div class="separation-50"></div>    
@@ -347,6 +349,7 @@
                 </div>
               </div>
             </div>
+             <div class="separation-50"></div>
           </div>
 
 
@@ -689,8 +692,8 @@
 
         
           
-          <div class="row posi-rel">
-            <div class="section-skew-t-r" style="bottom:-1px"></div>
+          <div class="row posi-rel-rev">
+            <div class="section-skew-t-r" ></div>
           </div>
       <div class="row">    
         <div class="col-lg-12 text-center">

@@ -316,31 +316,31 @@ body {background: #999;}
 		.section-skew-t-r-3 { 
 
 	border-top: 200px solid transparent;
-    border-right: 800px solid #fddf03;
+    border-right: 792px solid #fddf03;
     border-bottom: 0 solid transparent;
     float: right;
     height: 0;
     width: 0;
     position: absolute;
-    bottom: -64px;
+    bottom: 72px;
     left: 0px;
 		}
 			.section-skew-t-l-3 { 
 
 	border-top: 200px solid transparent;
-    border-left: 800px solid #2b2b2b;
+    border-left: 792px solid #2b2b2b;
     border-bottom: 0 solid transparent;
     float: right;
     height: 0;
     width: 0;
     position: absolute;
-    bottom: -64px;
+    bottom: 72px;
     left: 0px;
 		}
 		.section-skew-b-l-3 { 
 
 	border-bottom: 200px solid transparent;
-    border-left: 800px solid #2b2b2b;
+    border-left: 792px solid #2b2b2b;
     border-top: 0 solid transparent;
     float: right;
     height: 0;
@@ -352,7 +352,7 @@ body {background: #999;}
 		.section-skew-b-r-3 { 
 
 	border-bottom: 200px solid transparent;
-    border-right: 800px solid #fddf03;
+    border-right: 792px solid #fddf03;
     border-top: 0 solid transparent;
     float: right;
     height: 0;
@@ -395,4 +395,16 @@ body {background: #999;}
     top: 0;
     left: 0px
 		}
-		.posi-rel {position: relative;}
+		.posi-rel {bottom: -200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;}
+
+    .posi-rel-rev {bottom: 199px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;}
+
+    .row {overflow: hidden; width: 100%;
+    	margin-left: 0px!important; margin-right: 0px!important}
+    	.container-fluid {padding-left: 0!important; padding-right: 0!important;}
