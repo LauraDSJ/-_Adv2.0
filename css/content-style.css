@@ -16,9 +16,9 @@ body {background: #999;}
 
 	position: absolute;
 
-	-webkit-animation:ahappy 13s linear 1 ;
-	-moz-animation:ahappy 13s linear 1 ;
-	animation:ahappy 13s linear 1 ;
+	-webkit-animation:ahappy 5s linear 1 ;
+	-moz-animation:ahappy 5s linear 1 ;
+	animation:ahappy 5s linear 1 ;
 }
 @keyframes ahappy {
 	0% {opacity: 0;}
@@ -50,9 +50,9 @@ body {background: #999;}
 	opacity: 0;
 	background:url("img/adv_logo.png") no-repeat center ;
 	position: absolute;
-	-webkit-animation:spin 4s linear 3 ;
-	-moz-animation:spin 4s linear 3 ;
-	animation:spin 4s linear 3 ;
+	-webkit-animation:spin 2s linear 2 ;
+	-moz-animation:spin 2s linear 2 ;
+	animation:spin 2s linear 2 ;
 }
 
 @-moz-keyframes spin {
@@ -322,7 +322,7 @@ body {background: #999;}
     height: 0;
     width: 0;
     position: absolute;
-    bottom: 72px;
+    bottom: 71px;
     left: 0px;
 		}
 			.section-skew-t-l-3 { 
@@ -334,7 +334,7 @@ body {background: #999;}
     height: 0;
     width: 0;
     position: absolute;
-    bottom: 72px;
+    bottom: 71px;
     left: 0px;
 		}
 		.section-skew-b-l-3 { 
