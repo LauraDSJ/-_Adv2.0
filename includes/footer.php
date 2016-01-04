@@ -7,10 +7,10 @@
         
       <div class="row" style="overflow: visible">    
         <div class="col-md-6 social-media-section-1">
-        <div class="row posi-rel">
+        
            <div class="section-skew-t-l-3"></div>
             <div class="section-skew-b-l-3"></div>
-          </div>  
+        
         </div><!--col-md-6-->
           
         <div class="col-md-6 social-media-section-2">

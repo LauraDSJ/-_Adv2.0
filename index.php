@@ -15,6 +15,8 @@
   
 
   <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="js/parallax.js"></script>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -104,7 +106,7 @@
       <!-- ------------ SECTION 3: HAPPIFY MESSAGE -->
       <!-- --------------------------------------- -->
       <!-- --------------------------------------- --> 
-      <div class="container-fluid index-msg">
+      <div class="container-fluid index-msg" data-parallax="scroll" data-image-src="css/img/index-happify-it-bg.jpg">
 
         <div class="separation-100"></div>    
         <div class="separation-100"></div>
@@ -303,7 +305,7 @@
         <!-- ------------ SECTION 5: OUR APPROACH -->
         <!-- ------------------------------------ -->
         <!-- ------------------------------------ --> 
-        <div class="container-fluid our-approach-bg">
+        <div class="container-fluid our-approach-bg" data-parallax="scroll" data-image-src="css/img/index-approach-bg-no-strips.jpg">
 
           <div class="separation-100"></div>    
           <div class="separation-100"></div> 
@@ -509,13 +511,13 @@
 
               <div id="adv-map">
                 <div class="map-part" id="map-part1">
-                  <div class="region-n"><h1>AMERICA</h1></div>
+                  <div class="region-n"><h1><a href="#">AMERICA</a></h1></div>
                 </div>
                 <div class="map-part" id="map-part2">
-                  <div class="region-n"><h1>EUROPE</h1></div>
+                  <div class="region-n"><h1><a href="#">EUROPE</a></h1></div>
                 </div>
                 <div class="map-part" id="map-part3">
-                  <div class="region-n"><h1>ASIA</h1></div>
+                  <div class="region-n"><h1><a href="#">ASIA</a></h1></div>
                 </div>
                 <div id="adv-map-img"></div>
               </div>
@@ -580,7 +582,7 @@
     <!-- ------------ SECTION 8: HIGHLIGHTS -->
     <!-- ---------------------------------- -->
     <!-- ---------------------------------- --> 
-    <div class="container-fluid index-expectations-msg-bg">
+    <div class="container-fluid index-expectations-msg-bg" data-parallax="scroll" data-image-src="css/img/index-expectations-bg.jpg">
 
       <div class="separation-100"></div>   
       <div class="separation-100"></div>   
@@ -592,6 +594,7 @@
           <span class="text-uppercase text-white index-expectations-text-line3">technology</span>
           <span class="text-uppercase text-white index-expectations-text-line4">is your users’ expectations.</span>
         </div>  
+         <div class="separation-50"></div> 
       </div><!--row--> 
 
       <div class="separation-100"></div>      
@@ -774,7 +777,7 @@
     <!-- ------------ SECTION 11: BOTTOM HAPPIFY MESSAGE -->
     <!-- ----------------------------------------------- -->
     <!-- ----------------------------------------------- --> 
-    <div class="container-fluid index-bottom-msg-bg">
+    <div class="container-fluid index-bottom-msg-bg" data-parallax="scroll" data-image-src="css/img/index-bottom-msg-bg.jpg" >
 
       <div class="separation-100"></div>    
       <div class="separation-100"></div> 

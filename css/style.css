@@ -105,7 +105,7 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 #nav-logo {
-    height:30px;
+    height:30px; margin-left: 15px;
 }
 
 .navbar-default {
@@ -133,7 +133,7 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 -----------------------------FOOTER STYLES
 ----------------------------------------*/
 .social-media-section-1 {
-    background-color: #1f1f1f;
+   /** background-color: #1f1f1f;**/
 }
 
 .social-media-section-2 {
@@ -205,10 +205,11 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .index-msg {
-    background-image: url(img/index-happify-it-bg.jpg);
+   /* background-image: url(img/index-happify-it-bg.jpg);
     background-size:cover;
     background-position: center center;
     background-color: #C25552;
+    background-attachment: fixed;*/
 }
 
 .index-msg-2 {
@@ -236,10 +237,11 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .our-approach-bg {
-    background-image: url(img/index-approach-bg-no-strips.jpg);
+   /** background-image: url(img/index-approach-bg-no-strips.jpg);
     background-size:cover;
     background-position: center center;
     background-color: #008db0;
+    background-attachment: fixed; **/
 }
 
 .our-approach-btn {
@@ -287,10 +289,11 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .index-expectations-msg-bg {
-    background-image: url(img/index-expectations-bg.jpg);
+   /* background-image: url(img/index-expectations-bg.jpg);
     background-size:cover;
     background-position: center center;
     background-color: #af3a37;
+    background-attachment: fixed;*/
 }
 
 .index-case-studies-bg {
@@ -335,10 +338,10 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .index-bottom-msg-bg {
-    background-image: url(img/index-bottom-msg-bg.jpg);
+   /* background-image: url(img/index-bottom-msg-bg.jpg);
     background-size:cover;
     background-position: center center;
-    background-color: #3b94ab;
+    background-color: #3b94ab;*/
 }
 
 /*--------------------------------------------------
