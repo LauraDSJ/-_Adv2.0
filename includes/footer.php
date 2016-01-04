@@ -20,7 +20,7 @@
           
           <div class="separation-50"></div>    
             
-          <div class="row" >
+          <div class="row social-pos" >
             <div class="col-xs-2 col-xs-offset-1 text-center">      
               <a class="social-media-icon" id="facebook" href="#a"></a>
             </div>
