@@ -7,8 +7,17 @@
     <title>Advancio 2.0</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/content-style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/animation.css">
+  
+
+  <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="js/parallax.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -69,8 +78,10 @@
         </div><!--col-md-3-->
       </div><!--row--> 
         
-      <div class="separation-100"></div>    
-        
+       
+         <div class="row posi-rel">
+          <div class="section-skew-b-r"></div>
+        </div>   
     </div><!--container-fluid section 2--> 
       
     <!-- ------------------------------------ --> 
@@ -78,8 +89,8 @@
     <!-- ------------ SECTION 3: OUR SERVICES -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ --> 
-    <div class="container-fluid capabilities-our-services-bg">
-        
+    <div class="container-fluid capabilities-our-services-bg" data-parallax="scroll" data-image-src="img/capabilities-our-services-bg.jpg">
+         <div class="separation-100"></div>  
       <div class="separation-100"></div>    
         
       <div class="row">    
@@ -155,7 +166,13 @@
         </div>    
       </div>    
         
-      <div class="separation-100"></div>      
+       
+      <div class="row posi-rel">
+          <div class="section-skew-t-r" style="border-right: 1620px solid #c73935;"></div>
+        </div>  
+       <div class="row posi-rel">
+          <div class="section-skew-b-l" style="border-left: 1620px solid #c73935;"></div>
+        </div>   
         
     </div><!--container-fluid section 3-->   
       
@@ -164,10 +181,11 @@
     <!-- ------------ SECTION 4: CAPABILITIES MESSAGE 2 -->
     <!-- ---------------------------------------------- -->
     <!-- ---------------------------------------------- --> 
-    <div class="container-fluid capabilities-msg-2">
-        
+    <div class="container-fluid capabilities-msg-2" data-parallax="scroll" data-image-src="img/capabilities-msg-2.jpg">
+         <div class="separation-100"></div> 
+        <div class="separation-100"></div> 
       <div class="separation-100"></div>    
-        
+        <div class="separation-100"></div> 
       <div class="row">    
         <div class="col-md-6 col-md-offset-3">
           <h6 class="text-white">Collectively, we speak every tech language needed to create today’s technology; from front end and back end, to database, with super user friendly GUIs and our refined Quality Assurance approach.</h6>
@@ -175,8 +193,13 @@
            
       </div><!--row--> 
         
-      <div class="separation-100"></div>      
-        
+          
+         <div class="row posi-rel">
+          <div class="section-skew-t-l" style="border-left: 1620px solid #c73935;"></div>
+        </div>  
+       <div class="row posi-rel">
+          <div class="section-skew-b-r" style="border-right: 1620px solid #c73935;"></div>
+        </div> 
     </div><!--container-fluid section 4-->  
       
     <!-- --------------------------------- --> 
@@ -185,19 +208,26 @@
     <!-- --------------------------------- -->
     <!-- --------------------------------- --> 
     <div class="container-fluid capabilities-languages">
-        
+         <div class="separation-100"></div> 
       <div class="separation-100"></div>   
       <div class="separation-100"></div>       
-        
+        <div class="separation-100"></div> 
+
       <div class="row">    
         <div class="col-lg-12 text-center">
           <span class="text-white text-bold" id="capabilities-languages-text-1">Well... we speak all of them.</span>
         </div>  
       </div><!--row-->
         
-      <div class="separation-100"></div>  
+     
+
       <div class="separation-100"></div>       
-        
+        <div class="row posi-rel">
+          <div class="section-skew-t-l" style="border-left: 1620px solid #c73935;"></div>
+        </div>  
+       <div class="row posi-rel">
+          <div class="section-skew-b-r" style="border-right: 1620px solid #c73935;"></div>
+        </div> 
     </div><!--container-fluid section 5-->
       
     <!-- ------------------------------------ --> 
@@ -205,10 +235,11 @@
     <!-- ------------ SECTION 5: OUR APPROACH -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ --> 
-    <div class="container-fluid capabilities-survey-numbers-bg">
+    <div class="container-fluid capabilities-survey-numbers-bg" data-parallax="scroll" data-image-src="img/capabilities-survey-numbers-bg.jpg">
         
       <div class="separation-100"></div>    
-        
+        <div class="separation-100"></div>  
+        <div class="separation-100"></div>  
       <div class="row">    
         <div class="col-lg-12 text-center">
           <span class="text-white text-uppercase" id="capabilities-survey-text-1">These Survey Numbers</span>
@@ -268,7 +299,12 @@
           
         
       <div class="separation-100"></div>      
-        
+         <div class="row posi-rel">
+          <div class="section-skew-t-r" style="border-right: 1620px solid #4b4b4b;"></div>
+        </div>  
+       <div class="row posi-rel">
+          <div class="section-skew-b-l" style="border-left: 1620px solid #4b4b4b;"></div>
+        </div>   
     </div><!--container-fluid section 5-->  
       
     <!-- ----------------------------------- --> 
@@ -276,11 +312,12 @@
     <!-- ------------ SECTION 6: OUR PROCESS -->
     <!-- ----------------------------------- -->
     <!-- ----------------------------------- --> 
-    <div class="container-fluid capabilities-our-process-bg">
+    <div class="container-fluid capabilities-our-process-bg" data-parallax="scroll" data-image-src="img/capabilities-our-process-bg.jpg">
         
       <div class="separation-100"></div>   
       <div class="separation-100"></div>       
-        
+         <div class="separation-100"></div>     
+<div class="separation-100"></div> 
       <div class="row">    
         <div class="col-lg-12 text-center">
           <h5 class="text-uppercase text-white">Our Process<br>
@@ -298,7 +335,8 @@
         
       <div class="separation-100"></div> 
       <div class="separation-100"></div>       
-        
+        <div class="separation-100"></div> 
+        <div class="separation-100"></div> 
     </div><!--container-fluid section 6-->   
       
     <!-- ------------------------------------------ --> 
@@ -307,8 +345,10 @@
     <!-- ------------------------------------------ -->
     <!-- ------------------------------------------ --> 
     <div class="container-fluid white-texture-bg">
-        
-      <div class="separation-100"></div>    
+        <div class="row posi-rel-rev">
+            <div class="section-skew-t-r" ></div>
+          </div>
+   
         
       <div class="row">    
         <div class="col-sm-8 col-sm-offset-2 text-center">
@@ -316,8 +356,10 @@
         </div>  
       </div><!--row-->  
         
-      <div class="separation-100"></div>      
-        
+           
+        <div class="row posi-rel">
+          <div class="section-skew-b-l" ></div>
+        </div>
     </div><!--container-fluid section 7-->
       
     <!-- ----------------------------------- --> 
@@ -325,10 +367,11 @@
     <!-- ------------ SECTION 8: TEAM VALUES -->
     <!-- ----------------------------------- -->
     <!-- ----------------------------------- --> 
-    <div class="container-fluid capabilities-team-values-bg">
+    <div class="container-fluid capabilities-team-values-bg" data-parallax="scroll" data-image-src="img/capabilities-team-values-bg.jpg">
         
       <div class="separation-100"></div>    
-        
+        <div class="separation-100"></div>
+<div class="separation-100"></div> 
       <div class="row">    
         <div class="col-sm-8 col-sm-offset-2 text-center">
           <h5 class="text-uppercase text-white">Our Team<br>Values</h5>
@@ -349,7 +392,8 @@
       </div><!--row-->
         
       <div class="separation-100"></div>      
-        
+        <div class="separation-100"></div> 
+        <div class="separation-100"></div> 
     </div><!--container-fluid section 8-->  
       
     <!-- ------------------------------ --> 
@@ -359,16 +403,22 @@
     <!-- ------------------------------ --> 
     <div class="container-fluid capabilities-slogan-bg">
         
-      <div class="separation-100"></div>    
-        
+     
+        <div class="row posi-rel" style="bottom:200px">
+           <div class="section-skew-t-r-2" style="border-right: 800px solid #a8b1bd;"></div>
+            <div class="section-skew-t-l-2" style="border-left: 800px solid #a8b1bd;"></div>
+          </div>  
+              
       <div class="row">    
         <div class="col-lg-12 text-center">
           <img src="img/slogan.png" class="center-block img-responsive">
         </div>  
       </div><!--row--> 
-        
-      <div class="separation-100"></div>      
-        
+             
+        <div class="row posi-rel">
+           <div class="section-skew-b-r-2" style="border-right: 800px solid #a8b1bd;"></div>
+            <div class="section-skew-b-l-2" style="border-left: 800px solid #a8b1bd;"></div>
+          </div>  
     </div><!--container-fluid section 9-->    
       
     <!-- ----------------------------------- --> 
@@ -377,7 +427,7 @@
     <!-- ----------------------------------- -->
     <!-- ----------------------------------- --> 
     <div class="container-fluid capabilities-our-values-bg">
-        
+          <div class="separation-100"></div> 
       <div class="separation-100"></div> 
       <div class="separation-100"></div>     
         
@@ -397,9 +447,9 @@
     <!-- ------------ SECTION 10-2: OUR VALUES 2 -->
     <!-- --------------------------------------- -->
     <!-- --------------------------------------- --> 
-    <div class="container-fluid capabilities-our-values-2-bg">
+    <div class="container-fluid capabilities-our-values-2-bg" data-parallax="scroll" data-image-src="img/capabilities-our-values-2-bg.jpg">
         
-      <div class="separation-100"></div> 
+      <div class="separation-100"></div>
       <div class="separation-100"></div>     
         
       <div class="row">    
@@ -408,9 +458,14 @@
         </div>  
       </div><!--row--> 
         
-      <div class="separation-100"></div>
+      
       <div class="separation-100"></div>     
-        
+           <div class="row posi-rel">
+          <div class="section-skew-t-r" style="border-right: 1620px solid #c73935;"></div>
+        </div>  
+       <div class="row posi-rel">
+          <div class="section-skew-b-l" style="border-left: 1620px solid #c73935;"></div>
+        </div>
     </div><!--container-fluid section 10-->  
       
     <!-- ------------------------------------------- --> 
@@ -421,7 +476,8 @@
     <div class="container-fluid gray-texture-bg capabilities-our-values-msg-bg">
         
       <div class="separation-100"></div>    
-        
+        <div class="separation-100"></div>
+        <div class="separation-100"></div>
       <div class="row">    
         <div class="col-lg-12">
           <img src="img/good-work.png" class="center-block img-responsive">
@@ -430,8 +486,14 @@
         <div class="col-md-6"></div>  
       </div><!--row--> 
         
-      <div class="separation-100"></div>      
-        
+       
+            
+         <div class="row posi-rel">
+          <div class="section-skew-t-l" style="border-left: 1620px solid #c73935;"></div>
+        </div>  
+       <div class="row posi-rel">
+          <div class="section-skew-b-r" style="border-right: 1620px solid #c73935;"></div>
+        </div> 
     </div><!--container-fluid section 11-->
       
     <!-- ----------------------------------------- --> 
@@ -439,10 +501,11 @@
     <!-- ------------ SECTION 12: CLIENT RETENTION -->
     <!-- ----------------------------------------- -->
     <!-- ----------------------------------------- --> 
-    <div class="container-fluid capabilities-client-retention-bg">
+    <div class="container-fluid capabilities-client-retention-bg" data-parallax="scroll" data-image-src="img/capabilities-client-retention-bg.jpg">
         
       <div class="separation-100"></div>    
-        
+            <div class="separation-100"></div> 
+                <div class="separation-100"></div> 
       <div class="row">    
         <div class="col-sm-4 col-sm-offset-4 text-right">
           <h6 class="text-white">All of our clients have said we lead with passion and a can-do work ethic. And of course, we’re a happy group. Yes, we have happyfied our own IT.</h6>
@@ -457,8 +520,13 @@
         </div><!--col-md-6--> 
       </div><!--row-->    
         
-      <div class="separation-100"></div>      
-        
+           
+          <div class="row posi-rel">
+          <div class="section-skew-t-l" style="border-left: 1620px solid #c73935;"></div>
+        </div>  
+       <div class="row posi-rel">
+          <div class="section-skew-b-r" style="border-right: 1620px solid #c73935;"></div>
+        </div> 
     </div><!--container-fluid section 12--> 
       
     <!-- --------------------------------- --> 
@@ -469,7 +537,8 @@
     <div class="container-fluid white-texture-bg">
         
       <div class="separation-100"></div>    
-        
+         <div class="separation-100"></div>
+          <div class="separation-100"></div>
       <div class="row">    
         <div class="col-sm-8 col-sm-offset-2 text-center">
           <h5 class="text-uppercase">Our Team</h5>

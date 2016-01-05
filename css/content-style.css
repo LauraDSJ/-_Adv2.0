@@ -395,6 +395,30 @@ body {background: #999;}
     top: 0;
     left: 0px
 		}
+		.section-skew-t-l-2 { 
+
+	border-bottom: 0px solid transparent;
+    border-left: 800px solid #fff;
+    border-top: 200px solid transparent;
+    float: right;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0px
+		}
+			.section-skew-t-r-2 { 
+
+	border-bottom: 0px solid transparent;
+    border-right: 800px solid #fff;
+    border-top: 200px solid transparent;
+    float: right;
+    height: 0;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0px
+		}
 		.posi-rel {bottom: -200px;
     height: 200px;
     overflow: hidden;
@@ -428,3 +452,4 @@ body {background: #999;}
 
     .social-pos {position: relative;
     top: 110px;}
+
