@@ -311,7 +311,7 @@ body {background: #999;}
     width: 0;
     position: absolute;
     top: 0;
-    left: 800px
+    left: 50%;
 		}
 		.section-skew-t-r-3 { 
 
@@ -393,7 +393,7 @@ body {background: #999;}
     width: 0;
     position: absolute;
     top: 0;
-    left: 0px
+    right: 50%;
 		}
 		.section-skew-t-l-2 { 
 
