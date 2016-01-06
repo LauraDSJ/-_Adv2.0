@@ -440,10 +440,10 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .capabilities-client-retention-bg {
-    background-color: #9d1f1b;
+  /*  background-color: #9d1f1b;
     background-image: url(../img/capabilities-client-retention-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .founder {
@@ -466,10 +466,10 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .capabilities-top-talent-bg {
-    background-color: #4dc0ec;
+    /*background-color: #4dc0ec;
     background-image: url(../img/capabilities-top-talent-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .team-member {

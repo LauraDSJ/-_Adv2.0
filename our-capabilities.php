@@ -108,7 +108,7 @@
       </div><!--row--> 
         
       <div class="row">
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center se-qa">
             
           <div class="separation-50"></div>    
             
@@ -120,14 +120,14 @@
             
           <h5 class="text-white">QA</h5>
             
-          <div style="display:none">
+          <div class="se-qa-me" >
             <p class="text-white">Integration</p>
             <p class="text-white">Virtualization</p>
             <p class="text-white">Security</p>
           </div>
         </div>
           
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center se-dev">
             
           <div class="separation-50"></div>      
             
@@ -139,14 +139,14 @@
             
           <h5 class="text-white">Development</h5>
             
-          <div style="display:none">
+          <div class="se-qa-dev" >
             <p class="text-white">Integration</p>
             <p class="text-white">Virtualization</p>
             <p class="text-white">Security</p>
           </div>
         </div>  
         
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center se-des">
             
           <div class="separation-50"></div>      
             
@@ -158,7 +158,7 @@
             
           <h5 class="text-white">Design</h5>
             
-          <div style="display:none">
+          <div class="se-qa-des" >
             <p class="text-white">Integration</p>
             <p class="text-white">Virtualization</p>
             <p class="text-white">Security</p>
@@ -188,7 +188,7 @@
         <div class="separation-100"></div> 
       <div class="row">    
         <div class="col-md-6 col-md-offset-3">
-          <h6 class="text-white">Collectively, we speak every tech language needed to create today’s technology; from front end and back end, to database, with super user friendly GUIs and our refined Quality Assurance approach.</h6>
+          <h6 class="text-white left-bordererd">Collectively, we speak every tech language needed to create today’s technology; from front end and back end, to database, with super user friendly GUIs and our refined Quality Assurance approach.</h6>
         </div><!--col-md-6-->
            
       </div><!--row--> 
@@ -329,7 +329,7 @@
         
       <div class="row">
         <div class="col-sm-4 col-sm-offset-4">
-          <p class="text-white">Much like following a score and a conductor, we are skilled at picking up your tools and your management approach, providing professional harmony with your IT team. Adapting is in our DNA.</p>  
+          <p class="text-white left-bordererd">Much like following a score and a conductor, we are skilled at picking up your tools and your management approach, providing professional harmony with your IT team. Adapting is in our DNA.</p>  
         </div><!--col-xs-10 offset 1-->   
       </div><!--row--> 
         
@@ -411,7 +411,7 @@
               
       <div class="row">    
         <div class="col-lg-12 text-center">
-          <img src="img/slogan.png" class="center-block img-responsive">
+          <img src="img/slogan.png" class="center-block img-responsive  revealOnScroll"  data-animation="wobble">
         </div>  
       </div><!--row--> 
              
@@ -453,13 +453,21 @@
       <div class="separation-100"></div>     
         
       <div class="row">    
-        <div class="col-sm-8 col-sm-offset-2 text-center">
-          <h5>Text Here</h5>
+        <div class="col-lg-12">
+          <div class="center-block gi-cercles">
+            <div class="gi-cer gi-cer1 revealOnScroll infinite"  data-animation="pulse">Every solutuion is cause for aplause</div>
+            <div class="gi-cer gi-cer2 revealOnScroll infinite"  data-animation="pulse">We happify IT cultures inside out</div>
+            <div class="gi-cer gi-cer3 revealOnScroll infinite"  data-animation="pulse">We collaborate and share our knowledge</div>
+            <div class="gi-cer gi-cer4 revealOnScroll infinite"  data-animation="pulse">Our eyes are on the prise not our pride</div>
+            <div class="gi-cer gi-cer5 revealOnScroll infinite"  data-animation="pulse">We advance the ambition of us all</div>
+            <div class="gi-cer gi-cer6 revealOnScroll infinite"  data-animation="pulse">We spread the GOOD to those in need</div>
+
+          </div>
         </div>  
       </div><!--row--> 
         
       
-      <div class="separation-100"></div>     
+         
            <div class="row posi-rel">
           <div class="section-skew-t-r" style="border-right: 1620px solid #c73935;"></div>
         </div>  
@@ -508,7 +516,7 @@
                 <div class="separation-100"></div> 
       <div class="row">    
         <div class="col-sm-4 col-sm-offset-4 text-right">
-          <h6 class="text-white">All of our clients have said we lead with passion and a can-do work ethic. And of course, we’re a happy group. Yes, we have happyfied our own IT.</h6>
+          <h6 class="text-white right-bordererd" >All of our clients have said we lead with passion and a can-do work ethic. And of course, we’re a happy group. Yes, we have happyfied our own IT.</h6>
         </div><!--col-md-6--> 
       </div><!--row-->
         
@@ -519,14 +527,11 @@
           <h4 class="text-white text-bold">Hmmm. Perhaps that’s why we have a 94% client retention rate.</h4>
         </div><!--col-md-6--> 
       </div><!--row-->    
-        
+        <div class="separation-100"></div>    
+         <div class="separation-100"></div>
+          <div class="separation-100"></div>
            
-          <div class="row posi-rel">
-          <div class="section-skew-t-l" style="border-left: 1620px solid #c73935;"></div>
-        </div>  
-       <div class="row posi-rel">
-          <div class="section-skew-b-r" style="border-right: 1620px solid #c73935;"></div>
-        </div> 
+         
     </div><!--container-fluid section 12--> 
       
     <!-- --------------------------------- --> 
@@ -535,10 +540,10 @@
     <!-- --------------------------------- -->
     <!-- --------------------------------- --> 
     <div class="container-fluid white-texture-bg">
-        
-      <div class="separation-100"></div>    
-         <div class="separation-100"></div>
-          <div class="separation-100"></div>
+         <div class="row posi-rel-rev">
+          <div class="section-skew-t-l"></div>
+        </div>   
+      
       <div class="row">    
         <div class="col-sm-8 col-sm-offset-2 text-center">
           <h5 class="text-uppercase">Our Team</h5>
@@ -623,8 +628,12 @@
         </div>  
       </div><!--row-->
         
-      <div class="separation-100"></div>      
-        
+           
+               
+          <div class="row posi-rel">
+           <div class="section-skew-b-r-2"></div>
+            <div class="section-skew-b-l-2"></div>
+          </div> 
     </div><!--container-fluid section 13-->  
       
     <!-- ----------------------------------- --> 
@@ -632,7 +641,7 @@
     <!-- ------------ SECTION 13: TOP TALENT -->
     <!-- ----------------------------------- -->
     <!-- ----------------------------------- --> 
-    <div class="container-fluid capabilities-top-talent-bg">
+    <div class="container-fluid capabilities-top-talent-bg" data-parallax="scroll" data-image-src="img/capabilities-top-talent-bg.jpg">
         
       <div class="separation-100"></div> 
       <div class="separation-100"></div>     
@@ -963,7 +972,8 @@
         
       <div class="separation-100"></div>
       <div class="separation-100"></div>     
-        
+        <div class="separation-100"></div>  
+
     </div><!--container-fluid section 14-->   
         
     <!-- ------------------------------------ --> 

@@ -3,7 +3,7 @@
     <!-- ------------ SECTION 12: SOCIAL MEDIA -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid" style="position: relative; z-index: 999999;top: -65px;">   
+    <div class="container-fluid" style="position: relative; z-index: 999999;top: 44px;">   
         
       <div class="row" style="overflow: visible">    
         <div class="col-md-6 social-media-section-1">
@@ -50,7 +50,7 @@
     <!-- ------------ SECTION 13: FOOTER -->
     <!-- ------------------------------- -->
     <!-- ------------------------------- --> 
-    <div class="container-fluid footer" style="position: relative;  top: -135px;">   
+    <div class="container-fluid footer" style="position: relative;  top: 0;">   
        
       <div class="separation-50"></div>    
         
