@@ -454,12 +454,12 @@ body {background: #999;}
     .social-pos {position: relative;
     top: 135px;}
 
-    .gi-cercles {width:80%;
+    .gi-cercles {width:70%;
     	height: 600px;
     	position: relative;
     	}
-    .gi-cer {width:180px; height: 180px; border-radius: 50%; 
-    background:#999; float: left; margin: 1%; padding:60px 10px 0;
+    .gi-cer {width:154px; height: 154px; border-radius: 50%; 
+    background:#999; float: left; margin: 1%; padding:50px 10px 0;
 text-align: center;color: #fff; position: relative;
  -webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
@@ -511,3 +511,5 @@ text-align: center;color: #fff; position: relative;
 .se-dev:hover .se-qa-dev {display:inherit;}
 .se-des:hover h5 {border-bottom: 6px solid #fff; width: 230px; margin: 0 auto}
 .se-des:hover .se-qa-des {display:inherit;}
+
+.navbar {z-index: 9999999;}
