@@ -513,3 +513,20 @@ text-align: center;color: #fff; position: relative;
 .se-des:hover .se-qa-des {display:inherit;}
 
 .navbar {z-index: 9999999;}
+
+.case-st {width: 70%; margin: 0 auto; height: 350px; padding: 20px;}
+.case-st1 {background: url("img/index-case-studies-1-bg.jpg") no-repeat center / 100% auto;}
+.case-st2 {background: url("img/index-case-studies-2-bg.jpg") no-repeat center / 100% auto;}
+.case-st3 {background: url("img/index-case-studies-3-bg.jpg") no-repeat center / 100% auto;}
+.case-st h5 {text-align: right;}
+
+.case-st-cont {opacity: 0;-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;}
+.case-st1:hover .case-st-cont {opacity: 1;}
+.case-st1:hover {background:rgba(199,57,53,1);}
+.case-st2:hover .case-st-cont {opacity: 1;}
+.case-st2:hover {background:rgba(199,57,53,1);}
+.case-st3:hover .case-st-cont {opacity: 1;}
+.case-st3:hover {background:rgba(199,57,53,1);}

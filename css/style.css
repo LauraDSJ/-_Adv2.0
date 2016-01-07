@@ -301,21 +301,21 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .index-case-studies-1 {
-    background-image: url(img/index-case-studies-1-bg.jpg);
+    /*background-image: url(img/index-case-studies-1-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .index-case-studies-2 {
-    background-image: url(img/index-case-studies-2-bg.jpg);
+   /* background-image: url(img/index-case-studies-2-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .index-case-studies-3 {
-    background-image: url(img/index-case-studies-3-bg.jpg);
+  /*  background-image: url(img/index-case-studies-3-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .index-case-studies-btn,
