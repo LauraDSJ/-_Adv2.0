@@ -301,21 +301,21 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .index-case-studies-1 {
-    background-image: url(img/index-case-studies-1-bg.jpg);
+    /*background-image: url(img/index-case-studies-1-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .index-case-studies-2 {
-    background-image: url(img/index-case-studies-2-bg.jpg);
+   /* background-image: url(img/index-case-studies-2-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .index-case-studies-3 {
-    background-image: url(img/index-case-studies-3-bg.jpg);
+  /*  background-image: url(img/index-case-studies-3-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .index-case-studies-btn,
@@ -354,9 +354,9 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .capabilities-our-services-bg {
-    background-image: url(../img/capabilities-our-services-bg.jpg);
+  /*  background-image: url(../img/capabilities-our-services-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .service-icon {
@@ -375,9 +375,9 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .capabilities-msg-2 {
-    background-image: url(../img/capabilities-msg-2.jpg);
+    /*background-image: url(../img/capabilities-msg-2.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .capabilities-languages {
@@ -388,10 +388,10 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .capabilities-survey-numbers-bg {
-    background-image: url(../img/capabilities-survey-numbers-bg.jpg);
+   /* background-image: url(../img/capabilities-survey-numbers-bg.jpg);
     background-size:cover;
     background-position: center center;
-    background-color: #80b6cb;
+    background-color: #80b6cb;*/
 }
 
 .percentage {
@@ -406,17 +406,17 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .capabilities-our-process-bg {
-    background-color: #737373;
+  /*  background-color: #737373;
     background-image: url(../img/capabilities-our-process-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .capabilities-team-values-bg {
-    background-color: #202020;
+   /* background-color: #202020;
     background-image: url(../img/capabilities-team-values-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .capabilities-slogan-bg {
@@ -430,9 +430,9 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .capabilities-our-values-2-bg {
-    background-image: url(../img/capabilities-our-values-2-bg.jpg);
+   /* background-image: url(../img/capabilities-our-values-2-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .capabilities-our-values-msg-bg {
@@ -440,10 +440,10 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .capabilities-client-retention-bg {
-    background-color: #9d1f1b;
+  /*  background-color: #9d1f1b;
     background-image: url(../img/capabilities-client-retention-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .founder {
@@ -466,10 +466,10 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .capabilities-top-talent-bg {
-    background-color: #4dc0ec;
+    /*background-color: #4dc0ec;
     background-image: url(../img/capabilities-top-talent-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .team-member {

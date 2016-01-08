@@ -14,6 +14,11 @@
   <link rel="stylesheet" type="text/css" href="css/animation.css">
   <link href="css/dot-nav.css" type="text/css" rel="stylesheet">
   
+<<<<<<< HEAD
+=======
+
+ 
+>>>>>>> origin/master
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -619,62 +624,79 @@
           <div class="separation-100"></div> 
 
           <div class="row">
-            <div class="col-sm-6 col-sm-offset-6 text-center text-white">
-              <h6 class="text-uppercase">Automotive<br>Marketing</h6>
+            <div class="case-st text-center text-white case-st1">
+              <h5 class="text-uppercase">Automotive<br>Marketing</h5>
+            
+              
+              <div class="row case-st-cont">
               <p>Peak Performance Marketing Solutions is a premier automotive provider of data-driven marketing solutions across sales and service to 1000s of automotive dealers nationwide. Their products are designed to maximize their client’s customer engagement.</p>
-              <div class="row">
                 <div class="col-sm-6">
                   <a href="#a" class="index-case-studies-btn">Project</a>  
                 </div> 
                 <div class="col-sm-6">
                   <a href="#a" class="index-case-studies-btn">Result</a>  
                 </div> 
-              </div><!--row-->    
+              </div><!--row--> 
+
             </div><!--col-sm-6 col-sm-offset-6-->
           </div><!--row-->
 
-          <div class="separation-100"></div> 
+          <div class="separation-50"></div> 
 
         </div><!--col-lg-12-->
       </div><!--row case studies 1-->  
 
       <div class="row index-case-studies-2 revealOnScroll"  data-animation="bounceInRight">
 
-        <div class="separation-100"></div>     
+        
 
-        <div class="col-sm-6 text-center text-white">
-          <h6 class="text-uppercase">Automotive Insurance Carrier</h6>
-          <p>We served a non-standard automotive insurance carrier who distributes exclusively through a network of more than 900 Brokers across nearly 2,000 locations in California. And they take pride in their super user-friendly technology as a cornerstone of their business.</p>
           <div class="row">
-            <div class="col-sm-6">
-              <a href="#a" class="index-case-studies-btn">Project</a>  
-            </div> 
-            <div class="col-sm-6">
-              <a href="#a" class="index-case-studies-btn">Result</a>  
-            </div> 
-          </div>      
-        </div><!--col-sm-6-->
+            <div class="case-st text-center text-white case-st2">
+              <h5 class="text-uppercase">Automotive Insurance Carrier</h5>
+            
+              
+              <div class="row case-st-cont">
+              <p>We served a non-standard automotive insurance carrier who distributes exclusively through a network of more than 900 Brokers across nearly 2,000 locations in California. And they take pride in their super user-friendly technology as a cornerstone of their business.</p>
+                <div class="col-sm-6">
+                  <a href="#a" class="index-case-studies-btn">Project</a>  
+                </div> 
+                <div class="col-sm-6">
+                  <a href="#a" class="index-case-studies-btn">Result</a>  
+                </div> 
+              </div><!--row--> 
 
-        <div class="separation-100"></div>     
+            </div><!--col-sm-6 col-sm-offset-6-->
+          </div><!--row-->
+
+        
+
+        <div class="separation-50"></div>     
 
       </div><!--row-->
 
       <div class="row index-case-studies-3 revealOnScroll"  data-animation="bounceInLeft">
 
-        <div class="separation-100"></div>    
+       
 
-        <div class="col-sm-6 col-sm-offset-6 text-center text-white">
-          <h6 class="text-uppercase">Commercial Insurance Financing</h6>
-          <p>Top Premium Finance provides agent/brokers with a simple, reasonable means to fund their commercial, personal, property & casualty insurance products.</p> 
-          <div class="row">
-            <div class="col-sm-6">
-              <a href="#a" class="index-case-studies-btn">Project</a>  
-            </div> 
-            <div class="col-sm-6">
-              <a href="#a" class="index-case-studies-btn">Result</a>  
-            </div> 
-          </div>     
-        </div><!--col-lg-12-->
+            <div class="row">
+            <div class="case-st text-center text-white case-st3">
+              <h5 class="text-uppercase">Commercial Insurance Financing</h5>
+            
+              
+              <div class="row case-st-cont">
+              <p>Top Premium Finance provides agent/brokers with a simple, reasonable means to fund their commercial, personal, property & casualty insurance products.</p>
+                <div class="col-sm-6">
+                  <a href="#a" class="index-case-studies-btn">Project</a>  
+                </div> 
+                <div class="col-sm-6">
+                  <a href="#a" class="index-case-studies-btn">Result</a>  
+                </div> 
+              </div><!--row--> 
+
+            </div><!--col-sm-6 col-sm-offset-6-->
+          </div><!--row-->
+
+        
 
         <div class="separation-100"></div>     
         <div class="separation-100"></div>  
