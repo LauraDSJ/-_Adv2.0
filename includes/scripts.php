@@ -1,5 +1,4 @@
 
-@@ -1,5 +1,5 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -8,7 +7,7 @@
 <script src="js/adv.js"></script> 
 <script src="js/animations.js"></script>
 <script src="js/profiles-carousel.js"></script> 
-<
+
  <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
 
  <script src="js/parallax.js"></script>

@@ -242,9 +242,9 @@
         <div class="separation-100"></div>  
       <div class="row">    
         <div class="col-lg-12 text-center">
-          <span class="text-white text-uppercase" id="capabilities-survey-text-1">These Survey Numbers</span>
-          <span class="text-white text-uppercase" id="capabilities-survey-text-2">Say it all</span>
-          <span class="text-white text-uppercase" id="capabilities-survey-text-3">project management is key</span>    
+          <span class="text-white text-uppercase revealOnScroll"  data-animation="bounceInLeft" id="capabilities-survey-text-1">These Survey Numbers</span>
+          <span class="text-white text-uppercase revealOnScroll"  data-animation="bounceInRight" id="capabilities-survey-text-2">Say it all</span>
+          <span class="text-white text-uppercase revealOnScroll"  data-animation="bounceInLeft" id="capabilities-survey-text-3">project management is key</span>    
         </div>  
       </div><!--row-->
         
