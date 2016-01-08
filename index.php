@@ -12,11 +12,8 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/content-style.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/animation.css">
+  <link href="css/dot-nav.css" type="text/css" rel="stylesheet">
   
-
-  <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
- <script src="js/parallax.js"></script>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -67,7 +64,7 @@
     <!-- ------------ SECTION 2: INTRO MESSAGE -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid white-texture-bg">    
+    <div class="container-fluid white-texture-bg page block1" data-hint-text="We've hear it...">    
 <div class="separation-50"></div>   
       <div class="row">    
         <div class="col-lg-12 text-center">
