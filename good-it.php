@@ -41,19 +41,29 @@
     <!-- ------------ SECTION 2: INTRO MESSAGE -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid good-it-intro-msg-bg white-texture-bg">
+    <div class="container-fluid good-it-intro-msg-bg white-texture-bg page" data-hint-text="Our Core GOOD">
 
       <div class="separation-100"></div> 
 
       <div class="row">
 
-        <div class="col-md-2 col-sm-3 col-xs-6"><img src="img/bracket-left-gray.png" class="img-responsive center-block"></div>
-        <div class="col-md-2 col-sm-3 col-xs-6"><img src="img/bracket-right-gray.png" class="img-responsive center-block"></div>
-        <div class="col-md-8 col-sm-6 col-xs-12 text-center">
-          <div class="separation-100"></div> 
+        <div class="col-xs-12 text-center">
           <h3>OUR CORE GOOD</h3>
         </div>
 
+      </div><!-- row -->
+
+      <div class="separation-50"></div> 
+
+      <div class="row">
+
+        <div class="col-md-2 col-md-offset-4 col-sm-3 col-sm-offset-3 col-xs-6">
+          <img src="img/bracket-left-gray.png" class="img-responsive center-block">
+        </div>
+        <div class="col-md-2 col-sm-3 col-xs-6">
+          <img src="img/bracket-right-gray.png" class="img-responsive center-block">
+        </div>
+        
       </div> 
 
       <div class="separation-100"></div> 
@@ -65,7 +75,7 @@
           <h6>Our core GOOD value gives us a strong sense of stewardship toward the communities surrounding all of our production hubs. The escalating demand for talented programmers worldwide presents an enormous opportunity to answer it by fostering the potential of the youth around us. It is our ambition to open doors to a future they otherwise could not imagine.</h6>
         </div><!--col-sm-8-->
       <!--</div> --> 
-    <div class="container-fluid good-it-intro-msg-red-bg">
+    <div class="container-fluid good-it-intro-msg-red-bg page" data-hint-text="WCC Community">
 
       <div class="separation-100"></div> 
 
@@ -116,7 +126,7 @@
 
         <div class="col-md-8 col-sm-6 col-xs-12 text-center">
           <div class="separation-100"></div> 
-          <h3>Lorem ipsum dolor sit amet</h3>
+          <h3 class="text-right">Our WeCanCode<br>Community</h3>
         </div>
         <div class="col-md-2 col-sm-3 col-xs-6"><img src="img/bracket-left-red.png" class="img-responsive center-block"></div>
         <div class="col-md-2 col-sm-3 col-xs-6"><img src="img/bracket-right-red.png" class="img-responsive center-block"></div>
@@ -127,13 +137,17 @@
 
     </div><!--white texture bg-->  
 
-    <div class="container-fluid good-it-wcc-community-blue-bg">
+    <div class="container-fluid good-it-wcc-community-blue-bg page" data-hint-text="WCC Hack">
         
       <div class="separation-100"></div>    
         
       <div class="row">    
         <div class="col-sm-8 col-sm-offset-2">
-          <h6 class="text-white text-center">In 2014 we held our first free hackathon, challenging aspiring programmers to crack code. It was a thrilling success and demand for more exploded.</h6>
+          <h6 class="text-white">In 2014 we held our first free hackathon, challenging aspiring programmers to crack code. It was a thrilling success and demand for more exploded.</h6>
+
+          <div class="separation-50"></div>
+
+          <h4 class="text-white text-center">The WCC Hack Program was born...</h4>
         </div><!--col-sm-8-->
       </div><!--row--> 
         
@@ -175,7 +189,7 @@
 
         <div class="col-sm-8 col-xs-6"></div>
         <div class="col-sm-4 col-xs-12 text-center">
-          <img src="img/good-it-wcc-hack-img1.jpg" class="img-circle" style="width:100%;max-width:350px;">
+          <img src="img/good-it-wcc-hack-img1.jpg" class="img-circle black-white-img" style="width:100%;max-width:350px;">
         </div>
 
       </div> 
@@ -191,7 +205,7 @@
           <h3>Our WCC Hackathon Events</h3>
         </div>
         <div class="col-sm-4 col-xs-12 text-center">
-          <img src="img/good-it-wcc-hack-img2.jpg" class="img-circle" style="width:100%;max-width:350px;">
+          <img src="img/good-it-wcc-hack-img2.jpg" class="img-circle black-white-img" style="width:100%;max-width:350px;">
         </div>
 
       </div>
@@ -202,7 +216,7 @@
 
         <div class="col-sm-8 col-xs-6"></div>
         <div class="col-sm-4 col-xs-12 text-center">
-          <img src="img/good-it-wcc-hack-img3.jpg" class="img-circle" style="width:100%;max-width:350px;">
+          <img src="img/good-it-wcc-hack-img3.jpg" class="img-circle black-white-img" style="width:100%;max-width:350px;">
         </div>
 
       </div>  
@@ -216,7 +230,7 @@
     <!-- ------------ SECTION 6: WCC YOUTH -->
     <!-- --------------------------------- -->
     <!-- --------------------------------- --> 
-    <div class="container-fluid good-it-intro-msg-red-bg">
+    <div class="container-fluid good-it-wcc-youth-tease-bg page" data-hint-text="WCC Youth">
 
       <div class="separation-100"></div> 
 
@@ -253,7 +267,7 @@
       <div class="row">
 
         <div class="col-sm-4 col-xs-12 text-center">
-          <img src="img/good-it-wcc-youth-img1.jpg" class="img-circle" style="width:100%;max-width:350px;">
+          <img src="img/good-it-wcc-youth-img1.jpg" class="img-circle black-white-img" style="width:100%;max-width:350px;">
         </div>
         <div class="col-sm-8 col-xs-6"></div>
 
@@ -264,7 +278,7 @@
       <div class="row">
 
         <div class="col-sm-4 col-xs-12 text-center">
-          <img src="img/good-it-wcc-youth-img2.jpg" class="img-circle" style="width:100%;max-width:350px;">
+          <img src="img/good-it-wcc-youth-img2.jpg" class="img-circle black-white-img" style="width:100%;max-width:350px;">
         </div>
         <div class="col-sm-4 col-xs-12">
           <div class="separation-100"></div> 
@@ -280,7 +294,7 @@
       <div class="row">
 
         <div class="col-sm-4 col-xs-12 text-center">
-          <img src="img/good-it-wcc-youth-img3.jpg" class="img-circle" style="width:100%;max-width:350px;">
+          <img src="img/good-it-wcc-youth-img3.jpg" class="img-circle black-white-img" style="width:100%;max-width:350px;">
         </div>
         <div class="col-sm-8 col-xs-6">
           <h6>“The classes ignite curiosity and inspire our students to build great things that can one day change the way we live, to become the authors of their own futures through connection, technology, and exchange."</h6>
@@ -299,7 +313,7 @@
     <!-- ------------ SECTION 7: ADVANCIO ANSWERS THE CALL -->
     <!-- ------------------------------------------------- -->
     <!-- ------------------------------------------------- --> 
-    <div class="container-fluid good-it-wcc-community-blue-bg">
+    <div class="container-fluid good-it-advancio-academy-bg-top page" data-hint-text="Advancio Academy">
         
       <div class="separation-100"></div>    
         
@@ -346,24 +360,45 @@
 
       <div class="row">
 
+        <div class="col-sm-8 col-xs-6"></div>
+        <div class="col-sm-4 col-xs-12 text-center">
+          <img src="img/good-it-advancio-academy-img1.jpg" class="img-circle black-white-img" style="width:100%;max-width:350px;">
+        </div>
+
+      </div> 
+
+      <div class="separation-50"></div> 
+
+      <div class="row">
+
         <div class="col-sm-2 col-xs-6"><img src="img/bracket-left-blue.png" class="img-responsive center-block"></div>
         <div class="col-sm-2 col-xs-6"><img src="img/bracket-right-blue.png" class="img-responsive center-block"></div>
-        <div class="col-sm-8 col-xs-12">
+
+        <div class="col-sm-4 col-xs-12">
           <div class="separation-100"></div> 
-          <h3>After every hackathon...</h3>
+          <h3>Our<br>Advancio<br>Academy</h3>
+        </div>
+        
+        <div class="col-sm-4 col-xs-12 text-center">
+          <img src="img/good-it-advancio-academy-img2.jpg" class="img-circle black-white-img" style="width:100%;max-width:350px;">
         </div>
 
       </div>
 
-      <div class="separation-100"></div>
+      <div class="separation-50"></div> 
 
-      <div class="row">    
-          
-        <div class="col-xs-8 col-xs-offset-2 text-center text-uppercase">
-          <h6>Who can resist free clases! From coding to API management, the coders in out hub community are eager to grow their skills.</h6>
-        </div> 
-          
-      </div><!--row--> 
+      <div class="row">
+
+        <div class="col-sm-7 col-sm-offset-1 col-xs-6">
+          <h6 class="text-right">“The classes ignite curiosity and inspire our students to build great things that can one day change the way we live, to become the authors of their own futures through connection, technology, and exchange."</h6>
+
+          <h6 class="text-right">Josie Lopez, COO, Advancio</h6>
+        </div>
+        <div class="col-sm-4 col-xs-12 text-center">
+          <img src="img/good-it-advancio-academy-img3.jpg" class="img-circle black-white-img" style="width:100%;max-width:350px;">
+        </div>
+
+      </div>  
         
       <div class="separation-100"></div>       
         

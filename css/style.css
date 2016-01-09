@@ -97,6 +97,10 @@ h6 { font-size: 1.375em; }/* PSD 30px */
     text-decoration: none;
 }
 
+.black-white-img {
+    -webkit-filter: grayscale(100%) brightness(100%) contrast(100%);
+}
+
 /*-------------------------------------
 -----------------------------NAV STYLES
 -------------------------------------*/
@@ -649,6 +653,10 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 
 .good-it-intro-msg-red-bg {
     background-color:#c73935;
+    background-color: #e18482;
+    background-image: url(../img/good-it-wcc-community-bg-top.jpg);
+    background-size:cover;
+    background-position: center center;
 }
 
 .good-it-wcc-community-bg {
@@ -660,6 +668,9 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 
 .good-it-wcc-community-blue-bg {
     background-color:#3baeda;
+    background-image: url(../img/good-it-wcc-hack-bg-top.jpg);
+    background-size:cover;
+    background-position: center center;
 }
 
 .good-it-wcc-hack-bg {
@@ -678,6 +689,13 @@ h6 { font-size: 1.375em; }/* PSD 30px */
     background-color: #fff2f1;
 }
 
+.good-it-wcc-youth-tease-bg {
+    background-color: #5595ad;
+    background-image: url(../img/good-it-wcc-youth-bg-top.jpg);
+    background-size:cover;
+    background-position: top center;
+}
+
 .good-it-wcc-youth-bg {
     background-color: #5595ad;
     background-image: url(../img/good-it-wcc-youth-bg.jpg);
@@ -688,6 +706,13 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 .good-it-advancio-answers-bg {
     background-color: #f8f3ca;
     background-image: url(../img/good-it-advancio-answers-bg.jpg);
+    background-size:cover;
+    background-position: top center;
+}
+
+.good-it-advancio-academy-bg-top {
+    background-color: #da6562;
+    background-image: url(../img/good-it-advancio-academy-bg-top.jpg);
     background-size:cover;
     background-position: top center;
 }

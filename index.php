@@ -14,11 +14,6 @@
   <link rel="stylesheet" type="text/css" href="css/animation.css">
   <link href="css/dot-nav.css" type="text/css" rel="stylesheet">
   
-<<<<<<< HEAD
-=======
-
- 
->>>>>>> origin/master
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -69,7 +64,7 @@
     <!-- ------------ SECTION 2: INTRO MESSAGE -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid white-texture-bg page block1" data-hint-text="We've hear it...">    
+    <div class="container-fluid white-texture-bg page block1" data-hint-text="We have heard it...">    
 <div class="separation-50"></div>   
       <div class="row">    
         <div class="col-lg-12 text-center">
@@ -108,7 +103,7 @@
       <!-- ------------ SECTION 3: HAPPIFY MESSAGE -->
       <!-- --------------------------------------- -->
       <!-- --------------------------------------- --> 
-      <div class="container-fluid index-msg" data-parallax="scroll" data-image-src="css/img/index-happify-it-bg.jpg">
+      <div class="container-fluid index-msg page block1" data-hint-text="We Can Happify You IT" data-parallax="scroll" data-image-src="css/img/index-happify-it-bg.jpg">
 
         <div class="separation-100"></div>    
         <div class="separation-100"></div>
@@ -162,7 +157,7 @@
       <!-- ------------ SECTION 5: FLEXIBLE OUTSOURCING -->
       <!-- -------------------------------------------- -->
       <!-- -------------------------------------------- --> 
-      <div class="container-fluid white-texture-bg">
+      <div class="container-fluid white-texture-bg page" data-hint-text="Flexible Outsourcing">
 
         <div class="row posi-rel-rev">
           <div class="section-skew-t-l"></div>
@@ -307,7 +302,7 @@
         <!-- ------------ SECTION 5: OUR APPROACH -->
         <!-- ------------------------------------ -->
         <!-- ------------------------------------ --> 
-        <div class="container-fluid our-approach-bg" data-parallax="scroll" data-image-src="css/img/index-approach-bg-no-strips.jpg">
+        <div class="container-fluid our-approach-bg page" data-hint-text="Our Approach" data-parallax="scroll" data-image-src="css/img/index-approach-bg-no-strips.jpg">
 
           <div class="separation-100"></div>    
           <div class="separation-100"></div> 
@@ -409,7 +404,7 @@
           <!-- ------------ SECTION 6: ENGAGEMENT MODELS -->
           <!-- ----------------------------------------- -->
           <!-- ----------------------------------------- --> 
-          <div class="container-fluid white-texture-bg">  
+          <div class="container-fluid white-texture-bg page" data-hint-text="Engagement Models">  
 
             <div class="row">    
               <div class="col-lg-12 text-center">
@@ -584,7 +579,7 @@
     <!-- ------------ SECTION 8: HIGHLIGHTS -->
     <!-- ---------------------------------- -->
     <!-- ---------------------------------- --> 
-    <div class="container-fluid index-expectations-msg-bg" data-parallax="scroll" data-image-src="css/img/index-expectations-bg.jpg">
+    <div class="container-fluid index-expectations-msg-bg page" data-hint-text="Highlights" data-parallax="scroll" data-image-src="css/img/index-expectations-bg.jpg">
 
       <div class="separation-100"></div>   
       <div class="separation-100"></div>   
@@ -608,7 +603,7 @@
     <!-- ------------ SECTION 9: CASE STUDIES -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ --> 
-    <div class="container-fluid index-case-studies-bg">  
+    <div class="container-fluid index-case-studies-bg page" data-hint-text="Case Studies">  
 
       <div class="row index-case-studies-1 revealOnScroll"  data-animation="bounceInLeft">
         <div class="col-lg-12">
@@ -710,7 +705,7 @@
     <!-- ------------ SECTION 10: HIGHLIGHTS -->
     <!-- ---------------------------------- -->
     <!-- ---------------------------------- --> 
-    <div class="container-fluid white-texture-bg">
+    <div class="container-fluid white-texture-bg page" data-hint-text="Timeline">
 
         
           

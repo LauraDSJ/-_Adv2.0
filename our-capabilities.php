@@ -7,11 +7,9 @@
     <title>Advancio 2.0</title>
 
     <!-- Bootstrap -->
-<<<<<<< HEAD
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/dot-nav.css" type="text/css" rel="stylesheet">
-=======
    <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/content-style.css" rel="stylesheet">
@@ -23,7 +21,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
  <script src="js/parallax.js"></script>
->>>>>>> origin/master
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,7 +29,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body data-shoptagr-mini="yes" data-pinterest-extension-installed="cr1.39.1">
+  <body>
     <!-- ----------------------- --> 
     <!-- ----------------------- --> 
     <!-- ------------ NAVIGATION -->
@@ -95,7 +92,7 @@
     <!-- ------------ SECTION 3: OUR SERVICES -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ --> 
-    <div class="container-fluid capabilities-our-services-bg" data-parallax="scroll" data-image-src="img/capabilities-our-services-bg.jpg">
+    <div class="container-fluid capabilities-our-services-bg page" data-hint-text="Our Services" data-parallax="scroll" data-image-src="img/capabilities-our-services-bg.jpg">
          <div class="separation-100"></div>  
       <div class="separation-100"></div>    
         
@@ -241,7 +238,7 @@
     <!-- ------------ SECTION 5: OUR APPROACH -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ --> 
-    <div class="container-fluid capabilities-survey-numbers-bg" data-parallax="scroll" data-image-src="img/capabilities-survey-numbers-bg.jpg">
+    <div class="container-fluid capabilities-survey-numbers-bg page" data-hint-text="Our Survey Numbers" data-parallax="scroll" data-image-src="img/capabilities-survey-numbers-bg.jpg">
         
       <div class="separation-100"></div>    
         <div class="separation-100"></div>  
@@ -318,7 +315,7 @@
     <!-- ------------ SECTION 6: OUR PROCESS -->
     <!-- ----------------------------------- -->
     <!-- ----------------------------------- --> 
-    <div class="container-fluid capabilities-our-process-bg" data-parallax="scroll" data-image-src="img/capabilities-our-process-bg.jpg">
+    <div class="container-fluid capabilities-our-process-bg page" data-hint-text="Our Process" data-parallax="scroll" data-image-src="img/capabilities-our-process-bg.jpg">
         
       <div class="separation-100"></div>   
       <div class="separation-100"></div>       
@@ -373,7 +370,7 @@
     <!-- ------------ SECTION 8: TEAM VALUES -->
     <!-- ----------------------------------- -->
     <!-- ----------------------------------- --> 
-    <div class="container-fluid capabilities-team-values-bg" data-parallax="scroll" data-image-src="img/capabilities-team-values-bg.jpg">
+    <div class="container-fluid capabilities-team-values-bg page" data-hint-text="Team Values" data-parallax="scroll" data-image-src="img/capabilities-team-values-bg.jpg">
         
       <div class="separation-100"></div>    
         <div class="separation-100"></div>
@@ -432,7 +429,7 @@
     <!-- ------------ SECTION 10: OUR VALUES -->
     <!-- ----------------------------------- -->
     <!-- ----------------------------------- --> 
-    <div class="container-fluid capabilities-our-values-bg">
+    <div class="container-fluid capabilities-our-values-bg page" data-hint-text="Company Values">
           <div class="separation-100"></div> 
       <div class="separation-100"></div> 
       <div class="separation-100"></div>     
@@ -545,7 +542,7 @@
     <!-- ------------ SECTION 13: OUR TEAM -->
     <!-- --------------------------------- -->
     <!-- --------------------------------- --> 
-    <div class="container-fluid white-texture-bg">
+    <div class="container-fluid white-texture-bg page" data-hint-text="Our Team">
          <div class="row posi-rel-rev">
           <div class="section-skew-t-l"></div>
         </div>   
