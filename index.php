@@ -68,7 +68,7 @@
 <div class="separation-50"></div>   
       <div class="row">    
         <div class="col-lg-12 text-center">
-          <h3 class="text-light-gray revealOnScroll"  data-animation="fadeInUp">We've heard it from<br>
+          <h3 class="revealOnScroll"  data-animation="fadeInUp">We've heard it from<br>
             many executives</h3>
           </div><!--col-lg-12-->
         </div><!--row--> 
@@ -77,7 +77,7 @@
 
         <div class="row">    
           <div class="col-sm-offset-1 col-sm-10 text-center">
-            <h6 class="text-light-gray revealOnScroll"  data-animation="fadeInUp">“I hate IT and I love IT. I hate runaway never-ending IT projects, but I love the efficiencies and market growth their solutions bring.”</h6>
+            <h6 class="revealOnScroll"  data-animation="fadeInUp">“I hate IT and I love IT. I hate runaway never-ending IT projects, but I love the efficiencies and market growth their solutions bring.”</h6>
           </div><!--col-md-3-->
         </div><!--row-->
         

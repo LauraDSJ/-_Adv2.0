@@ -20,7 +20,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px; /*PSD 22px*/
-    color:#727272;
+    color:#212121;
     font-weight:400;
 }
 
@@ -217,7 +217,7 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .index-msg-2 {
-    background-image: url(img/index-msg-2-bg.jpg);
+    background-image: url(../img/index-msg-2-bg.jpg);
     background-size:cover;
     background-position: center center;
     background-color: #1B86BE;

@@ -429,14 +429,14 @@
     <!-- ------------ SECTION 10: OUR VALUES -->
     <!-- ----------------------------------- -->
     <!-- ----------------------------------- --> 
-    <div class="container-fluid capabilities-our-values-bg page" data-hint-text="Company Values">
+    <div class="container-fluid page" data-hint-text="Company Values">
           <div class="separation-100"></div> 
       <div class="separation-100"></div> 
       <div class="separation-100"></div>     
         
       <div class="row">    
         <div class="col-sm-8 col-sm-offset-2 text-center">
-          <h5 class="text-lighter">We believe in all things GOOD; in our inherent GOOD nature, in the GOOD work we strive to produce, in the GOOD mood we express and in the social GOOD we do for others. We are good.IT and this is what our GOOD value looks like in action:</h5>
+          <span style="font-size: 2.063em;">We believe in all things GOOD; in our inherent GOOD nature, in the GOOD work we strive to produce, in the GOOD mood we express and in the social GOOD we do for others. We are good.IT and this is what our GOOD value looks like in action:</span>
         </div>  
       </div><!--row--> 
         

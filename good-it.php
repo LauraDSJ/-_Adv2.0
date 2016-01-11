@@ -282,7 +282,7 @@
         </div>
         <div class="col-sm-4 col-xs-12">
           <div class="separation-100"></div> 
-          <h3 class="text-right">Watching our student’s passion</h3>
+          <h3 class="text-right">Our<br>WCC<br>Youth</h3>
         </div>
         <div class="col-sm-2 col-xs-6"><img src="img/bracket-left-red.png" class="img-responsive center-block"></div>
         <div class="col-sm-2 col-xs-6"><img src="img/bracket-right-red.png" class="img-responsive center-block"></div>
