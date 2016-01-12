@@ -32,15 +32,15 @@
     <!-- ------------ SECTION 1: TOP IMAGE -->
     <!-- --------------------------------- -->
     <!-- --------------------------------- --> 
-    <div class="container-fluid full-height text-center" style="background-image: url('img/ustop.jpg'); background-repeat: no-repeat; background-size:cover; background-position: center;">
+    <div class="container-fluid full-height text-center" style="background-image: url('img/mrctop.jpg'); background-repeat: no-repeat; background-size:cover; background-position: center;">
       <div class="separation-100"></div>
       <div class="separation-100"></div>
-      <img src="img/usflag.png" alt="USA">
+      <img src="img/mrcflag.png" alt="USA">
         
-        <h1 style="color:white;">U.S. Technology Market Facts</h1>
+        <h1 style="color:white;">Morocco Technology Market Facts</h1>
         <h2 style="color:white;">Country Highlights</h2>
         <div class="separation-50"></div>
-        <img src="img/usmap.png" alt="USA">
+        <img src="img/mrcmap.png" alt="Morocco">
         
     </div><!--container-fluid section 1-->
       
