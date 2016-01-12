@@ -32,15 +32,15 @@
     <!-- ------------ SECTION 1: TOP IMAGE -->
     <!-- --------------------------------- -->
     <!-- --------------------------------- --> 
-    <div class="container-fluid full-height text-center" style="background-image: url('img/ustop.jpg'); background-repeat: no-repeat; background-size:cover; background-position: center;">
+    <div class="container-fluid full-height text-center" style="background-image: url('img/mxtop.jpg'); background-repeat: no-repeat; background-size:cover; background-position: center;">
       <div class="separation-100"></div>
       <div class="separation-100"></div>
-      <img src="img/usflag.png" alt="USA">
+      <img src="img/mxflag.png" alt="MX">
         
-        <h1 style="color:white;">U.S. Technology Market Facts</h1>
+        <h1 style="color:white;">Mexico Technology Market Facts</h1>
         <h2 style="color:white;">Country Highlights</h2>
         <div class="separation-50"></div>
-        <img src="img/usmap.png" alt="USA">
+        <img src="img/mxmap.png" alt="MX">
         
     </div><!--container-fluid section 1-->
       
@@ -66,19 +66,19 @@
       <div class="row">
 
         <div class="col-sm-4 col-sm-offset-2 text-center">
-          <img src="img/usbudget.png" alt="Budgeting">
+          <img src="img/mxrank.png" alt="Outsourcing Rank:">
           <div class="separation-20"></div> 
-          <h4>Budgeting</h4>    
+          <h4>Outsourcing Rank</h4>    
           <div class="separation-20"></div> 
-          <p>Over 500 billion dollars budgeted for compensation to Software Engineering and Computer Science graduates, making them the most expensive types of talent to acquire locally.</p>
+          <p>Mexico IT Offshoring market Ranks 3rd in the world and is aggressively working on becoming.</p>
         </div>
           
         <div class=" col-sm-4 text-center">
-          <img src="img/usdemand.png" alt="Budgeting">
+          <img src="img/mxit.png" alt="MX IT">
           <div class="separation-20"></div> 
-          <h4>Demand for Talent:</h4>    
+          <h4>IT Sector Mature:</h4>    
           <div class="separation-20"></div> 
-          <p>Increasing rapidly despite the increased cost to hire this type of talent. Job positions in computer programming are increasing twice as fast as the national average.</p>
+          <p>The IT sector in Mexico is mature, & globally competitive...</p>
         </div>
         <div class="separation-50"></div> 
       </div> 
@@ -86,19 +86,19 @@
       <div class="row">
 
         <div class="col-sm-4 col-sm-offset-2 text-center">
-          <img src="img/ustalent.png" alt="Budgeting">
+          <img src="img/mxtalent.png" alt="Mx Talent">
           <div class="separation-20"></div> 
-          <h4>Scarcity of Talent:</h4>    
+          <h4>Talent:</h4>    
           <div class="separation-20"></div> 
-          <p>By 2020, only 400,000 computer science engineers will be available to fill 1.4 million computing jobs.</p>
+          <p>130,000  graduating computer engineers every year.</p>
         </div>
           
         <div class=" col-sm-4 text-center">
-          <img src="img/ustime.png" alt="Budgeting">
+          <img src="img/mxpin.png" alt="Mexico to US">
           <div class="separation-20"></div> 
-          <h4>Scarcity of time:</h4>    
+          <h4>Mexico to US:</h4>    
           <div class="separation-20"></div> 
-          <p>The average hiring time in the IT sector is about 35 days, which can be very harmful to an organization’s schedule and financial status.</p>
+          <p>NAFTA membership provides an added advantage to the US Market...</p>
         </div>
         <div class="separation-50"></div>
       </div> 
@@ -106,19 +106,19 @@
       <div class="row">
 
         <div class="col-sm-4 col-sm-offset-2 text-center">
-          <img src="img/uswallet.png" alt="Budgeting">
+          <img src="img/mxgob.png" alt="Government Initiatives">
           <div class="separation-20"></div> 
-          <h4>Hiring cost:</h4>    
+          <h4>Government Initiatives:</h4>    
           <div class="separation-20"></div> 
-          <p>Ends up being 1.5X to 3X the salary of the employee. Those costs are associated with Recruiting, Training, Salary, Benefits, and Productivity.</p>
+          <p>In 2002, the government launched a program to promote Mexico's technology industry...</p>
         </div>
           
         <div class=" col-sm-4 text-center">
-          <img src="img/usflame.png" alt="Budgeting">
+          <img src="img/ustime.png" alt="Time Zone">
           <div class="separation-20"></div> 
-          <h4>Cost of a Bad Hire:</h4>    
+          <h4>Time Zone:</h4>    
           <div class="separation-20"></div> 
-          <p>U.S. Department of Labor estimates a bad hire costs 30% of the annually salary for the first year.</p>
+          <p>The time zone differences make Mexico a great positioning it as a great option for...</p>
         </div>
         <div class="separation-50"></div>
       </div> 
@@ -126,19 +126,19 @@
       <div class="row">
 
         <div class="col-sm-4 col-sm-offset-2 text-center">
-          <img src="img/usproblem.png" alt="Budgeting">
+          <img src="img/mxcrown.png" alt="Government Initiatives">
           <div class="separation-20"></div> 
-          <h4>The Problem:</h4>    
+          <h4>Government Initiatives:</h4>    
           <div class="separation-20"></div> 
-          <p>Due to talent scarcity (2.5 times greater than the market demand), increased labor cost, and endless need for talent the challenge of hiring and retaining the right talent has become a challenge companies deal with daily.</p>
+          <p>Google, Dell, Intel, IBM, Oracle, Nokia, BF Goodrich, American Express, Caterpillar, Coca-Cola.</p>
         </div>
           
         <div class=" col-sm-4 text-center">
-          <img src="img/uscheck.png" alt="Budgeting">
+          <img src="img/mxcompass.png" alt="">
           <div class="separation-20"></div> 
-          <h4>The Solution:</h4>    
+          <h4>Lorem Ipsum</h4>    
           <div class="separation-20"></div> 
-          <p>Look for viable talent options in countries that have a high supply of quality engineers and are actively pushing initiates to position themselves in the IT Outsourcing market.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
         </div>
         <div class="separation-50"></div>
       </div> 

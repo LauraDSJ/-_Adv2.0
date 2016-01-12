@@ -69,20 +69,20 @@
             <div class="col-md-6 text-center">
               <ul class="footer-links">
                 <li><a href="careers.php" class="text-uppercase">careers</a></li> 
+                <li><a href="us-highlights.php" class="text-uppercase">US Highlights</a></li> 
+                <!--<li><a href="#a" class="text-uppercase">important link</a></li> 
                 <li><a href="#a" class="text-uppercase">important link</a></li> 
-                <li><a href="#a" class="text-uppercase">important link</a></li> 
-                <li><a href="#a" class="text-uppercase">important link</a></li> 
-                <li><a href="#a" class="text-uppercase">contact</a></li> 
+                <li><a href="#a" class="text-uppercase">contact</a></li> -->
               </ul>
             </div><!--col-md-6-->
               
             <div class="col-md-6 text-center">
               <ul class="footer-links">
+                <li><a href="mx-highlights.php" class="text-uppercase">Mexico Highlights</a></li> 
+                <li><a href="mrc-highlights.php" class="text-uppercase">Morocco Highlights</a></li> 
+                <!--<li><a href="#a" class="text-uppercase">important link</a></li> 
                 <li><a href="#a" class="text-uppercase">important link</a></li> 
-                <li><a href="#a" class="text-uppercase">important link</a></li> 
-                <li><a href="#a" class="text-uppercase">important link</a></li> 
-                <li><a href="#a" class="text-uppercase">important link</a></li> 
-                <li><a href="#a" class="text-uppercase">contact</a></li> 
+                <li><a href="#a" class="text-uppercase">contact</a></li>--> 
               </ul>
             </div><!--col-md-6-->  
           </div><!--row-->      
