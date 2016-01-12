@@ -56,6 +56,22 @@ function square() {
   $('.square').css('height', width);
 }
 
+//Display Karim and Josie Descriptions
+function bossDescription() {
+    $("#karim-description").hide();
+    $("#josie-description").hide();
+
+    $( "#read-more-karim" ).click(function() {
+        $( "#karim-description" ).slideToggle( "slow" );
+        $( ".show-text" ).toggle();
+    });
+
+    $( "#read-more-josie" ).click(function() {
+        $( "#josie-description" ).slideToggle( "slow" );
+        $( ".show-text" ).toggle();
+    });
+}
+
 //Functions triggered when page loads
 $(document).ready(function () {
     "use strict";
@@ -64,6 +80,7 @@ $(document).ready(function () {
     navBrackets();
     navBG();
     square();
+    bossDescription();
     
 });
 

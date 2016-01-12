@@ -562,6 +562,7 @@
             <img src="img/karim.png" class="center-block img-responsive">
             
             <div class="leader-tag">
+              <div class="text-white team-leader-read-more" id="read-more-karim"><span class="show-text">+</span> <span class="show-text" style="display: none">-</span></div>
               <div class="separation-20"></div>  
               <h5 class="text-white">Karim Jernite</h5>  
               <h3 class="text-white">CEO</h3> 
@@ -580,7 +581,7 @@
                 </div>      
                 <div class="col-xs-3 text-center">        
                   <a href="#a"><img src="img/twitter-white.png" height="25" width="25"></a>
-                </div>      
+                </div>     
               </div><!--row-->
                 
               <div class="separation-20"></div>
@@ -588,7 +589,7 @@
             </div><!--leader-tag-->
           </div><!--founder-->  
             
-          <div class="founder-description text-center">
+          <div id="karim-description" class="founder-description text-center">
             <p class="text-white">Karim speaks five languages; English, Spanish, French, Arabic, and Berber and our Advancio team mirrors his range. He calls Los Angeles, Mexico, and Morocco home (and his frequent flyer miles are the envy of his friends.) Before starting Advancio, Karim enjoyed a successful career as VP of IT and Senior Architect in the insurance and finance industries.</p>
           </div><!--founder-description-->    
         </div><!--col-sm-4-->
@@ -599,6 +600,7 @@
             <img src="img/josie.png" class="center-block img-responsive">
             
             <div class="leader-tag">
+              <div class="text-white team-leader-read-more" id="read-more-josie"><span class="show-text">+</span> <span class="show-text" style="display: none">-</span></div>
               <div class="separation-20"></div>  
               <h5 class="text-white">Josie Lopez</h5>  
               <h6 class="text-white">COO and CoFounder<br>of WeCanCode</h6> 
@@ -625,7 +627,7 @@
             </div><!--leader-tag-->
           </div><!--founder-->  
             
-          <div class="founder-description text-center">
+          <div id="josie-description" class="founder-description text-center">
             <p class="text-white">Josie knows about business from Operations Management to entrepreneurship. Having come up through sales and administration in the insurance industry and then into IT, she loves solving problems and sees her job as a talent facilitator - to locate, develop, and enrich IT talent around the world and bring that talent to clients who need it.</p>
           </div><!--founder-description-->   
         </div>  
