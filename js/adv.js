@@ -10,31 +10,86 @@ function deviceHeight() {
 function navBrackets() {
     "use strict";
     
-    $(".nav-selected").hide();
-    
     var filename = document.location.href.match(/[^\/]+$/)[0];
     
     if (filename === "index.php") {
         $("#menu-home .nav-selected").show();
+        $("#menu-capabilities .nav-selected").hide();
+        $("#menu-goodIT .nav-selected").hide();
+        
+        
+        $("#menu-capabilities").mouseover(function () {
+            $(this).children(".nav-selected").fadeIn();
+        });
+
+        $("#menu-capabilities").mouseleave(function () {
+            $(this).children(".nav-selected").fadeOut();
+        });
+        
+        $("#menu-goodIT").mouseover(function () {
+            $(this).children(".nav-selected").fadeIn();
+        });
+
+        $("#menu-goodIT").mouseleave(function () {
+            $(this).children(".nav-selected").fadeOut();
+        });
+        
     } else {
         if (filename === "our-capabilities.php") {
             $("#menu-capabilities .nav-selected").show();
+            $("#menu-home .nav-selected").hide();
+            $("#menu-goodIT .nav-selected").hide();
+            
+            $("#menu-home").mouseover(function () {
+                $(this).children(".nav-selected").fadeIn();
+            });
+
+            $("#menu-home").mouseleave(function () {
+                $(this).children(".nav-selected").fadeOut();
+            });
+
+            $("#menu-goodIT").mouseover(function () {
+                $(this).children(".nav-selected").fadeIn();
+            });
+
+            $("#menu-goodIT").mouseleave(function () {
+                $(this).children(".nav-selected").fadeOut();
+            });
         } else {
             if (filename === "good-it.php") {
                 $("#menu-goodIT .nav-selected").show();
-            } else {
+                $("#menu-capabilities .nav-selected").hide();
+                $("#menu-home .nav-selected").hide();
                 
+                $("#menu-home").mouseover(function () {
+                    $(this).children(".nav-selected").fadeIn();
+                });
+
+                $("#menu-home").mouseleave(function () {
+                    $(this).children(".nav-selected").fadeOut();
+                });
+
+                $("#menu-capabilities").mouseover(function () {
+                    $(this).children(".nav-selected").fadeIn();
+                });
+
+                $("#menu-capabilities").mouseleave(function () {
+                    $(this).children(".nav-selected").fadeOut();
+                });
+            } else {
+                $(".nav-selected").hide();
+                
+                $(".navbar-nav li a").mouseover(function () {
+                    $(this).children(".nav-selected").fadeIn();
+                });
+
+                $(".navbar-nav li a").mouseleave(function () {
+                    $(this).children(".nav-selected").fadeOut();
+                });
             }
         }
     }
     
-    $(".navbar-nav li a").mouseover(function () {
-        $(this).children(".nav-selected").fadeIn();
-    });
-
-    $(".navbar-nav li a").mouseleave(function () {
-        $(this).children(".nav-selected").fadeOut();
-    });
 }
 
 //Function to show navigation background when scroll 
@@ -56,6 +111,22 @@ function square() {
   $('.square').css('height', width);
 }
 
+//Display Karim and Josie Descriptions
+function bossDescription() {
+    $("#karim-description").hide();
+    $("#josie-description").hide();
+
+    $( "#read-more-karim" ).click(function() {
+        $( "#karim-description" ).slideToggle( "slow" );
+        $( ".show-text" ).toggle();
+    });
+
+    $( "#read-more-josie" ).click(function() {
+        $( "#josie-description" ).slideToggle( "slow" );
+        $( ".show-text" ).toggle();
+    });
+}
+
 //Functions triggered when page loads
 $(document).ready(function () {
     "use strict";
@@ -64,6 +135,7 @@ $(document).ready(function () {
     navBrackets();
     navBG();
     square();
+    bossDescription();
     
 });
 

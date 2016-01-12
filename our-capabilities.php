@@ -8,6 +8,12 @@
 
     <!-- Bootstrap -->
 
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/dot-nav.css" type="text/css" rel="stylesheet">
+
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/dot-nav.css" type="text/css" rel="stylesheet">
@@ -32,7 +38,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body data-shoptagr-mini="yes" data-pinterest-extension-installed="cr1.39.1">
+  <body>
     <!-- ----------------------- --> 
     <!-- ----------------------- --> 
     <!-- ------------ NAVIGATION -->
@@ -67,7 +73,7 @@
     <!-- ------------ SECTION 2: INTRO MESSAGE -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid white-texture-bg"> 
+    <div class="container-fluid light-color-texture-bg"> 
         
       <div class="row">    
         <div class="col-lg-12 text-center">
@@ -95,7 +101,7 @@
     <!-- ------------ SECTION 3: OUR SERVICES -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ --> 
-    <div class="container-fluid capabilities-our-services-bg" data-parallax="scroll" data-image-src="img/capabilities-our-services-bg.jpg">
+    <div class="container-fluid capabilities-our-services-bg page" data-hint-text="Our Services" data-parallax="scroll" data-image-src="img/capabilities-our-services-bg.jpg">
          <div class="separation-100"></div>  
       <div class="separation-100"></div>    
         
@@ -241,7 +247,7 @@
     <!-- ------------ SECTION 5: OUR APPROACH -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ --> 
-    <div class="container-fluid capabilities-survey-numbers-bg" data-parallax="scroll" data-image-src="img/capabilities-survey-numbers-bg.jpg">
+    <div class="container-fluid capabilities-survey-numbers-bg page" data-hint-text="Our Survey Numbers" data-parallax="scroll" data-image-src="img/capabilities-survey-numbers-bg.jpg">
         
       <div class="separation-100"></div>    
         <div class="separation-100"></div>  
@@ -318,7 +324,7 @@
     <!-- ------------ SECTION 6: OUR PROCESS -->
     <!-- ----------------------------------- -->
     <!-- ----------------------------------- --> 
-    <div class="container-fluid capabilities-our-process-bg" data-parallax="scroll" data-image-src="img/capabilities-our-process-bg.jpg">
+    <div class="container-fluid capabilities-our-process-bg page" data-hint-text="Our Process" data-parallax="scroll" data-image-src="img/capabilities-our-process-bg.jpg">
         
       <div class="separation-100"></div>   
       <div class="separation-100"></div>       
@@ -350,16 +356,26 @@
     <!-- ------------ SECTION 7: PROJECT MANAGEMENT -->
     <!-- ------------------------------------------ -->
     <!-- ------------------------------------------ --> 
-    <div class="container-fluid white-texture-bg">
+    <div class="container-fluid light-color-texture-bg">
         <div class="row posi-rel-rev">
             <div class="section-skew-t-r" ></div>
           </div>
    
         
-      <div class="row">    
-        <div class="col-sm-8 col-sm-offset-2 text-center">
+      <div class="row">  
+        <div class="brac-cont">
+
+        <div class="brac-left"></div>
+          <div class="brac-content" style="padding-top:50px;">
           <h6>Project Management is at the heart of Advancio’s seamless integration into our client’s IT development cycles. We are diligent collaborators with our client’s project managers, and believe that adapting to their systems is essential to our fulfillment. Most of our clients have their own management tools but some of our smaller clients do not have tools in place to accommodate more IT workers, in which case we are happy to preview our own tools and best practices.</h6>
-        </div>  
+          </div>
+          <div class="brac-right"></div>
+          <div class="brac-title"><h1>Project Management</h1></div>
+        </div>
+
+       <!--  <div class="col-sm-8 col-sm-offset-2 text-center">
+          <h6>Project Management is at the heart of Advancio’s seamless integration into our client’s IT development cycles. We are diligent collaborators with our client’s project managers, and believe that adapting to their systems is essential to our fulfillment. Most of our clients have their own management tools but some of our smaller clients do not have tools in place to accommodate more IT workers, in which case we are happy to preview our own tools and best practices.</h6>
+        </div>  --> 
       </div><!--row-->  
         
            
@@ -373,7 +389,7 @@
     <!-- ------------ SECTION 8: TEAM VALUES -->
     <!-- ----------------------------------- -->
     <!-- ----------------------------------- --> 
-    <div class="container-fluid capabilities-team-values-bg" data-parallax="scroll" data-image-src="img/capabilities-team-values-bg.jpg">
+    <div class="container-fluid capabilities-team-values-bg page" data-hint-text="Team Values" data-parallax="scroll" data-image-src="img/capabilities-team-values-bg.jpg">
         
       <div class="separation-100"></div>    
         <div class="separation-100"></div>
@@ -432,14 +448,14 @@
     <!-- ------------ SECTION 10: OUR VALUES -->
     <!-- ----------------------------------- -->
     <!-- ----------------------------------- --> 
-    <div class="container-fluid capabilities-our-values-bg">
+    <div class="container-fluid light-color-texture-bg page" data-hint-text="Company Values">
           <div class="separation-100"></div> 
       <div class="separation-100"></div> 
       <div class="separation-100"></div>     
         
       <div class="row">    
         <div class="col-sm-8 col-sm-offset-2 text-center">
-          <h5 class="text-lighter">We believe in all things GOOD; in our inherent GOOD nature, in the GOOD work we strive to produce, in the GOOD mood we express and in the social GOOD we do for others. We are good.IT and this is what our GOOD value looks like in action:</h5>
+          <span style="font-size: 2.063em;">We believe in all things GOOD; in our inherent GOOD nature, in the GOOD work we strive to produce, in the GOOD mood we express and in the social GOOD we do for others. We are good.IT and this is what our GOOD value looks like in action:</span>
         </div>  
       </div><!--row--> 
         
@@ -487,7 +503,7 @@
     <!-- ------------ SECTION 11: OUR VALUES MESSAGE -->
     <!-- ------------------------------------------- -->
     <!-- ------------------------------------------- --> 
-    <div class="container-fluid gray-texture-bg capabilities-our-values-msg-bg">
+    <div class="container-fluid light-color-texture-bg capabilities-our-values-msg-bg">
         
       <div class="separation-100"></div>    
         <div class="separation-100"></div>
@@ -545,7 +561,7 @@
     <!-- ------------ SECTION 13: OUR TEAM -->
     <!-- --------------------------------- -->
     <!-- --------------------------------- --> 
-    <div class="container-fluid white-texture-bg">
+    <div class="container-fluid light-color-texture-bg page" data-hint-text="Our Team">
          <div class="row posi-rel-rev">
           <div class="section-skew-t-l"></div>
         </div>   
@@ -565,6 +581,7 @@
             <img src="img/karim.png" class="center-block img-responsive">
             
             <div class="leader-tag">
+              <div class="text-white team-leader-read-more" id="read-more-karim"><span class="show-text">+</span> <span class="show-text" style="display: none">-</span></div>
               <div class="separation-20"></div>  
               <h5 class="text-white">Karim Jernite</h5>  
               <h3 class="text-white">CEO</h3> 
@@ -591,7 +608,7 @@
             </div><!--leader-tag-->
           </div><!--founder-->  
             
-          <div class="founder-description text-center">
+          <div id="karim-description" class="founder-description text-center">
             <p class="text-white">Karim speaks five languages; English, Spanish, French, Arabic, and Berber and our Advancio team mirrors his range. He calls Los Angeles, Mexico, and Morocco home (and his frequent flyer miles are the envy of his friends.) Before starting Advancio, Karim enjoyed a successful career as VP of IT and Senior Architect in the insurance and finance industries.</p>
           </div><!--founder-description-->    
         </div><!--col-sm-4-->
@@ -602,6 +619,7 @@
             <img src="img/josie.png" class="center-block img-responsive">
             
             <div class="leader-tag">
+              <div class="text-white team-leader-read-more" id="read-more-josie"><span class="show-text">+</span> <span class="show-text" style="display: none">-</span></div>
               <div class="separation-20"></div>  
               <h5 class="text-white">Josie Lopez</h5>  
               <h6 class="text-white">COO and CoFounder<br>of WeCanCode</h6> 
@@ -628,7 +646,8 @@
             </div><!--leader-tag-->
           </div><!--founder-->  
             
-          <div class="founder-description text-center">
+          <div id="josie-description" class="founder-description text-center">
+            
             <p class="text-white">Josie knows about business from Operations Management to entrepreneurship. Having come up through sales and administration in the insurance industry and then into IT, she loves solving problems and sees her job as a talent facilitator - to locate, develop, and enrich IT talent around the world and bring that talent to clients who need it.</p>
           </div><!--founder-description-->   
         </div>  

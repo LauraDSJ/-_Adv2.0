@@ -13,11 +13,14 @@
   <link href="css/content-style.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/animation.css">
   <link href="css/dot-nav.css" type="text/css" rel="stylesheet">
+
   <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
  <script src="js/parallax.js"></script>
+
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -68,11 +71,11 @@
     <!-- ------------ SECTION 2: INTRO MESSAGE -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid white-texture-bg page block1" data-hint-text="We've hear it...">    
+    <div class="container-fluid light-color-texture-bg page block1" data-hint-text="We have heard it...">    
 <div class="separation-50"></div>   
       <div class="row">    
         <div class="col-lg-12 text-center">
-          <h3 class="text-light-gray revealOnScroll"  data-animation="fadeInUp">We've heard it from<br>
+          <h3 class="revealOnScroll"  data-animation="fadeInUp">We've heard it from<br>
             many executives</h3>
           </div><!--col-lg-12-->
         </div><!--row--> 
@@ -81,7 +84,7 @@
 
         <div class="row">    
           <div class="col-sm-offset-1 col-sm-10 text-center">
-            <h6 class="text-light-gray revealOnScroll"  data-animation="fadeInUp">“I hate IT and I love IT. I hate runaway never-ending IT projects, but I love the efficiencies and market growth their solutions bring.”</h6>
+            <h6 class="revealOnScroll"  data-animation="fadeInUp">“I hate IT and I love IT. I hate runaway never-ending IT projects, but I love the efficiencies and market growth their solutions bring.”</h6>
           </div><!--col-md-3-->
         </div><!--row-->
         
@@ -107,10 +110,11 @@
       <!-- ------------ SECTION 3: HAPPIFY MESSAGE -->
       <!-- --------------------------------------- -->
       <!-- --------------------------------------- --> 
-      <div class="container-fluid index-msg" data-parallax="scroll" data-image-src="css/img/index-happify-it-bg.jpg">
+      <div class="container-fluid index-msg page block1" data-hint-text="We Can Happify You IT" data-parallax="scroll" data-image-src="css/img/index-happify-it-bg.jpg">
 
         <div class="separation-100"></div>    
         <div class="separation-100"></div>
+        <div class="separation-100"></div>  
         <div class="row">    
           <div class="col-lg-12 text-center">
             <span class="index-happify-txt-size1 text-white revealOnScroll"  data-animation="rotateInDownLeft">WE CAN</span>
@@ -125,8 +129,15 @@
           </div>  
         </div><!--row-->  
         
-        <div class="separation-100"></div>      
+            
         
+          <div class="row posi-rel">
+          <div class="section-skew-t-l" style="border-left: 1620px solid #3baeda;"></div>
+        </div>  
+       <div class="row posi-rel">
+          <div class="section-skew-b-r" style="border-right: 1620px solid #3baeda;"></div>
+        </div> 
+
       </div><!--container-fluid section 3-->   
       
       <!-- --------------------------------------- --> 
@@ -136,7 +147,10 @@
       <!-- --------------------------------------- --> 
       <div class="container-fluid index-msg-2">
 
+<div class="separation-100"></div>  
         <div class="separation-100"></div>    
+        <div class="separation-100"></div>  
+          
         
         <div class="row">    
           <div class="col-md-8 col-md-offset-2">
@@ -154,6 +168,7 @@
         <div class="separation-100"></div>      
         <div class="separation-100"></div> 
         <div class="separation-100"></div> 
+        <div class="separation-100"></div>  
       </div><!--container-fluid section 4-->  
       
       <!-- -------------------------------------------- --> 
@@ -161,7 +176,7 @@
       <!-- ------------ SECTION 5: FLEXIBLE OUTSOURCING -->
       <!-- -------------------------------------------- -->
       <!-- -------------------------------------------- --> 
-      <div class="container-fluid white-texture-bg">
+      <div class="container-fluid light-color-texture-bg page" data-hint-text="Flexible Outsourcing">
 
         <div class="row posi-rel-rev">
           <div class="section-skew-t-l"></div>
@@ -306,7 +321,7 @@
         <!-- ------------ SECTION 5: OUR APPROACH -->
         <!-- ------------------------------------ -->
         <!-- ------------------------------------ --> 
-        <div class="container-fluid our-approach-bg" data-parallax="scroll" data-image-src="css/img/index-approach-bg-no-strips.jpg">
+        <div class="container-fluid our-approach-bg page" data-hint-text="Our Approach" data-parallax="scroll" data-image-src="css/img/index-approach-bg-no-strips.jpg">
 
           <div class="separation-100"></div>    
           <div class="separation-100"></div> 
@@ -408,7 +423,7 @@
           <!-- ------------ SECTION 6: ENGAGEMENT MODELS -->
           <!-- ----------------------------------------- -->
           <!-- ----------------------------------------- --> 
-          <div class="container-fluid white-texture-bg">  
+          <div class="container-fluid light-color-texture-bg page" data-hint-text="Engagement Models">  
 
             <div class="row">    
               <div class="col-lg-12 text-center">
@@ -448,7 +463,7 @@
                     </div>
                     <div class="box-cont-text-s">
                       Our nearshore model works very well for customers who are looking to have strong control over their resources and closely manage their day-to-day progress and efficiency.
-                      This model keeps our team within 3 times zones of a client’s location, providing quality talent, fast response times, and similar cultures. Additionally, for our clients based in North America, the NAFTA free trade agreement allows for relaxed travel restrictions, legal protections, and intellectual property protections.
+                      This model keeps our team within 3 times zones of a client’s location, providing quality talent, fast response times, and similar cultures. Additionally, for our clients based in North America, the NAFTA free trade agreement allows for relaxed travel restrictions...
 
                     </div>
                   </div>
@@ -512,13 +527,13 @@
 
               <div id="adv-map">
                 <div class="map-part" id="map-part1">
-                  <div class="region-n"><h1><a href="#">AMERICA</a></h1></div>
+                  <div class="region-n"><h6><a href="#">AMERICA</a></h6></div>
                 </div>
                 <div class="map-part" id="map-part2">
-                  <div class="region-n"><h1><a href="#">EUROPE</a></h1></div>
+                  <div class="region-n"><h6><a href="#">EUROPE</a></h6></div>
                 </div>
                 <div class="map-part" id="map-part3">
-                  <div class="region-n"><h1><a href="#">ASIA</a></h1></div>
+                  <div class="region-n"><h6><a href="#">ASIA</a></h6></div>
                 </div>
                 <div id="adv-map-img"></div>
               </div>
@@ -583,7 +598,7 @@
     <!-- ------------ SECTION 8: HIGHLIGHTS -->
     <!-- ---------------------------------- -->
     <!-- ---------------------------------- --> 
-    <div class="container-fluid index-expectations-msg-bg" data-parallax="scroll" data-image-src="css/img/index-expectations-bg.jpg">
+    <div class="container-fluid index-expectations-msg-bg page" data-hint-text="Highlights" data-parallax="scroll" data-image-src="css/img/index-expectations-bg.jpg">
 
       <div class="separation-100"></div>   
       <div class="separation-100"></div>   
@@ -607,7 +622,7 @@
     <!-- ------------ SECTION 9: CASE STUDIES -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ --> 
-    <div class="container-fluid index-case-studies-bg">  
+    <div class="container-fluid index-case-studies-bg page" data-hint-text="Case Studies">  
 
       <div class="row index-case-studies-1 revealOnScroll"  data-animation="bounceInLeft">
         <div class="col-lg-12">
@@ -709,7 +724,7 @@
     <!-- ------------ SECTION 10: HIGHLIGHTS -->
     <!-- ---------------------------------- -->
     <!-- ---------------------------------- --> 
-    <div class="container-fluid white-texture-bg">
+    <div class="container-fluid light-color-texture-bg page" data-hint-text="Timeline">
 
         
           
