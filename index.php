@@ -12,9 +12,12 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/content-style.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/animation.css">
-  
-
- 
+  <link href="css/dot-nav.css" type="text/css" rel="stylesheet">
+  <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="js/parallax.js"></script>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -65,7 +68,7 @@
     <!-- ------------ SECTION 2: INTRO MESSAGE -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid white-texture-bg">    
+    <div class="container-fluid white-texture-bg page block1" data-hint-text="We've hear it...">    
 <div class="separation-50"></div>   
       <div class="row">    
         <div class="col-lg-12 text-center">
@@ -430,7 +433,7 @@
 
                     <div class="box-cont">
                       <div class="box-cont-title-s">
-                        <h1>ONSHORE</h1>
+                        <h4>ONSHORE</h4>
 
                       </div><div class="box-cont-text-s">Our onshore consulting services provide our clients access to expertise not available in-house, such as advisory solutions and systems architecture, IT Support, UX Design, and Security Assessment.
                     </div>
@@ -441,7 +444,7 @@
                   <div class="box-skew-l"></div>
                   <div class="box-cont">
                     <div class="box-cont-title-s">
-                      <h1>NEARSHORE</h1>
+                      <h4>NEARSHORE</h4>
                     </div>
                     <div class="box-cont-text-s">
                       Our nearshore model works very well for customers who are looking to have strong control over their resources and closely manage their day-to-day progress and efficiency.
@@ -455,7 +458,7 @@
                 <div id="box3" class="box revealOnScroll"  data-animation="bounceInRight">
                   <div class="box-skew-l"></div>
                   <div class="box-cont">
-                    <div class="box-cont-title-s"><h1>OFFSHORE</h1></div>
+                    <div class="box-cont-title-s"><h4>OFFSHORE</h4></div>
                     <div class="box-cont-text-s">
                       Our offshore model complements our nearshore outsourcing offering, allowing us to be available globally and provide clients with continuous production. Our 2 hubs also allow us to serve as both onshore and offshore development centers depending on our client’s needs.
 

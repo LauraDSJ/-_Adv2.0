@@ -8,8 +8,19 @@
     <title>Advancio 2.0</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/content-style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/animation.css">
+  <link href="css/dot-nav.css" type="text/css" rel="stylesheet">  
+
+
+<script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="js/parallax.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,6 +44,7 @@
     <!-- --------------------------------- --> 
     <div class="container-fluid full-height center-element good-it-top-bg">
       <img src="img/happify.png" alt="Happify Icon">
+      <div class="separation-100"></div> 
     </div><!--container-fluid section 1-->
       
     <!-- ------------------------------------- --> 
@@ -41,25 +53,57 @@
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
     <div class="container-fluid good-it-intro-msg-bg white-texture-bg">
+<div class="row posi-rel-rev">
+           <div class="section-skew-t-r-2"></div>
+            <div class="section-skew-t-l-2"></div>
+          </div> 
+      
+      <row class="text-center"><div class=""><h1>Our core good</h1></div></row>
+      <div class="row">
+        <div class="brac-cont-c">
+
+        <div class="brac-left-c"></div>
+          <div class="brac-content-c">
+          <p>Our core GOOD value gives us a strong sense of stewardship toward the communities surrounding all of our production hubs. The escalating demand for talented programmers worldwide presents an enormous opportunity to answer it by fostering the potential of the youth around us. It is our ambition to open doors to a future they otherwise could not imagine.</p>
+          </div>
+          <div class="brac-right-c"></div>
+          
+        </div>
+        </div>
+       
+        <div class="separation-100"></div> 
+  <div class="separation-100"></div> 
+      <div class="separation-100"></div> 
+
+    </div><!--white texture bg-->  
         
-      <div class="separation-100"></div>    
-        
-      <div class="row">    
+      <!--<div class="row">    
         <div class="col-sm-8 col-sm-offset-2 text-center">
           <h6>Our core GOOD value gives us a strong sense of stewardship toward the communities surrounding all of our production hubs. The escalating demand for talented programmers worldwide presents an enormous opportunity to answer it by fostering the potential of the youth around us. It is our ambition to open doors to a future they otherwise could not imagine.</h6>
         </div><!--col-sm-8-->
-      </div>  
-        
-      <div class="separation-100"></div>    
-        
-      <div class="row">    
+      <!--</div> --> 
+    <div class="container-fluid red-strip-cont" >
+
+       <div class="row posi-rel" style="bottom:0px;height:320px;">
+          <div class="section-skew-t-r" style="border-right: 1620px solid #c73935;border-top: 300px solid transparent;"></div>
+        </div>  
+      
+
+      <div class="row good-it-intro-msg-red-bg"> 
+
         <div class="col-sm-8 col-sm-offset-2 text-center">
-          <h4>So we created WeCanCode.org<br>
+          <h4 class="text-white">So we created WeCanCode.org<br>
               and went to work for social good.</h4>
         </div><!--col-sm-8-->
-      </div><!--row--> 
-        
-      <div class="separation-100"></div>    
+
+      </div><!--row-->    
+
+       <div class="row posi-rel" style="bottom:0px; height:320px;">
+          <div class="section-skew-b-l" style="border-left: 1620px solid #c73935;border-bottom: 300px solid transparent;z-index:99;"></div>
+          <div class="section-skew-t-r-2" style="border-top: 150px solid transparent;top:0;z-index:1;"></div>
+           <div class="section-skew-b-r-2"  style="border-bottom: 150px solid transparent;top:150px;"></div>
+        </div>  
+
         
     </div><!--container-fluid section 2--> 
       
@@ -68,7 +112,7 @@
     <!-- ------------ SECTION 3: WCC COMMUNITY LOGO -->
     <!-- ------------------------------------------ -->
     <!-- ------------------------------------------ --> 
-    <div class="container-fluid good-it-wcc-community-bg">
+    <div class="container-fluid good-it-wcc-community-bg" data-parallax="scroll" data-image-src="img/good-it-wcc-community-bg.jpg">
         
       <div class="separation-100"></div>  
       <div class="separation-100"></div>      
@@ -89,17 +133,60 @@
     <!-- ------------ SECTION 4: COMMUNITY MESSAGE -->
     <!-- ----------------------------------------- -->
     <!-- ----------------------------------------- --> 
-    <div class="container-fluid white-texture-bg">
+    <div class="container-fluid good-it-intro-msg-bg white-texture-bg" >
+<div class="row posi-rel-rev">
+           <div class="section-skew-t-r-2" style="border-top: 150px solid transparent;"></div>
+            <div class="section-skew-t-l-2" style="border-top: 150px solid transparent;"></div>
+          </div> 
+      <div class="separation-100"></div> 
+
+
+
+      <div class="row">
+        <div class="brac-cont-r">
+
+        <div class="brac-left-r"></div>
+          <div class="brac-content-r">
+          <p>Our core GOOD value gives us a strong sense of stewardship toward the communities surrounding all of our production hubs. The escalating demand for talented programmers worldwide presents an enormous opportunity to answer it by fostering the potential of the youth around us. It is our ambition to open doors to a future they otherwise could not imagine.</p>
+          </div>
+          <div class="brac-right-r"></div>
+          <div class="brac-title-r"><h1>Lorem ipsum dolor sit</h1></div>
+        </div>
+        </div>
+
+
+
+      <div class="separation-100"></div> 
+
+    </div><!--white texture bg-->  
+
+    <div class="container-fluid red-strip-cont">
         
-      <div class="separation-100"></div>    
-        
-      <div class="row">    
-        <div class="col-sm-8 col-sm-offset-2">
-          <h6>In 2014 we held our first free hackathon, challenging aspiring programmers to crack code. It was a thrilling success and demand for more exploded.</h6>
+     
+
+
+    <div class="row posi-rel" style="bottom:0px;height:320px;">
+          <div class="section-skew-t-r" style="border-left: 1620px solid #3baeda;border-top: 300px solid transparent;"></div>
+        </div>  
+      
+
+      <div class="row " style="background:#3baeda"> 
+
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+          <h6 class="text-white">In 2014 we held our first free hackathon, challenging aspiring programmers to crack code. It was a thrilling success and demand for more exploded.</h6>
         </div><!--col-sm-8-->
-      </div><!--row--> 
+
+      </div><!--row-->    
+
+       <div class="row posi-rel" style="bottom:0px; height:320px;">
+          <div class="section-skew-b-r" style="border-right: 1620px solid #3baeda;border-bottom: 300px solid transparent;z-index:99;"></div>
+          <div class="section-skew-t-l-2" style="border-top: 150px solid trasparent;top:-53px;z-index:1;"></div>
+           <div class="section-skew-b-l-2"  style="border-bottom: 150px solid transparent;top:147px;"></div>
+        </div>
+
+
         
-      <div class="separation-100"></div>      
+          
         
     </div><!--container-fluid section 4-->  
       
@@ -108,14 +195,14 @@
     <!-- ------------ SECTION 5: WCC HACK LOGO -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid good-it-wcc-hack-bg">
+    <div class="container-fluid good-it-wcc-hack-bg" data-parallax="scroll" data-image-src="img/good-it-wcc-hack-bg.jpg">
         
       <div class="separation-100"></div>
       <div class="separation-100"></div>    
         
       <div class="row">    
         <div class="col-lg-12 text-center">
-          <img src="img/wcc-hack.png" alt="We Can Code Hack" class="img-responsive center-block">    
+          <img src="img/wcc-hack-white.png" alt="We Can Code Hack" class="img-responsive center-block">    
         </div>  
       </div><!--row-->  
         
@@ -129,49 +216,75 @@
     <!-- ------------ SECTION 5: WCC HACK MESSAGE -->
     <!-- ---------------------------------------- -->
     <!-- ---------------------------------------- --> 
-    <div class="container-fluid red-texture-bg good-it-wcc-hack-msg-bg">
-        
-      <div class="separation-100"></div>    
-        
-      <div class="row">  
-        <div class="col-xs-2 col-md-1 col-md-offset-1"><img src="img/bracket-left-red.png" alt="Bracket red left" class="img-responsive"></div>
-          
-        <div class="col-xs-8 text-center">
-          <h6>Our WCC hackathon events offer contests on a theme - areas of focus have included government, education, water conservation, and sponsored challenges. Hackers will also have the option to take on their own projects and use their imagination to develop a project with no restrictions. The hackathons culminate with our participants presenting their solutions to a range of invited guests who then vote on the best solution to a problem - there are winners!</h6>
+    <div class="container-fluid good-it-intro-msg-bg " data-parallax="scroll" data-image-src="img/bublle-background2.png" data-speed="2"  >
+<div class="row posi-rel-rev">
+           <div class="section-skew-t-r-2" style="border-top: 150px solid transparent;"></div>
+            <div class="section-skew-t-l-2" style="border-top: 150px solid transparent;"></div>
+          </div> 
+      <div class="separation-100"></div> 
 
-          <h6>Hackathons are an important learning ecosystem for developing talent with the kind of skills IT executives are clamoring for: brainstorming, collaborating, problem solving, adapting, always learning and pushing to innovate.</h6>
-        </div> 
-          
-        <div class="col-xs-2 col-md-1"><img src="img/bracket-right-red.png" alt="Bracket red left" class="img-responsive"></div>
-          
-      </div><!--row-->  
-        
-      <div class="separation-100"></div>      
-        
-    </div><!--container-fluid section 5-->  
+      <div class="row">
+
+        <div class="col-sm-8 col-xs-6"></div>
+        <div class="col-sm-4 col-xs-12 text-center">
+          <img src="img/good-it-wcc-hack-img1.jpg" class="img-circle" style="width:100%;max-width:350px;">
+        </div>
+
+      </div> 
+
+      <div class="separation-50"></div> 
+
+      <div class="row">
+
+        <div class="col-sm-2 col-xs-6"><img src="img/bracket-left-blue.png" class="img-responsive center-block"></div>
+        <div class="col-sm-2 col-xs-6"><img src="img/bracket-right-blue.png" class="img-responsive center-block"></div>
+        <div class="col-sm-4 col-xs-12">
+          <div class="separation-100"></div> 
+          <h3>Our WCC Hackathon Events</h3>
+        </div>
+        <div class="col-sm-4 col-xs-12 text-center">
+          <img src="img/good-it-wcc-hack-img2.jpg" class="img-circle" style="width:100%;max-width:350px;">
+        </div>
+
+      </div>
+
+      <div class="separation-50"></div> 
+
+      <div class="row">
+
+        <div class="col-sm-8 col-xs-6"></div>
+        <div class="col-sm-4 col-xs-12 text-center">
+          <img src="img/good-it-wcc-hack-img3.jpg" class="img-circle" style="width:100%;max-width:350px;">
+        </div>
+
+      </div>  
+
+      <div class="separation-100"></div> 
+
+    </div><!--white texture bg-->   
       
     <!-- --------------------------------- --> 
     <!-- --------------------------------- --> 
     <!-- ------------ SECTION 6: WCC YOUTH -->
     <!-- --------------------------------- -->
     <!-- --------------------------------- --> 
-    <div class="container-fluid good-it-wcc-youth-bg">
-        
-      <div class="separation-100"></div>    
-        
-      <div class="row">    
-        <div class="col-lg-12 text-center">
-          <h5 class="text-uppercase text-white">Why not reach out to<br>even younger youth?</h5>
-        </div>  
-      </div><!--row--> 
-        
-      <div class="separation-100"></div>     
-        
-      <div class="row">
+    <div class="container-fluid good-it-intro-msg-red-bg">
+
+      <div class="separation-100"></div> 
+
+      <div class="row"> 
+
         <div class="col-sm-8 col-sm-offset-2 text-center">
-          <h6 class="text-white">Watching our student’s passion for solving problems through code led us to ask, why not reach these minds earlier? In August 2015, we began our elementary school outreach with the fourth and fifth graders at Junipero Serra y Colegio Pearson.</h6>
-        </div><!--col-xs-10 offset 1-->   
-      </div><!--row--> 
+          <h4 class="text-white">Why not reach out to even younger youth?</h4>
+        </div><!--col-sm-8-->
+
+      </div><!--row-->    
+
+      <div class="separation-100"></div> 
+        
+    </div><!--container-fluid--> 
+
+    <div class="container-fluid good-it-wcc-youth-bg">
         
       <div class="separation-100"></div>    
         
@@ -182,45 +295,76 @@
       </div><!--row-->
         
       <div class="separation-100"></div>  
-        
+          
+    </div><!--container-fluid section 6--> 
+
+    <div class="container-fluid good-it-intro-msg-bg white-texture-bg">
+
+      <div class="separation-100"></div> 
+
       <div class="row">
-        <div class="col-sm-8 col-sm-offset-2">
-          <h6 class="text-white text-center"><em>“The classes ignite curiosity and inspire our students to build great things that can one day change the way we live, to become the authors of their own futures through connection, technology, and exchange."</em></h6>
-          <br>
-          <h6 class="text-white text-right">Josie Lopez, COO, Advancio</h6>    
-        </div><!--col-xs-10 offset 1-->   
-      </div><!--row-->       
-        
-      <div class="separation-100"></div>      
-        
-    </div><!--container-fluid section 6-->   
+
+        <div class="col-sm-4 col-xs-12 text-center">
+          <img src="img/good-it-wcc-youth-img1.jpg" class="img-circle" style="width:100%;max-width:350px;">
+        </div>
+        <div class="col-sm-8 col-xs-6"></div>
+
+      </div> 
+
+      <div class="separation-50"></div> 
+
+      <div class="row">
+
+        <div class="col-sm-4 col-xs-12 text-center">
+          <img src="img/good-it-wcc-youth-img2.jpg" class="img-circle" style="width:100%;max-width:350px;">
+        </div>
+        <div class="col-sm-4 col-xs-12">
+          <div class="separation-100"></div> 
+          <h3 class="text-right">Watching our student’s passion</h3>
+        </div>
+        <div class="col-sm-2 col-xs-6"><img src="img/bracket-left-red.png" class="img-responsive center-block"></div>
+        <div class="col-sm-2 col-xs-6"><img src="img/bracket-right-red.png" class="img-responsive center-block"></div>
+
+      </div>
+
+      <div class="separation-50"></div> 
+
+      <div class="row">
+
+        <div class="col-sm-4 col-xs-12 text-center">
+          <img src="img/good-it-wcc-youth-img3.jpg" class="img-circle" style="width:100%;max-width:350px;">
+        </div>
+        <div class="col-sm-8 col-xs-6">
+          <h6>“The classes ignite curiosity and inspire our students to build great things that can one day change the way we live, to become the authors of their own futures through connection, technology, and exchange."</h6>
+
+          <h6 class="text-right">Josie Lopez, COO, Advancio</h6>
+        </div>
+
+      </div>  
+
+      <div class="separation-100"></div> 
+
+    </div><!--white texture bg-->   
       
     <!-- ------------------------------------------------- --> 
     <!-- ------------------------------------------------- --> 
     <!-- ------------ SECTION 7: ADVANCIO ANSWERS THE CALL -->
     <!-- ------------------------------------------------- -->
     <!-- ------------------------------------------------- --> 
-    <div class="container-fluid good-it-advancio-answers-bg">
+    <div class="container-fluid good-it-wcc-community-blue-bg">
         
       <div class="separation-100"></div>    
         
       <div class="row">    
-        <div class="col-lg-12 text-center">
-          <h5 class="text-uppercase">Hunger to be cutting edge:<br>Advancio Answers the Call</h5>
-        </div>  
-      </div><!--row--> 
-        
-      <div class="separation-100"></div>     
-        
-      <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-          <h6 class="text-center">After every Hackathon, the door to opportunity had opened for the participants. We could see in their faces their ambition growing. They wanted to learn more, to up their game to advanced skills. And IT outsourcing executives were looking for these advanced skills too. It was clear we needed to teach in a more structured way and so the Advancio Academy was born.</h6>    
-        </div><!--col-xs-10 offset 1-->   
+          <h4 class="text-white text-center">Hunger to be cutting edge:<br>Advancio Answers the Call</h4>
+        </div><!--col-sm-8-->
       </div><!--row--> 
         
       <div class="separation-100"></div>      
         
-    </div><!--container-fluid section 7-->
+    </div><!--container-fluid section 4-->  
+
       
     <!-- --------------------------------------------- --> 
     <!-- --------------------------------------------- --> 
@@ -250,37 +394,48 @@
     <!-- ------------------------------------ --> 
     <div class="container-fluid gray-texture-bg">
         
+      <div class="separation-100"></div> 
+
+      <div class="row">
+
+        <div class="col-sm-2 col-xs-6"><img src="img/bracket-left-blue.png" class="img-responsive center-block"></div>
+        <div class="col-sm-2 col-xs-6"><img src="img/bracket-right-blue.png" class="img-responsive center-block"></div>
+        <div class="col-sm-8 col-xs-12">
+          <div class="separation-100"></div> 
+          <h3>After every hackathon...</h3>
+        </div>
+
+      </div>
+
       <div class="separation-100"></div>
-      <div class="separation-100"></div>    
-        
+
       <div class="row">    
-        <div class="col-xs-2 col-md-1 col-md-offset-1"><img src="img/bracket-left-gray.png" alt="Bracket red left" class="img-responsive"></div>
           
-        <div class="col-xs-8 text-center">
-          <h4>Who can resist free clases! From coding to API management, the coders in out hub community are eager to grow their skills.</h4>
+        <div class="col-xs-8 col-xs-offset-2 text-center text-uppercase">
+          <h6>Who can resist free clases! From coding to API management, the coders in out hub community are eager to grow their skills.</h6>
         </div> 
           
-        <div class="col-xs-2 col-md-1"><img src="img/bracket-right-gray.png" alt="Bracket red left" class="img-responsive"></div>
+      </div><!--row--> 
+        
+      <div class="separation-100"></div>       
+        
+    </div><!--container-fluid section 9-->  
+
+    <div class="container-fluid good-it-bottom-msg">
+      <div class="separation-100"></div>
+
+      <div class="row">    
+          
+        <div class="col-xs-8 col-xs-offset-2 text-center text-uppercase">
+          <p class="text-white">Our GOOD. IT is a fantastic momentum and our sponsors enjoy a powerful dose of loyalty from pur learners. You can see it in their faces in the following video. For more information on Sponsorship contact:
+<br><br>
+info@advancio.com</p>
+        </div> 
+          
       </div><!--row--> 
         
       <div class="separation-100"></div>
-      <div class="separation-100"></div>     
-        
-      <div class="row">
-        <div class="col-xs-10 col-xs-offset-1">
-          <div class="row">
-            <div class="col-sm-8 col-sm-offset-2 text-center">
-               <h6>Our GOOD. IT is a fantastic momentum and our sponsors enjoy a powerful dose of loyalty from pur learners. You can see it in their faces in the following video. For more information on Sponsorship contact:<br>
-info@advancio.com</h6>
-            </div><!--col-lg-12-->
-          </div><!--row-->
-        </div><!--col-xs-10 offset 1-->   
-      </div><!--row--> 
-        
-      <div class="separation-100"></div> 
-      <div class="separation-100"></div>     
-        
-    </div><!--container-fluid section 9-->    
+    </div>  
       
     <!-- ------------------------------------ --> 
     <!-- ------------------------------------ --> 

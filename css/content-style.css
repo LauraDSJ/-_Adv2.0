@@ -178,7 +178,7 @@ body {background: #999;}
 				.box-cont:hover + .box-skew {display: none;}
 				.box-cont:hover .box-cont-title-s {padding-right: 50px;}
 
-				h1, h2, h3, h4, h5, h6 {text-transform: uppercase!important;}
+				h1, h2, h3, h4, h5, h6 {text-transform: uppercase!important; font-weight:bold;}
 				.centrise-t {   height: 80%;
     margin: 15% auto;
     
@@ -314,6 +314,42 @@ body {background: #999;}
     top: 0;
     left: 50%;
 		}
+		.section-skew-b-l-2 { 
+
+	border-bottom: 200px solid transparent;
+    border-left: 800px solid #fff;
+    border-top: 0 solid transparent;
+    float: right;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
+    right: 50%;
+		}
+		/*	.section-skew-t-r-2 { 
+
+	border-bottom: 0px solid transparent;
+    border-right: 800px solid #fff;
+    border-top: 200 solid transparent;
+    float: right;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+		}*/
+	/*	.section-skew-t-l-2 { 
+
+	border-bottom: 0px solid transparent;
+    border-left: 800px solid #fff;
+    border-top: 200 solid transparent;
+    float: right;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
+    right: 50%;
+		}*/
 		.section-skew-t-r-3 { 
 
 	border-top: 200px solid transparent;
@@ -384,18 +420,7 @@ body {background: #999;}
     position: absolute;
     bottom: 0;
 		}
-		.section-skew-b-l-2 { 
-
-	border-bottom: 200px solid transparent;
-    border-left: 800px solid #fff;
-    border-top: 0 solid transparent;
-    float: right;
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: 0;
-    right: 50%;
-		}
+		
 		.section-skew-t-l-2 { 
 
 	border-bottom: 0px solid transparent;
@@ -530,3 +555,79 @@ text-align: center;color: #fff; position: relative;
 .case-st2:hover {background:rgba(199,57,53,1);}
 .case-st3:hover .case-st-cont {opacity: 1;}
 .case-st3:hover {background:rgba(199,57,53,1);}
+
+
+
+.brac-cont {width: 70%; height: 500px; margin:0 auto; position: relative;}
+.brac-left {width: 70px; height: 350px;float: left;margin-right: 10px;
+background: url("../img/bracket-left-gray.png") no-repeat center;
+}
+.brac-content {width: 0px; height: 200px;float: left;-webkit-transition: all 0.5s;
+				-moz-transition: all 0.5s;
+				-o-transition: all 0.5s;
+				transition: all 0.5s;z-index: 100;opacity: 0;
+				overflow: hidden; padding-top: 100px;
+				font-size: 18px; text-align: center;
+			}
+.brac-right {width: 70px; height: 350px;float: left;
+background: url("../img/bracket-right-gray.png") no-repeat center; margin-left: 10px;}
+.brac-title {position: absolute; top: 125px; left: 30%;z-index: 1;-webkit-transition: all 0.5s;
+				-moz-transition: all 0.5s;
+				-o-transition: all 0.5s;
+				transition: all 0.5s;}
+
+.brac-cont:hover .brac-content {width: 80%;opacity: 1;}
+
+.brac-cont:hover .brac-title {opacity: 0;}
+
+
+.brac-cont-c {width: 11%; height: 500px; margin:0 auto; position: relative;-webkit-transition: all 0.5s;
+				-moz-transition: all 0.5s;
+				-o-transition: all 0.5s;
+				transition: all 0.5s;}
+.brac-left-c {width: 70px; height: 350px;float: left;margin-right: 10px;
+background: url("../img/bracket-left-gray.png") no-repeat center;
+}
+.brac-content-c {width: 0px; height: 200px;float: left;-webkit-transition: all 0.5s;
+				-moz-transition: all 0.5s;
+				-o-transition: all 0.5s;
+				transition: all 0.5s;z-index: 100;opacity: 0;
+				overflow: hidden; padding-top: 100px;
+				font-size: 18px; text-align: center;
+			}
+.brac-right-c {width: 70px; height: 350px;float: left;
+background: url("../img/bracket-right-gray.png") no-repeat center; margin-left: 10px;}
+.brac-title-c {position: absolute; top: 125px; left: 30%;z-index: 1;-webkit-transition: all 0.5s;
+				-moz-transition: all 0.5s;
+				-o-transition: all 0.5s;
+				transition: all 0.5s;}
+.brac-cont-c:hover {width: 70%;}
+.brac-cont-c:hover .brac-content-c {width: 80%;opacity: 1;}
+
+.brac-cont-c:hover .brac-title-c {opacity: 0;}
+
+
+.brac-cont-r {width: 70%; height: 500px; margin:0 auto; position: relative;}
+.brac-left-r {width: 70px; height: 350px;float: right;margin-left: 10px;
+background: url("../img/bracket-right-red.png") no-repeat center;
+}
+
+.brac-content-r {width: 0px; height: 200px;float: right;-webkit-transition: all 0.5s;
+				-moz-transition: all 0.5s;
+				-o-transition: all 0.5s;
+				transition: all 0.5s;z-index: 100;opacity: 0;
+				overflow: hidden; padding-top: 100px;
+				font-size: 18px; text-align: center;
+			}
+.brac-right-r {width: 70px; height: 350px;float: right;
+background: url("../img/bracket-left-red.png") no-repeat center; margin-left: 10px;}
+.brac-title-r {position: absolute; top: 125px; right: 30%;z-index: 1;-webkit-transition: all 0.5s;
+				-moz-transition: all 0.5s;
+				-o-transition: all 0.5s;
+				transition: all 0.5s;}
+
+.brac-cont-r:hover .brac-content-r {width: 80%;opacity: 1;}
+
+.brac-cont-r:hover .brac-title-r {opacity: 0;}
+
+.red-strip-cont {height: 320px; position: relative; top: -215px; background: #fff;}

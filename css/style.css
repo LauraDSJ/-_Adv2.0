@@ -31,8 +31,8 @@ body {
 .text-code-font { font-family: 'code_boldregular'; }
 
 
-h1 { } 
-h2 { }
+h1 { font-size: 3.500em } 
+h2 { font-size: 3em }
 h3 { font-size: 2.750em; }/* PSD 60px */
 h4 { font-size: 2.500em; }/* PSD 54px */
 h5 { font-size: 2.063em; }/* PSD 45px */
@@ -644,20 +644,29 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 }
 
 .good-it-intro-msg-bg {
-    background-color: #fff;
+    /*background-color: #fff;*/
+    
+}
+
+.good-it-intro-msg-red-bg {
+    background-color:#c73935;
 }
 
 .good-it-wcc-community-bg {
-    background-color: #e18482;
+    /*background-color: #e18482;
     background-image: url(../img/good-it-wcc-community-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
+}
+
+.good-it-wcc-community-blue-bg {
+    background-color:#3baeda;
 }
 
 .good-it-wcc-hack-bg {
-    background-image: url(../img/good-it-wcc-hack-bg.jpg);
+   /* background-image: url(../img/good-it-wcc-hack-bg.jpg);
     background-size:cover;
-    background-position: center center;
+    background-position: center center;*/
 }
 
 .red-texture-bg {
@@ -696,6 +705,10 @@ h6 { font-size: 1.375em; }/* PSD 30px */
     background-image: url(../img/gray-texture-bg.jpg);
     background-size:cover;
     background-position: top center;
+}
+
+.good-it-bottom-msg {
+    background-color:#2B2B2B;
 }
 /*PLACEHOLDERS STYLES - delete this at the end of the styling*/
 .placeholder {
