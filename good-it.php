@@ -41,7 +41,7 @@
     <!-- ------------ SECTION 2: INTRO MESSAGE -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid good-it-intro-msg-bg white-texture-bg page" data-hint-text="Our Core GOOD">
+    <div class="container-fluid good-it-intro-msg-bg light-color-texture-bg page" data-hint-text="Our Core GOOD">
 
       <div class="separation-100"></div> 
 
@@ -118,7 +118,7 @@
     <!-- ------------ SECTION 4: COMMUNITY MESSAGE -->
     <!-- ----------------------------------------- -->
     <!-- ----------------------------------------- --> 
-    <div class="container-fluid good-it-intro-msg-bg white-texture-bg">
+    <div class="container-fluid good-it-intro-msg-bg light-color-texture-bg">
 
       <div class="separation-100"></div> 
 
@@ -181,7 +181,7 @@
     <!-- ------------ SECTION 5: WCC HACK MESSAGE -->
     <!-- ---------------------------------------- -->
     <!-- ---------------------------------------- --> 
-    <div class="container-fluid good-it-intro-msg-bg white-texture-bg">
+    <div class="container-fluid good-it-intro-msg-bg light-color-texture-bg">
 
       <div class="separation-100"></div> 
 
@@ -260,7 +260,7 @@
           
     </div><!--container-fluid section 6--> 
 
-    <div class="container-fluid good-it-intro-msg-bg white-texture-bg">
+    <div class="container-fluid good-it-intro-msg-bg light-color-texture-bg">
 
       <div class="separation-100"></div> 
 
@@ -354,7 +354,7 @@
     <!-- ------------ SECTION 9: FREE CLASSES -->
     <!-- ------------------------------------ -->
     <!-- ------------------------------------ --> 
-    <div class="container-fluid gray-texture-bg">
+    <div class="container-fluid light-color-texture-bg">
         
       <div class="separation-100"></div> 
 

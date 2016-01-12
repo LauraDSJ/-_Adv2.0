@@ -101,6 +101,12 @@ h6 { font-size: 1.375em; }/* PSD 30px */
     -webkit-filter: grayscale(100%) brightness(100%) contrast(100%);
 }
 
+.light-color-texture-bg {
+    background-image: url(../img/light-color-texture-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
 /*-------------------------------------
 -----------------------------NAV STYLES
 -------------------------------------*/
@@ -733,6 +739,34 @@ h6 { font-size: 1.375em; }/* PSD 30px */
 
 .good-it-bottom-msg {
     background-color:#2B2B2B;
+}
+
+.careers-top-bg {
+    background-color: #f5f5f5;
+    background-image: url(../img/careers-top-bg.jpg);
+    background-size:cover;
+    background-position: top center;
+}
+
+.careers-open-positions {
+    background-color: #f5f5f5;
+    background-image: url(../img/careers-open-positions.jpg);
+    background-size:cover;
+    background-position: top center;
+}
+
+.careers-testimonials {
+    background-color: #f5f5f5;
+    background-image: url(../img/careers-testimonials.jpg);
+    background-size:cover;
+    background-position: top center;
+}
+
+.careers-culture-highlights {
+    background-color: #f5f5f5;
+    background-image: url(../img/careers-culture-highlights.jpg);
+    background-size:cover;
+    background-position: top center;
 }
 /*PLACEHOLDERS STYLES - delete this at the end of the styling*/
 .placeholder {

@@ -64,7 +64,7 @@
     <!-- ------------ SECTION 2: INTRO MESSAGE -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid white-texture-bg page block1" data-hint-text="We have heard it...">    
+    <div class="container-fluid light-color-texture-bg page block1" data-hint-text="We have heard it...">    
 <div class="separation-50"></div>   
       <div class="row">    
         <div class="col-lg-12 text-center">
@@ -157,7 +157,7 @@
       <!-- ------------ SECTION 5: FLEXIBLE OUTSOURCING -->
       <!-- -------------------------------------------- -->
       <!-- -------------------------------------------- --> 
-      <div class="container-fluid white-texture-bg page" data-hint-text="Flexible Outsourcing">
+      <div class="container-fluid light-color-texture-bg page" data-hint-text="Flexible Outsourcing">
 
         <div class="row posi-rel-rev">
           <div class="section-skew-t-l"></div>
@@ -404,7 +404,7 @@
           <!-- ------------ SECTION 6: ENGAGEMENT MODELS -->
           <!-- ----------------------------------------- -->
           <!-- ----------------------------------------- --> 
-          <div class="container-fluid white-texture-bg page" data-hint-text="Engagement Models">  
+          <div class="container-fluid light-color-texture-bg page" data-hint-text="Engagement Models">  
 
             <div class="row">    
               <div class="col-lg-12 text-center">
@@ -705,7 +705,7 @@
     <!-- ------------ SECTION 10: HIGHLIGHTS -->
     <!-- ---------------------------------- -->
     <!-- ---------------------------------- --> 
-    <div class="container-fluid white-texture-bg page" data-hint-text="Timeline">
+    <div class="container-fluid light-color-texture-bg page" data-hint-text="Timeline">
 
         
           

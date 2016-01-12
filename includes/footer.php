@@ -60,7 +60,7 @@
         </div> 
       </div><!--row-->
         
-      <div class="separation-50"></div>     
+      <div class="separation-100"></div>     
         
       <div class="row">  
           
@@ -68,7 +68,7 @@
           <div class="row">
             <div class="col-md-6 text-center">
               <ul class="footer-links">
-                <li><a href="#a" class="text-uppercase">important link</a></li> 
+                <li><a href="careers.php" class="text-uppercase">careers</a></li> 
                 <li><a href="#a" class="text-uppercase">important link</a></li> 
                 <li><a href="#a" class="text-uppercase">important link</a></li> 
                 <li><a href="#a" class="text-uppercase">important link</a></li> 

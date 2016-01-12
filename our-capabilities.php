@@ -64,7 +64,7 @@
     <!-- ------------ SECTION 2: INTRO MESSAGE -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid white-texture-bg"> 
+    <div class="container-fluid light-color-texture-bg"> 
         
       <div class="row">    
         <div class="col-lg-12 text-center">
@@ -347,7 +347,7 @@
     <!-- ------------ SECTION 7: PROJECT MANAGEMENT -->
     <!-- ------------------------------------------ -->
     <!-- ------------------------------------------ --> 
-    <div class="container-fluid white-texture-bg">
+    <div class="container-fluid light-color-texture-bg">
         <div class="row posi-rel-rev">
             <div class="section-skew-t-r" ></div>
           </div>
@@ -429,7 +429,7 @@
     <!-- ------------ SECTION 10: OUR VALUES -->
     <!-- ----------------------------------- -->
     <!-- ----------------------------------- --> 
-    <div class="container-fluid page" data-hint-text="Company Values">
+    <div class="container-fluid light-color-texture-bg page" data-hint-text="Company Values">
           <div class="separation-100"></div> 
       <div class="separation-100"></div> 
       <div class="separation-100"></div>     
@@ -484,7 +484,7 @@
     <!-- ------------ SECTION 11: OUR VALUES MESSAGE -->
     <!-- ------------------------------------------- -->
     <!-- ------------------------------------------- --> 
-    <div class="container-fluid gray-texture-bg capabilities-our-values-msg-bg">
+    <div class="container-fluid light-color-texture-bg capabilities-our-values-msg-bg">
         
       <div class="separation-100"></div>    
         <div class="separation-100"></div>
@@ -542,7 +542,7 @@
     <!-- ------------ SECTION 13: OUR TEAM -->
     <!-- --------------------------------- -->
     <!-- --------------------------------- --> 
-    <div class="container-fluid white-texture-bg page" data-hint-text="Our Team">
+    <div class="container-fluid light-color-texture-bg page" data-hint-text="Our Team">
          <div class="row posi-rel-rev">
           <div class="section-skew-t-l"></div>
         </div>   
