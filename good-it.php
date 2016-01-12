@@ -8,9 +8,19 @@
     <title>Advancio 2.0</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/dot-nav.css" type="text/css" rel="stylesheet">  
+    <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/content-style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/animation.css">
+  <link href="css/dot-nav.css" type="text/css" rel="stylesheet">  
+
+
+<script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="js/parallax.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,6 +44,7 @@
     <!-- --------------------------------- --> 
     <div class="container-fluid full-height center-element good-it-top-bg">
       <img src="img/happify.png" alt="Happify Icon">
+      <div class="separation-100"></div> 
     </div><!--container-fluid section 1-->
       
     <!-- ------------------------------------- --> 
@@ -41,12 +52,24 @@
     <!-- ------------ SECTION 2: INTRO MESSAGE -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
+<<<<<<< HEAD
     <div class="container-fluid good-it-intro-msg-bg light-color-texture-bg page" data-hint-text="Our Core GOOD">
 
       <div class="separation-100"></div> 
 
+=======
+    <div class="container-fluid good-it-intro-msg-bg white-texture-bg">
+<div class="row posi-rel-rev">
+           <div class="section-skew-t-r-2"></div>
+            <div class="section-skew-t-l-2"></div>
+          </div> 
+      
+      <row class="text-center"><div class=""><h1>Our core good</h1></div></row>
+>>>>>>> origin/master
       <div class="row">
+        <div class="brac-cont-c">
 
+<<<<<<< HEAD
         <div class="col-xs-12 text-center">
           <h3>OUR CORE GOOD</h3>
         </div>
@@ -66,6 +89,19 @@
         
       </div> 
 
+=======
+        <div class="brac-left-c"></div>
+          <div class="brac-content-c">
+          <p>Our core GOOD value gives us a strong sense of stewardship toward the communities surrounding all of our production hubs. The escalating demand for talented programmers worldwide presents an enormous opportunity to answer it by fostering the potential of the youth around us. It is our ambition to open doors to a future they otherwise could not imagine.</p>
+          </div>
+          <div class="brac-right-c"></div>
+          
+        </div>
+        </div>
+       
+        <div class="separation-100"></div> 
+  <div class="separation-100"></div> 
+>>>>>>> origin/master
       <div class="separation-100"></div> 
 
     </div><!--white texture bg-->  
@@ -75,11 +111,18 @@
           <h6>Our core GOOD value gives us a strong sense of stewardship toward the communities surrounding all of our production hubs. The escalating demand for talented programmers worldwide presents an enormous opportunity to answer it by fostering the potential of the youth around us. It is our ambition to open doors to a future they otherwise could not imagine.</h6>
         </div><!--col-sm-8-->
       <!--</div> --> 
+<<<<<<< HEAD
     <div class="container-fluid good-it-intro-msg-red-bg page" data-hint-text="WCC Community">
+=======
+    <div class="container-fluid red-strip-cont" >
+>>>>>>> origin/master
 
-      <div class="separation-100"></div> 
+       <div class="row posi-rel" style="bottom:0px;height:320px;">
+          <div class="section-skew-t-r" style="border-right: 1620px solid #c73935;border-top: 300px solid transparent;"></div>
+        </div>  
+      
 
-      <div class="row"> 
+      <div class="row good-it-intro-msg-red-bg"> 
 
         <div class="col-sm-8 col-sm-offset-2 text-center">
           <h4 class="text-white">So we created WeCanCode.org<br>
@@ -88,7 +131,12 @@
 
       </div><!--row-->    
 
-      <div class="separation-100"></div> 
+       <div class="row posi-rel" style="bottom:0px; height:320px;">
+          <div class="section-skew-b-l" style="border-left: 1620px solid #c73935;border-bottom: 300px solid transparent;z-index:99;"></div>
+          <div class="section-skew-t-r-2" style="border-top: 150px solid transparent;top:0;z-index:1;"></div>
+           <div class="section-skew-b-r-2"  style="border-bottom: 150px solid transparent;top:150px;"></div>
+        </div>  
+
         
     </div><!--container-fluid section 2--> 
       
@@ -97,7 +145,7 @@
     <!-- ------------ SECTION 3: WCC COMMUNITY LOGO -->
     <!-- ------------------------------------------ -->
     <!-- ------------------------------------------ --> 
-    <div class="container-fluid good-it-wcc-community-bg">
+    <div class="container-fluid good-it-wcc-community-bg" data-parallax="scroll" data-image-src="img/good-it-wcc-community-bg.jpg">
         
       <div class="separation-100"></div>  
       <div class="separation-100"></div>      
@@ -118,25 +166,45 @@
     <!-- ------------ SECTION 4: COMMUNITY MESSAGE -->
     <!-- ----------------------------------------- -->
     <!-- ----------------------------------------- --> 
+<<<<<<< HEAD
     <div class="container-fluid good-it-intro-msg-bg light-color-texture-bg">
 
+=======
+    <div class="container-fluid good-it-intro-msg-bg white-texture-bg" >
+<div class="row posi-rel-rev">
+           <div class="section-skew-t-r-2" style="border-top: 150px solid transparent;"></div>
+            <div class="section-skew-t-l-2" style="border-top: 150px solid transparent;"></div>
+          </div> 
+>>>>>>> origin/master
       <div class="separation-100"></div> 
 
-      <div class="row">
 
+<<<<<<< HEAD
         <div class="col-md-8 col-sm-6 col-xs-12 text-center">
           <div class="separation-100"></div> 
           <h3 class="text-right">Our WeCanCode<br>Community</h3>
-        </div>
-        <div class="col-md-2 col-sm-3 col-xs-6"><img src="img/bracket-left-red.png" class="img-responsive center-block"></div>
-        <div class="col-md-2 col-sm-3 col-xs-6"><img src="img/bracket-right-red.png" class="img-responsive center-block"></div>
+=======
 
-      </div> 
+      <div class="row">
+        <div class="brac-cont-r">
+
+        <div class="brac-left-r"></div>
+          <div class="brac-content-r">
+          <p>Our core GOOD value gives us a strong sense of stewardship toward the communities surrounding all of our production hubs. The escalating demand for talented programmers worldwide presents an enormous opportunity to answer it by fostering the potential of the youth around us. It is our ambition to open doors to a future they otherwise could not imagine.</p>
+          </div>
+          <div class="brac-right-r"></div>
+          <div class="brac-title-r"><h1>Lorem ipsum dolor sit</h1></div>
+        </div>
+>>>>>>> origin/master
+        </div>
+
+
 
       <div class="separation-100"></div> 
 
     </div><!--white texture bg-->  
 
+<<<<<<< HEAD
     <div class="container-fluid good-it-wcc-community-blue-bg page" data-hint-text="WCC Hack">
         
       <div class="separation-100"></div>    
@@ -148,10 +216,35 @@
           <div class="separation-50"></div>
 
           <h4 class="text-white text-center">The WCC Hack Program was born...</h4>
-        </div><!--col-sm-8-->
-      </div><!--row--> 
+=======
+    <div class="container-fluid red-strip-cont">
         
-      <div class="separation-100"></div>      
+     
+
+
+    <div class="row posi-rel" style="bottom:0px;height:320px;">
+          <div class="section-skew-t-r" style="border-left: 1620px solid #3baeda;border-top: 300px solid transparent;"></div>
+        </div>  
+      
+
+      <div class="row " style="background:#3baeda"> 
+
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+          <h6 class="text-white">In 2014 we held our first free hackathon, challenging aspiring programmers to crack code. It was a thrilling success and demand for more exploded.</h6>
+>>>>>>> origin/master
+        </div><!--col-sm-8-->
+
+      </div><!--row-->    
+
+       <div class="row posi-rel" style="bottom:0px; height:320px;">
+          <div class="section-skew-b-r" style="border-right: 1620px solid #3baeda;border-bottom: 300px solid transparent;z-index:99;"></div>
+          <div class="section-skew-t-l-2" style="border-top: 150px solid trasparent;top:-53px;z-index:1;"></div>
+           <div class="section-skew-b-l-2"  style="border-bottom: 150px solid transparent;top:147px;"></div>
+        </div>
+
+
+        
+          
         
     </div><!--container-fluid section 4-->  
       
@@ -160,7 +253,7 @@
     <!-- ------------ SECTION 5: WCC HACK LOGO -->
     <!-- ------------------------------------- -->
     <!-- ------------------------------------- --> 
-    <div class="container-fluid good-it-wcc-hack-bg">
+    <div class="container-fluid good-it-wcc-hack-bg" data-parallax="scroll" data-image-src="img/good-it-wcc-hack-bg.jpg">
         
       <div class="separation-100"></div>
       <div class="separation-100"></div>    
@@ -181,8 +274,16 @@
     <!-- ------------ SECTION 5: WCC HACK MESSAGE -->
     <!-- ---------------------------------------- -->
     <!-- ---------------------------------------- --> 
+<<<<<<< HEAD
     <div class="container-fluid good-it-intro-msg-bg light-color-texture-bg">
 
+=======
+    <div class="container-fluid good-it-intro-msg-bg " data-parallax="scroll" data-image-src="img/bublle-background2.png" data-speed="2"  >
+<div class="row posi-rel-rev">
+           <div class="section-skew-t-r-2" style="border-top: 150px solid transparent;"></div>
+            <div class="section-skew-t-l-2" style="border-top: 150px solid transparent;"></div>
+          </div> 
+>>>>>>> origin/master
       <div class="separation-100"></div> 
 
       <div class="row">

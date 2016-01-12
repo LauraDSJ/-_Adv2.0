@@ -7,9 +7,17 @@
     <title>Advancio 2.0</title>
 
     <!-- Bootstrap -->
+<<<<<<< HEAD
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/dot-nav.css" type="text/css" rel="stylesheet">
+=======
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/dot-nav.css" type="text/css" rel="stylesheet">
+
+>>>>>>> origin/master
    <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/content-style.css" rel="stylesheet">
@@ -21,6 +29,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
  <script src="js/parallax.js"></script>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -245,9 +257,9 @@
         <div class="separation-100"></div>  
       <div class="row">    
         <div class="col-lg-12 text-center">
-          <span class="text-white text-uppercase" id="capabilities-survey-text-1">These Survey Numbers</span>
-          <span class="text-white text-uppercase" id="capabilities-survey-text-2">Say it all</span>
-          <span class="text-white text-uppercase" id="capabilities-survey-text-3">project management is key</span>    
+          <span class="text-white text-uppercase revealOnScroll"  data-animation="bounceInLeft" id="capabilities-survey-text-1">These Survey Numbers</span>
+          <span class="text-white text-uppercase revealOnScroll"  data-animation="bounceInRight" id="capabilities-survey-text-2">Say it all</span>
+          <span class="text-white text-uppercase revealOnScroll"  data-animation="bounceInLeft" id="capabilities-survey-text-3">project management is key</span>    
         </div>  
       </div><!--row-->
         
